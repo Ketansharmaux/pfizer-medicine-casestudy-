@@ -1,0 +1,1001 @@
+Patient_ID,Age,Gender,Ethnicity,Medical_History,Genomic_Profile,Trial_ID,Drug_Name,Trial_Phase,Start_Date,End_Date,Dose,Adverse_Events,Treatment_ID,Dose_Administered,Treatment_Outcome,Side_Effects,Duration_of_Treatment,Success_Indicator,Gene_Name,Mutation_Status,Expression_Level,Biomarker_Level,Efficacy_Score,Survival_Rate,Progression_Free_Survival
+P001,22,Male,African American,Heart Disease,None,T011,DrugC,Phase IV,9/16/2023,5/16/2024,200mg,"Fatigue, Nausea",TR0085,200mg,Improved,Headache,95,1,BRCA2,Positive,3.79,3.14,3.8,20.6,14.6
+P002,61,Female,Other,Diabetes,HER2 Mutation,T014,DrugC,Phase I,11/4/2022,7/4/2023,100mg,"None, Fatigue",TR0002,100mg,No Change,Headache,90,0,HER2,Negative,1.65,4.64,8.4,23.1,15.3
+P003,60,Female,Other,Heart Disease,TP53 Mutation,T008,DrugA,Phase I,5/6/2022,5/6/2023,150mg,"Nausea, None, Fatigue",TR0158,150mg,Improved,Fatigue,64,1,HER2,Positive,3.45,2.67,9.4,21.6,3.8
+P004,76,Other,Other,None,EGFR Mutation,T016,DrugB,Phase II,2/17/2023,3/17/2024,150mg,Dizziness,TR0029,150mg,Improved,Dizziness,159,1,BRCA2,Positive,1.11,2.51,8.3,23.8,5.6
+P005,39,Female,Other,Asthma,BRCA2 Mutation,T019,DrugD,Phase I,8/26/2023,2/26/2024,200mg,Dizziness,TR0107,200mg,No Change,Dizziness,44,0,EGFR,Negative,3.38,2.52,9.7,21.2,17.3
+P006,57,Other,Caucasian,Asthma,BRCA1 Mutation,T007,DrugA,Phase I,6/23/2022,1/23/2023,50mg,Headache,TR0009,50mg,No Change,Headache,76,0,BRCA2,Negative,2.87,2.66,3.5,7,17.7
+P007,65,Female,Hispanic,Asthma,EGFR Mutation,T005,DrugC,Phase I,9/13/2020,11/13/2021,100mg,"Fatigue, Nausea, Headache",TR0077,100mg,No Change,Dizziness,138,0,EGFR,Negative,4.25,5,10,16,16.1
+P008,47,Male,Hispanic,None,BRCA2 Mutation,T004,DrugA,Phase IV,1/8/2023,10/8/2023,50mg,Dizziness,TR0009,50mg,No Change,Dizziness,42,0,BRCA2,Positive,4.78,4.4,3.2,14.1,5.2
+P009,69,Female,Asian,Heart Disease,BRCA1 Mutation,T005,DrugC,Phase II,6/19/2023,9/19/2024,150mg,None,TR0037,150mg,Deteriorated,Dizziness,86,0,HER2,Negative,4.82,3.42,3.1,18.1,13.5
+P010,53,Male,Other,Heart Disease,None,T006,DrugD,Phase IV,6/21/2019,10/21/2020,200mg,"None, Headache, Fatigue",TR0039,200mg,No Change,Headache,77,0,EGFR,Negative,2.43,1.45,7,15.4,16.1
+P011,48,Male,African American,Diabetes,None,T002,DrugD,Phase IV,9/5/2023,9/5/2024,100mg,"Fatigue, None",TR0166,100mg,Improved,Headache,124,1,BRCA1,Positive,3.08,4.41,6,16.1,17.9
+P012,24,Female,Hispanic,Heart Disease,None,T003,DrugB,Phase II,4/28/2022,3/28/2023,150mg,Fatigue,TR0049,150mg,Deteriorated,Nausea,152,0,BRCA2,Positive,2.61,1.54,1.3,19.6,13.5
+P013,68,Male,Other,None,None,T013,DrugD,Phase III,5/12/2021,7/12/2022,200mg,"Nausea, Headache",TR0195,200mg,No Change,Fatigue,124,0,TP53,Negative,3.82,1.85,2.2,6.3,9
+P014,23,Other,Asian,Diabetes,EGFR Mutation,T019,DrugD,Phase III,4/11/2020,1/11/2021,200mg,"Fatigue, Headache, None",TR0168,200mg,Deteriorated,None,95,0,HER2,Negative,3.36,2.57,4.9,22.3,8.9
+P015,76,Male,African American,Diabetes,EGFR Mutation,T016,DrugB,Phase I,1/27/2023,8/27/2023,50mg,Headache,TR0036,50mg,Deteriorated,Fatigue,47,0,BRCA2,Positive,3.06,4.13,4.6,17.2,17.7
+P016,45,Other,Hispanic,None,EGFR Mutation,T016,DrugD,Phase I,9/18/2019,9/18/2020,50mg,Dizziness,TR0185,50mg,No Change,Dizziness,103,0,BRCA1,Negative,4.8,1.59,9.3,14.9,7.4
+P017,40,Male,Caucasian,Heart Disease,BRCA2 Mutation,T020,DrugC,Phase III,7/3/2021,6/3/2022,200mg,"Dizziness, Fatigue",TR0179,200mg,Improved,None,50,1,BRCA1,Positive,2.84,4.92,5.4,11.9,13.8
+P018,69,Female,Hispanic,Heart Disease,BRCA1 Mutation,T006,DrugA,Phase IV,11/26/2022,10/26/2023,50mg,"Nausea, Fatigue, Dizziness",TR0178,50mg,Deteriorated,Headache,99,0,BRCA1,Positive,1.96,1.3,2.2,8.3,5.6
+P019,53,Other,Other,Hypertension,TP53 Mutation,T001,DrugB,Phase II,2/10/2022,10/10/2022,100mg,"Headache, None, Fatigue",TR0194,100mg,Deteriorated,Fatigue,50,0,EGFR,Negative,1.56,3.56,2.6,12.2,18.2
+P020,24,Male,Hispanic,Diabetes,None,T011,DrugD,Phase III,11/9/2019,5/9/2021,200mg,"Fatigue, None",TR0142,200mg,No Change,Headache,77,0,EGFR,Negative,2.9,3.67,2.6,9.5,3.7
+P021,28,Other,African American,Diabetes,None,T003,DrugC,Phase II,12/26/2022,4/26/2024,100mg,"Headache, None, Fatigue",TR0028,100mg,Improved,Nausea,108,1,HER2,Negative,1.68,2.11,2.6,7.6,5.1
+P022,52,Male,Asian,Hypertension,HER2 Mutation,T018,DrugD,Phase I,2/12/2019,4/12/2020,50mg,"Dizziness, None, Fatigue",TR0004,50mg,No Change,Headache,129,0,BRCA1,Positive,2.84,1.83,4.3,15.1,14.7
+P023,84,Male,Hispanic,Diabetes,TP53 Mutation,T009,DrugD,Phase II,3/14/2019,1/14/2020,200mg,"Headache, Nausea",TR0093,200mg,No Change,Fatigue,156,0,EGFR,Positive,1.16,4.2,6.7,7.5,17.9
+P024,76,Male,Asian,None,HER2 Mutation,T011,DrugD,Phase III,6/14/2022,10/14/2023,100mg,"None, Fatigue",TR0123,100mg,No Change,Fatigue,131,0,TP53,Negative,4.68,1.24,3.5,20.5,15.7
+P025,80,Other,Asian,None,HER2 Mutation,T012,DrugA,Phase II,9/6/2023,1/6/2025,50mg,"Headache, Fatigue, Dizziness",TR0075,50mg,Deteriorated,Nausea,134,0,HER2,Positive,1.74,1.84,4.3,14.7,13.5
+P026,56,Male,African American,Diabetes,None,T013,DrugA,Phase IV,8/19/2023,8/19/2024,200mg,"Nausea, None, Headache",TR0138,200mg,Deteriorated,Nausea,57,0,BRCA2,Negative,2.48,2.85,7.7,6.7,7.3
+P027,39,Other,Other,Hypertension,None,T013,DrugC,Phase IV,1/4/2019,11/4/2019,100mg,"Dizziness, Fatigue, Headache",TR0096,100mg,No Change,Headache,180,0,EGFR,Positive,3.85,4.58,5.6,15.6,4.8
+P028,62,Male,Hispanic,Hypertension,BRCA1 Mutation,T004,DrugB,Phase III,6/15/2021,12/15/2022,100mg,"Headache, None, Fatigue",TR0025,100mg,No Change,Headache,111,0,BRCA1,Negative,2.79,3.13,3.2,10.8,9.4
+P029,23,Other,Caucasian,Hypertension,None,T004,DrugB,Phase II,3/18/2023,11/18/2023,150mg,"Headache, Dizziness, Nausea",TR0104,150mg,Deteriorated,Fatigue,77,0,HER2,Negative,1.08,2.29,2.9,11.9,5
+P030,21,Other,Other,Diabetes,HER2 Mutation,T013,DrugA,Phase II,5/25/2020,10/25/2021,50mg,"Nausea, Fatigue, Headache",TR0084,50mg,Improved,Headache,59,1,TP53,Negative,4.56,3.37,7.1,20.2,11.5
+P031,85,Other,African American,Heart Disease,HER2 Mutation,T019,DrugA,Phase III,8/20/2021,4/20/2022,150mg,"Dizziness, Nausea, None",TR0035,150mg,No Change,Nausea,91,0,TP53,Positive,1.35,3.15,6.3,19.4,10.3
+P032,41,Female,Asian,Heart Disease,EGFR Mutation,T005,DrugD,Phase IV,8/21/2020,10/21/2021,100mg,"Fatigue, Headache, Dizziness",TR0036,100mg,Improved,None,145,1,EGFR,Positive,1.51,2.14,4.3,17.6,12.7
+P033,63,Male,Hispanic,Diabetes,HER2 Mutation,T018,DrugD,Phase IV,7/23/2022,8/23/2023,200mg,Nausea,TR0145,200mg,Improved,Fatigue,104,1,BRCA1,Negative,2.42,4.95,6.5,10.3,4.7
+P034,46,Other,African American,Diabetes,None,T019,DrugD,Phase I,2/9/2023,8/9/2024,150mg,"Nausea, Headache, None",TR0056,150mg,No Change,Nausea,93,0,TP53,Positive,1.61,1.98,2.4,9.4,7.8
+P035,75,Female,African American,Hypertension,BRCA1 Mutation,T008,DrugB,Phase III,11/14/2023,7/14/2024,100mg,Fatigue,TR0016,100mg,Deteriorated,None,166,0,TP53,Positive,1.69,4.59,1.7,15.4,10
+P036,59,Other,African American,None,None,T017,DrugA,Phase II,1/9/2022,5/9/2023,100mg,"Fatigue, Dizziness, Nausea",TR0183,100mg,No Change,Fatigue,130,0,HER2,Positive,4.93,1.45,4.6,23.5,17.7
+P037,52,Other,Hispanic,Asthma,BRCA1 Mutation,T013,DrugC,Phase III,8/11/2022,11/11/2023,50mg,"Nausea, Headache, None",TR0171,50mg,Deteriorated,None,46,0,EGFR,Negative,4.27,2.03,2.5,18,18.8
+P038,45,Female,Asian,Asthma,TP53 Mutation,T011,DrugB,Phase IV,11/25/2021,5/25/2022,50mg,Headache,TR0005,50mg,Improved,Fatigue,142,1,HER2,Positive,3.23,3.29,3.5,19.9,6.2
+P039,72,Male,Asian,None,TP53 Mutation,T003,DrugC,Phase III,6/22/2019,10/22/2020,100mg,Headache,TR0161,100mg,No Change,Fatigue,139,0,BRCA1,Positive,2.29,2.7,5.6,10.4,5
+P040,18,Male,Hispanic,Hypertension,BRCA2 Mutation,T017,DrugD,Phase I,12/11/2019,7/11/2020,200mg,"Fatigue, Headache, Nausea",TR0059,200mg,No Change,Nausea,56,0,BRCA1,Negative,3.44,2.15,6.2,8.8,11.2
+P041,65,Female,Asian,Asthma,None,T005,DrugB,Phase I,10/1/2023,1/1/2025,100mg,"None, Fatigue",TR0161,100mg,Deteriorated,Fatigue,135,0,EGFR,Negative,3.13,1.21,4,8.4,4.1
+P042,45,Male,Caucasian,Diabetes,None,T019,DrugD,Phase III,6/26/2022,2/26/2023,100mg,"Nausea, Fatigue",TR0142,100mg,Deteriorated,Dizziness,102,0,BRCA1,Negative,4.96,2.29,8.3,10.6,14.6
+P043,44,Other,Other,Heart Disease,HER2 Mutation,T010,DrugA,Phase II,7/4/2022,4/4/2023,200mg,"Dizziness, Nausea, None",TR0004,200mg,No Change,None,63,0,HER2,Negative,4.04,3.38,5.2,13.4,8.9
+P044,64,Other,Asian,Asthma,None,T003,DrugA,Phase I,5/7/2019,11/7/2019,50mg,"Dizziness, None",TR0161,50mg,Deteriorated,Dizziness,136,0,HER2,Negative,4.72,4.32,9.7,8.2,15.4
+P045,28,Other,Other,Heart Disease,None,T009,DrugA,Phase III,9/7/2019,3/7/2021,100mg,"None, Headache, Dizziness",TR0163,100mg,Deteriorated,Nausea,109,0,HER2,Positive,4.75,1.72,1.6,19.3,12.8
+P046,25,Male,Caucasian,Asthma,EGFR Mutation,T020,DrugA,Phase III,2/1/2020,7/1/2021,100mg,"Nausea, Fatigue, Headache",TR0089,100mg,Deteriorated,Dizziness,96,0,BRCA2,Negative,4.37,1.56,8.2,9.6,5.8
+P047,34,Other,African American,Hypertension,None,T001,DrugC,Phase IV,9/3/2021,7/3/2022,50mg,"Headache, None",TR0015,50mg,No Change,Dizziness,72,0,TP53,Positive,1.66,4.26,7,15.4,9.1
+P048,50,Male,Other,Hypertension,EGFR Mutation,T001,DrugA,Phase I,1/16/2020,12/16/2020,200mg,Fatigue,TR0010,200mg,Deteriorated,Headache,87,0,TP53,Positive,4.51,2.57,8.3,13.9,9.4
+P049,71,Other,African American,None,None,T019,DrugC,Phase I,11/2/2023,7/2/2024,100mg,"Nausea, Headache, Dizziness",TR0120,100mg,No Change,None,113,0,BRCA1,Negative,2.85,2.21,7.7,15,6.9
+P050,19,Female,Asian,None,None,T010,DrugB,Phase IV,10/16/2021,4/16/2023,100mg,"Dizziness, Fatigue, Nausea",TR0002,100mg,No Change,Nausea,89,0,EGFR,Negative,4.6,2.54,5.9,22.3,13.6
+P051,19,Female,Caucasian,Asthma,None,T010,DrugA,Phase II,4/14/2023,5/14/2024,50mg,None,TR0024,50mg,Improved,Fatigue,163,1,HER2,Negative,1.47,4.76,6.6,12,5.4
+P052,76,Other,Caucasian,Heart Disease,BRCA2 Mutation,T013,DrugA,Phase I,11/5/2022,8/5/2023,150mg,"None, Headache",TR0180,150mg,Deteriorated,None,111,0,HER2,Negative,4.18,3.48,5.8,22.1,16.4
+P053,47,Male,Asian,Diabetes,None,T019,DrugA,Phase II,3/15/2019,4/15/2020,150mg,"Nausea, None",TR0198,150mg,Improved,Headache,108,1,HER2,Negative,1.61,2.25,3.2,19.4,3.6
+P054,33,Male,Asian,None,None,T020,DrugA,Phase II,3/3/2021,8/3/2022,100mg,"Headache, Nausea",TR0174,100mg,No Change,None,74,0,BRCA1,Negative,3.28,4.05,8.9,12.2,17
+P055,75,Other,Other,Diabetes,BRCA1 Mutation,T005,DrugA,Phase I,4/5/2019,1/5/2020,200mg,"Nausea, None",TR0020,200mg,Improved,Nausea,80,1,HER2,Positive,1.44,4.39,2.1,13.2,16.6
+P056,29,Female,Caucasian,Hypertension,None,T002,DrugB,Phase IV,8/1/2022,8/1/2023,200mg,None,TR0055,200mg,Improved,None,101,1,HER2,Positive,1.6,1.92,7.5,19,13.9
+P057,22,Other,Other,Heart Disease,TP53 Mutation,T016,DrugD,Phase IV,2/9/2019,2/9/2020,100mg,"Fatigue, Dizziness",TR0162,100mg,Deteriorated,Nausea,127,0,TP53,Negative,3.78,3.17,3.3,12.2,6.1
+P058,80,Female,Other,Heart Disease,TP53 Mutation,T006,DrugA,Phase III,4/1/2023,10/1/2024,150mg,Headache,TR0136,150mg,No Change,Dizziness,89,0,BRCA2,Positive,4.63,3.33,4.6,14.3,19.1
+P059,49,Other,Asian,None,None,T002,DrugB,Phase IV,3/6/2021,12/6/2021,150mg,"None, Nausea, Dizziness",TR0180,150mg,No Change,Dizziness,174,0,BRCA2,Positive,1.61,3.34,5.6,17,3.3
+P060,81,Other,African American,Diabetes,BRCA1 Mutation,T002,DrugB,Phase II,9/16/2019,3/16/2020,150mg,"Fatigue, Dizziness, Headache",TR0184,150mg,Improved,None,45,1,BRCA1,Positive,4.49,4.73,6.1,18.5,18.7
+P061,36,Male,Other,None,None,T012,DrugD,Phase I,5/11/2021,1/11/2022,100mg,"Headache, Dizziness, None",TR0082,100mg,Improved,Dizziness,121,1,BRCA2,Positive,3.83,1.61,6.2,16.9,10.2
+P062,66,Female,African American,Diabetes,BRCA1 Mutation,T019,DrugD,Phase I,10/11/2020,4/11/2022,100mg,"Dizziness, Nausea, Fatigue",TR0037,100mg,No Change,Nausea,90,0,TP53,Negative,3.95,4.74,9.3,14.1,4.9
+P063,39,Other,Caucasian,None,TP53 Mutation,T007,DrugB,Phase I,5/26/2021,12/26/2021,50mg,Headache,TR0113,50mg,Deteriorated,Headache,72,0,HER2,Negative,4.94,4.36,2.1,22.6,17.8
+P064,66,Female,Other,Asthma,HER2 Mutation,T019,DrugB,Phase II,2/26/2022,8/26/2022,150mg,None,TR0067,150mg,Improved,Nausea,117,1,BRCA2,Negative,3.08,3.37,4.6,7,8.7
+P065,38,Other,Caucasian,Heart Disease,None,T003,DrugC,Phase IV,7/21/2019,3/21/2020,200mg,Nausea,TR0026,200mg,No Change,Fatigue,78,0,HER2,Negative,4.21,1.02,4,13.2,12.1
+P066,54,Female,Asian,Hypertension,EGFR Mutation,T018,DrugD,Phase II,6/1/2019,6/1/2020,50mg,"Dizziness, Headache",TR0052,50mg,Improved,Nausea,82,1,BRCA2,Negative,4.68,2.39,4.1,19.3,10.7
+P067,28,Female,Caucasian,None,None,T016,DrugD,Phase III,11/18/2019,11/18/2020,100mg,"Headache, None",TR0048,100mg,No Change,Nausea,97,0,HER2,Negative,1.9,2.81,2.3,9.2,11.5
+P068,51,Male,African American,Heart Disease,BRCA1 Mutation,T003,DrugC,Phase IV,4/18/2023,10/18/2023,200mg,"Headache, Dizziness, None",TR0061,200mg,No Change,None,50,0,HER2,Positive,2.68,4.66,4.3,16.5,13.7
+P069,82,Other,Other,Heart Disease,None,T020,DrugB,Phase I,3/6/2022,12/6/2022,100mg,Nausea,TR0109,100mg,Improved,Headache,81,1,BRCA2,Negative,1.05,3.65,2.6,23.3,5.5
+P070,58,Other,Caucasian,Hypertension,HER2 Mutation,T018,DrugC,Phase III,8/28/2023,2/28/2024,200mg,Headache,TR0039,200mg,Improved,Dizziness,180,1,EGFR,Positive,2.66,1.34,10,15,13.1
+P071,31,Other,Caucasian,None,None,T012,DrugD,Phase III,11/16/2022,2/16/2024,200mg,Fatigue,TR0071,200mg,No Change,Fatigue,132,0,BRCA1,Negative,1.27,4,2.9,22.2,6.5
+P072,60,Other,Asian,Hypertension,None,T009,DrugC,Phase I,5/10/2021,3/10/2022,200mg,"Nausea, Fatigue, Dizziness",TR0077,200mg,Deteriorated,Headache,112,0,TP53,Negative,1.76,1.15,5.2,16.2,4.1
+P073,29,Male,Hispanic,Diabetes,None,T014,DrugD,Phase III,9/26/2019,5/26/2020,50mg,"Dizziness, Headache",TR0035,50mg,Deteriorated,Dizziness,37,0,BRCA2,Positive,4.1,2.81,5.7,13.9,9.8
+P074,43,Male,Asian,Hypertension,TP53 Mutation,T007,DrugC,Phase III,9/13/2022,1/13/2024,50mg,"Nausea, Fatigue, Headache",TR0126,50mg,Deteriorated,Headache,75,0,HER2,Negative,3.24,1.62,2.6,21.5,19.1
+P075,62,Male,African American,Hypertension,HER2 Mutation,T002,DrugB,Phase II,11/8/2020,3/8/2022,100mg,"Headache, Nausea",TR0200,100mg,Deteriorated,Nausea,151,0,BRCA2,Positive,2.49,2.08,6.8,13.4,3.4
+P076,19,Male,African American,Heart Disease,None,T010,DrugC,Phase IV,6/15/2022,4/15/2023,100mg,"None, Headache",TR0150,100mg,Improved,Nausea,160,1,TP53,Negative,1.62,3.86,6.9,6.5,6.8
+P077,56,Other,Caucasian,Asthma,TP53 Mutation,T011,DrugC,Phase III,4/5/2021,6/5/2022,100mg,Dizziness,TR0104,100mg,Deteriorated,None,65,0,BRCA1,Negative,1.92,3.69,1.2,7.9,16.6
+P078,55,Female,Hispanic,Asthma,BRCA1 Mutation,T019,DrugB,Phase III,11/18/2020,3/18/2022,200mg,"None, Dizziness, Nausea",TR0169,200mg,Deteriorated,Fatigue,105,0,BRCA1,Negative,1.71,3.61,3.1,7.8,7.1
+P079,34,Other,African American,Heart Disease,None,T006,DrugC,Phase I,6/8/2020,11/8/2021,150mg,"None, Dizziness",TR0067,150mg,Deteriorated,None,148,0,BRCA1,Negative,3.89,4.42,8.5,13.1,14.4
+P080,24,Other,Other,Heart Disease,None,T003,DrugD,Phase II,2/28/2023,6/28/2024,200mg,"None, Headache, Nausea",TR0039,200mg,Improved,Fatigue,117,1,HER2,Negative,1.82,2.17,9.1,6.2,4.5
+P081,36,Female,Asian,Hypertension,BRCA2 Mutation,T011,DrugA,Phase I,5/7/2022,11/7/2023,100mg,"Fatigue, Headache, Nausea",TR0034,100mg,Deteriorated,Headache,139,0,HER2,Negative,1.83,1.11,2.6,16.5,10.2
+P082,79,Female,Caucasian,Hypertension,None,T012,DrugA,Phase III,4/1/2023,8/1/2024,50mg,"Fatigue, Dizziness, None",TR0089,50mg,No Change,Fatigue,56,0,HER2,Negative,4.57,4.27,4.1,10.7,9.5
+P083,39,Male,Caucasian,None,None,T015,DrugC,Phase IV,6/16/2020,5/16/2021,100mg,Headache,TR0005,100mg,Improved,Fatigue,63,1,BRCA2,Positive,3.36,2.07,6.6,13.4,12.4
+P084,82,Male,Caucasian,None,None,T002,DrugD,Phase III,10/2/2023,1/2/2025,50mg,"Nausea, Dizziness, Headache",TR0177,50mg,Improved,Headache,143,1,HER2,Positive,2.74,2.18,9.5,19.7,5.4
+P085,50,Female,Asian,Diabetes,None,T001,DrugC,Phase IV,11/17/2019,9/17/2020,100mg,"Nausea, Dizziness",TR0073,100mg,Improved,Nausea,157,1,BRCA2,Positive,4.47,2.95,9.1,20.4,10.2
+P086,51,Other,Asian,None,None,T010,DrugB,Phase I,8/7/2023,1/7/2025,200mg,"Fatigue, Nausea",TR0004,200mg,Deteriorated,Nausea,58,0,EGFR,Negative,1.09,2.07,5.9,17.4,7.4
+P087,37,Male,Other,Hypertension,None,T004,DrugC,Phase II,5/9/2022,6/9/2023,50mg,Fatigue,TR0011,50mg,No Change,None,110,0,HER2,Positive,1.56,4.34,9.9,15.5,5.9
+P088,30,Male,Caucasian,Diabetes,None,T006,DrugC,Phase III,10/9/2022,3/9/2024,50mg,"None, Fatigue",TR0030,50mg,No Change,Headache,146,0,TP53,Negative,2.09,1.07,9.2,8.1,12.8
+P089,79,Female,Asian,Hypertension,BRCA1 Mutation,T006,DrugA,Phase IV,8/26/2023,11/26/2024,200mg,Dizziness,TR0098,200mg,No Change,Dizziness,37,0,BRCA2,Negative,2.1,3.22,6.9,20.9,6.5
+P090,80,Male,Hispanic,Asthma,TP53 Mutation,T011,DrugA,Phase II,9/17/2021,2/17/2023,50mg,"Fatigue, Headache",TR0089,50mg,Deteriorated,Headache,68,0,EGFR,Positive,1.04,1.55,9.1,21.7,13.2
+P091,19,Other,Asian,Heart Disease,None,T016,DrugB,Phase I,6/8/2022,5/8/2023,150mg,Dizziness,TR0058,150mg,Deteriorated,Headache,133,0,BRCA2,Positive,3.4,3.66,2.6,22.5,10.1
+P092,76,Female,Other,Asthma,HER2 Mutation,T015,DrugC,Phase I,12/21/2022,6/21/2023,50mg,"Headache, Nausea",TR0143,50mg,Deteriorated,Nausea,53,0,EGFR,Negative,2.53,3.08,1.4,9,15.5
+P093,83,Other,Asian,Asthma,None,T012,DrugA,Phase II,6/18/2022,12/18/2023,200mg,"None, Headache, Nausea",TR0025,200mg,Deteriorated,Fatigue,30,0,TP53,Negative,1.33,3.41,3.2,13,7.9
+P094,55,Other,Other,None,None,T002,DrugB,Phase IV,12/24/2020,5/24/2022,200mg,None,TR0157,200mg,Improved,Fatigue,60,1,HER2,Positive,2.42,3.88,3.7,16.2,11.1
+P095,76,Male,African American,Hypertension,None,T002,DrugA,Phase IV,11/19/2022,1/19/2024,100mg,"Nausea, Dizziness",TR0142,100mg,No Change,Dizziness,153,0,EGFR,Positive,3.65,4.75,7.6,9.9,3.5
+P096,40,Other,Asian,Hypertension,EGFR Mutation,T020,DrugC,Phase IV,10/23/2022,4/23/2024,100mg,"Headache, None",TR0076,100mg,No Change,Fatigue,65,0,HER2,Negative,2.05,3.38,1.5,14.9,13.1
+P097,58,Other,Other,Diabetes,EGFR Mutation,T010,DrugC,Phase II,9/18/2020,2/18/2022,150mg,"Nausea, None, Headache",TR0123,150mg,Deteriorated,Dizziness,136,0,EGFR,Negative,2.34,4.08,2,7.4,15.4
+P098,72,Male,Other,Hypertension,BRCA2 Mutation,T002,DrugA,Phase II,3/10/2021,7/10/2022,150mg,Nausea,TR0177,150mg,No Change,Fatigue,168,0,BRCA1,Negative,2.98,3.75,4.9,10.4,16.9
+P099,75,Male,Other,Heart Disease,None,T018,DrugD,Phase II,12/10/2023,5/10/2025,50mg,"Headache, Dizziness",TR0176,50mg,No Change,Dizziness,43,0,BRCA1,Negative,4.2,3.78,3.4,16.6,9.1
+P100,43,Other,Hispanic,Diabetes,None,T012,DrugB,Phase II,8/6/2021,12/6/2022,50mg,Fatigue,TR0189,50mg,Deteriorated,Nausea,126,0,BRCA1,Negative,1.37,4.67,2.2,23.1,10.6
+P101,53,Other,African American,Diabetes,TP53 Mutation,T001,DrugC,Phase IV,1/5/2020,12/5/2020,50mg,"Dizziness, None, Fatigue",TR0147,50mg,Deteriorated,None,48,0,TP53,Positive,1.74,3.17,8.9,19.2,16.7
+P102,41,Other,Caucasian,Heart Disease,EGFR Mutation,T018,DrugD,Phase I,4/7/2021,8/7/2022,150mg,"None, Dizziness",TR0056,150mg,Deteriorated,Dizziness,151,0,EGFR,Positive,3.64,3.77,8.6,10.5,11.3
+P103,32,Other,African American,Asthma,EGFR Mutation,T020,DrugB,Phase I,7/26/2021,2/26/2022,200mg,"Dizziness, None",TR0007,200mg,Deteriorated,None,161,0,EGFR,Negative,1.88,4.95,9.5,6.7,15
+P104,80,Male,African American,Diabetes,BRCA1 Mutation,T004,DrugB,Phase I,4/22/2019,8/22/2020,100mg,"Headache, Nausea, Dizziness",TR0138,100mg,Deteriorated,Headache,48,0,BRCA2,Positive,4.7,1.72,6.1,22.5,3.6
+P105,76,Other,African American,Hypertension,BRCA1 Mutation,T006,DrugC,Phase I,4/9/2023,4/9/2024,200mg,"Headache, Dizziness",TR0081,200mg,Improved,Headache,60,1,EGFR,Positive,3.79,2.19,9.3,23.5,19.1
+P106,26,Other,Other,Hypertension,None,T003,DrugC,Phase I,11/10/2021,2/10/2023,50mg,"Headache, Dizziness",TR0102,50mg,Deteriorated,Nausea,151,0,BRCA2,Positive,2.9,4.45,8.6,11.7,17.1
+P107,35,Other,Hispanic,Heart Disease,BRCA2 Mutation,T010,DrugC,Phase I,9/5/2023,4/5/2024,50mg,Dizziness,TR0153,50mg,No Change,Dizziness,170,0,BRCA1,Negative,1.15,3.39,3.1,8.2,4.3
+P108,44,Other,African American,Diabetes,EGFR Mutation,T005,DrugB,Phase II,10/27/2020,8/27/2021,100mg,Fatigue,TR0172,100mg,Deteriorated,Nausea,170,0,HER2,Positive,3.79,2.36,7.5,7.2,8.4
+P109,55,Other,Caucasian,None,EGFR Mutation,T016,DrugC,Phase III,11/21/2020,8/21/2021,50mg,"Dizziness, Nausea",TR0050,50mg,No Change,Headache,145,0,TP53,Negative,3.16,4.16,3.9,17.3,18.1
+P110,37,Other,Other,None,None,T014,DrugB,Phase I,4/26/2021,1/26/2022,200mg,"None, Fatigue",TR0174,200mg,Deteriorated,None,152,0,HER2,Negative,3.46,1.93,1.2,21.7,3.4
+P111,63,Female,Hispanic,Heart Disease,EGFR Mutation,T003,DrugC,Phase II,4/9/2023,9/9/2024,50mg,"Nausea, Dizziness, None",TR0162,50mg,Improved,Dizziness,178,1,HER2,Positive,4.5,3.12,9.5,20.4,20
+P112,22,Other,African American,Heart Disease,None,T018,DrugD,Phase II,7/8/2021,1/8/2023,150mg,Headache,TR0129,150mg,Deteriorated,Nausea,131,0,TP53,Positive,2.4,4.07,4.6,14.6,13.7
+P113,48,Other,Asian,Heart Disease,BRCA2 Mutation,T006,DrugB,Phase IV,1/8/2021,7/8/2022,200mg,Nausea,TR0068,200mg,No Change,Fatigue,40,0,BRCA2,Negative,4.49,4.94,7.9,13.5,10.2
+P114,67,Female,Hispanic,Hypertension,TP53 Mutation,T004,DrugC,Phase III,9/19/2023,5/19/2024,200mg,"Headache, None, Dizziness",TR0168,200mg,Improved,Dizziness,94,1,HER2,Positive,3.95,1.96,2,12.4,7.9
+P115,84,Female,African American,None,HER2 Mutation,T020,DrugA,Phase II,3/8/2022,10/8/2022,150mg,Fatigue,TR0048,150mg,Improved,None,60,1,BRCA2,Negative,2.19,1.93,1.4,6.3,19.8
+P116,60,Other,Caucasian,Asthma,None,T016,DrugB,Phase II,1/8/2022,7/8/2022,100mg,"Dizziness, Fatigue, Nausea",TR0162,100mg,Deteriorated,Nausea,176,0,BRCA2,Positive,2.71,2.54,7.1,9.9,19.1
+P117,39,Female,Asian,Heart Disease,None,T020,DrugA,Phase III,4/15/2019,7/15/2020,200mg,"Fatigue, Dizziness",TR0106,200mg,Deteriorated,Fatigue,179,0,BRCA2,Negative,4.15,1.36,4.8,21.8,19.1
+P118,39,Other,African American,Asthma,None,T003,DrugB,Phase IV,3/4/2022,9/4/2022,100mg,"Dizziness, Headache, Nausea",TR0156,100mg,Improved,Fatigue,151,1,EGFR,Positive,2.87,3.45,2.5,23.8,6.9
+P119,82,Male,Caucasian,Asthma,None,T020,DrugA,Phase IV,7/12/2023,1/12/2024,200mg,Headache,TR0197,200mg,No Change,None,180,0,EGFR,Positive,4.77,3.6,6.5,15.2,6.9
+P120,72,Male,African American,Asthma,None,T003,DrugC,Phase IV,4/1/2021,9/1/2022,50mg,"Dizziness, Nausea, None",TR0002,50mg,No Change,Fatigue,110,0,HER2,Negative,1.71,1.88,2.7,20,9
+P121,31,Male,Hispanic,Heart Disease,EGFR Mutation,T014,DrugC,Phase III,4/14/2022,6/14/2023,200mg,None,TR0144,200mg,Deteriorated,Headache,94,0,TP53,Negative,1.23,4.88,9,22.7,19.9
+P122,68,Other,Asian,Hypertension,None,T015,DrugB,Phase I,9/13/2020,3/13/2022,150mg,"Dizziness, Nausea, Headache",TR0100,150mg,Deteriorated,Nausea,53,0,BRCA2,Negative,1.7,2.58,7.8,18.5,5.6
+P123,73,Male,Caucasian,None,BRCA1 Mutation,T020,DrugA,Phase IV,10/21/2022,12/21/2023,150mg,"Dizziness, Nausea, Headache",TR0164,150mg,No Change,Headache,32,0,BRCA2,Negative,4.26,1.9,3,15.7,13.1
+P124,42,Male,Other,Heart Disease,None,T008,DrugB,Phase I,4/21/2021,10/21/2021,100mg,None,TR0200,100mg,No Change,None,131,0,HER2,Positive,3.32,1.37,8.9,10.8,5.2
+P125,84,Male,Caucasian,Hypertension,None,T018,DrugC,Phase III,4/20/2021,1/20/2022,200mg,"Dizziness, Nausea",TR0067,200mg,Improved,Headache,159,1,BRCA1,Positive,4.55,4.82,8.8,20.6,14.1
+P126,82,Female,African American,Hypertension,None,T009,DrugC,Phase IV,10/16/2022,4/16/2024,100mg,"Headache, Dizziness",TR0151,100mg,Improved,Headache,59,1,TP53,Positive,3.2,1.35,4.7,12.7,7.4
+P127,66,Other,Asian,Diabetes,None,T014,DrugC,Phase I,4/10/2021,11/10/2021,200mg,"None, Nausea, Dizziness",TR0046,200mg,No Change,None,120,0,BRCA2,Negative,3.89,2.98,1.7,10,14.6
+P128,41,Other,Asian,Asthma,None,T008,DrugB,Phase III,4/7/2020,1/7/2021,150mg,Nausea,TR0031,150mg,Improved,Headache,31,1,EGFR,Positive,1.3,4.4,5.5,14.7,13.1
+P129,79,Female,Other,None,EGFR Mutation,T009,DrugD,Phase II,5/13/2023,2/13/2024,100mg,Dizziness,TR0109,100mg,No Change,Dizziness,38,0,EGFR,Negative,4.3,2.39,7.1,16.2,7.5
+P130,68,Other,Asian,Asthma,None,T017,DrugD,Phase III,1/22/2019,10/22/2019,200mg,"Nausea, None, Fatigue",TR0157,200mg,No Change,Fatigue,170,0,TP53,Positive,4.51,4.19,6.9,21.3,17.7
+P131,52,Female,Other,None,HER2 Mutation,T014,DrugB,Phase IV,6/28/2021,6/28/2022,150mg,"Fatigue, Dizziness",TR0148,150mg,Deteriorated,Fatigue,55,0,TP53,Positive,3.83,4.35,7.3,18.2,13.5
+P132,73,Female,Asian,Diabetes,None,T005,DrugD,Phase I,7/16/2020,3/16/2021,150mg,"None, Dizziness",TR0144,150mg,Deteriorated,Nausea,131,0,BRCA1,Positive,4.01,1.63,8.9,21.7,3.5
+P133,25,Male,African American,Asthma,None,T004,DrugD,Phase III,6/12/2021,8/12/2022,150mg,"Nausea, Headache",TR0032,150mg,No Change,Dizziness,80,0,EGFR,Positive,4.3,1.52,4,19.4,5.7
+P134,54,Female,African American,Heart Disease,HER2 Mutation,T003,DrugD,Phase III,11/5/2022,7/5/2023,150mg,"Dizziness, Headache",TR0019,150mg,Improved,Fatigue,117,1,BRCA2,Negative,4.27,4.33,5.6,6.1,7.9
+P135,58,Other,African American,None,None,T013,DrugC,Phase IV,12/19/2021,2/19/2023,200mg,"Fatigue, Dizziness",TR0006,200mg,Improved,Fatigue,94,1,BRCA1,Positive,3.47,4.92,6.7,10.7,13.8
+P136,39,Female,Caucasian,Hypertension,HER2 Mutation,T018,DrugA,Phase I,9/25/2022,4/25/2023,50mg,"Dizziness, Fatigue",TR0022,50mg,Deteriorated,Headache,109,0,BRCA2,Positive,3.16,4.12,2,19.7,12.2
+P137,54,Female,Asian,Diabetes,None,T006,DrugA,Phase I,6/28/2021,7/28/2022,200mg,"None, Headache, Nausea",TR0179,200mg,Deteriorated,Fatigue,146,0,EGFR,Negative,4.85,2.37,6.7,22.8,4.7
+P138,85,Other,Other,None,None,T016,DrugB,Phase I,5/12/2022,5/12/2023,150mg,None,TR0003,150mg,Improved,Dizziness,64,1,TP53,Negative,4.75,3.75,1.6,11.4,15
+P139,78,Other,Caucasian,Asthma,None,T016,DrugC,Phase I,5/20/2022,2/20/2023,50mg,"None, Fatigue, Headache",TR0144,50mg,No Change,Headache,93,0,BRCA2,Negative,1.27,3.33,4.1,17.2,3.8
+P140,66,Male,African American,Hypertension,BRCA2 Mutation,T017,DrugC,Phase III,5/14/2023,2/14/2024,50mg,Fatigue,TR0075,50mg,Improved,Headache,145,1,TP53,Negative,4.49,4.89,9.7,19.5,5.2
+P141,42,Female,Caucasian,Diabetes,EGFR Mutation,T001,DrugB,Phase I,5/5/2021,10/5/2022,200mg,"Nausea, Fatigue, Dizziness",TR0039,200mg,Improved,Headache,85,1,TP53,Negative,4.03,1.1,1.2,11.8,11.3
+P142,57,Female,African American,Asthma,None,T002,DrugC,Phase I,1/9/2020,7/9/2021,200mg,Dizziness,TR0121,200mg,Improved,Fatigue,94,1,HER2,Positive,4.08,3.73,5,10.9,20
+P143,33,Other,Asian,Asthma,None,T015,DrugB,Phase I,8/24/2020,2/24/2022,50mg,"Fatigue, Headache, Dizziness",TR0175,50mg,No Change,None,70,0,BRCA1,Positive,2.7,2.81,2.5,20.3,14.8
+P144,50,Female,African American,Diabetes,BRCA1 Mutation,T007,DrugA,Phase II,6/1/2022,2/1/2023,150mg,"Nausea, Headache, Dizziness",TR0003,150mg,Improved,Dizziness,151,1,EGFR,Positive,1.88,1.33,7.1,17.8,7.6
+P145,65,Male,Asian,Diabetes,EGFR Mutation,T011,DrugA,Phase I,11/5/2021,4/5/2023,50mg,Headache,TR0060,50mg,No Change,Dizziness,118,0,HER2,Positive,4.8,1.6,4.9,23,10.1
+P146,20,Other,Hispanic,None,None,T009,DrugA,Phase IV,9/10/2022,11/10/2023,200mg,Dizziness,TR0048,200mg,Deteriorated,None,112,0,HER2,Negative,3.55,2.59,3.5,23.7,10
+P147,38,Male,Other,Diabetes,TP53 Mutation,T018,DrugC,Phase IV,11/17/2019,11/17/2020,100mg,Dizziness,TR0094,100mg,Deteriorated,Fatigue,112,0,BRCA1,Negative,4.58,1.92,2.9,6.6,14.1
+P148,42,Other,Hispanic,Heart Disease,TP53 Mutation,T011,DrugD,Phase III,2/17/2019,6/17/2020,50mg,Fatigue,TR0046,50mg,Improved,Fatigue,57,1,HER2,Positive,2.47,4.46,5.3,23.4,6.2
+P149,30,Male,Other,Asthma,None,T017,DrugC,Phase I,4/20/2021,9/20/2022,50mg,Fatigue,TR0168,50mg,No Change,Nausea,149,0,BRCA1,Negative,4.47,4.11,7.9,21.2,15.9
+P150,71,Female,Caucasian,Heart Disease,BRCA1 Mutation,T003,DrugC,Phase I,9/4/2020,4/4/2021,100mg,"Headache, Fatigue, Nausea",TR0135,100mg,Deteriorated,Fatigue,175,0,BRCA2,Negative,3.5,1.52,1.3,22.6,13.5
+P151,31,Other,Other,None,None,T014,DrugA,Phase II,9/13/2020,11/13/2021,150mg,"Fatigue, Headache, Dizziness",TR0081,150mg,Deteriorated,None,125,0,HER2,Negative,4.19,2.93,2.1,8.3,14.7
+P152,59,Other,Asian,Heart Disease,None,T013,DrugC,Phase III,8/13/2022,2/13/2023,50mg,"Dizziness, Nausea",TR0133,50mg,Improved,None,31,1,TP53,Positive,2.72,1.8,5.4,7.2,12.9
+P153,45,Female,Caucasian,None,None,T017,DrugB,Phase I,8/12/2019,4/12/2020,100mg,"None, Fatigue",TR0060,100mg,No Change,None,53,0,EGFR,Negative,2.08,4.19,3.8,14.2,3.2
+P154,45,Other,Caucasian,None,None,T006,DrugD,Phase I,11/10/2023,5/10/2024,200mg,Nausea,TR0198,200mg,No Change,None,141,0,HER2,Positive,1.29,2.57,5.3,16.8,8
+P155,47,Other,Other,Hypertension,None,T013,DrugA,Phase III,1/11/2023,3/11/2024,100mg,"Dizziness, Fatigue",TR0040,100mg,Improved,Headache,144,1,EGFR,Positive,3.78,4.44,8,6.7,11.2
+P156,46,Female,African American,Asthma,TP53 Mutation,T003,DrugD,Phase I,7/9/2023,2/9/2024,200mg,"Headache, Fatigue, Nausea",TR0124,200mg,Deteriorated,Fatigue,154,0,HER2,Positive,1.42,1.97,9.9,8.6,11.5
+P157,85,Male,Asian,Hypertension,HER2 Mutation,T011,DrugA,Phase I,7/12/2022,6/12/2023,100mg,"None, Nausea",TR0198,100mg,No Change,Fatigue,119,0,EGFR,Negative,3.47,3.81,6,6.2,8.5
+P158,36,Female,Caucasian,Diabetes,TP53 Mutation,T005,DrugA,Phase I,4/20/2019,12/20/2019,150mg,None,TR0178,150mg,Improved,None,145,1,HER2,Positive,3.07,1.35,4.2,6.6,4.3
+P159,60,Male,Other,Diabetes,EGFR Mutation,T009,DrugD,Phase II,7/19/2019,11/19/2020,50mg,"Fatigue, Nausea",TR0073,50mg,Improved,Dizziness,99,1,BRCA1,Negative,2.59,1.53,6.1,18.4,16.6
+P160,19,Male,Hispanic,None,None,T012,DrugA,Phase I,11/13/2021,8/13/2022,200mg,"Nausea, None, Fatigue",TR0153,200mg,Deteriorated,Nausea,77,0,BRCA2,Negative,1.8,1.67,1.9,17.5,15
+P161,20,Male,Asian,Heart Disease,HER2 Mutation,T013,DrugB,Phase I,11/12/2021,10/12/2022,150mg,Dizziness,TR0071,150mg,Improved,None,129,1,BRCA1,Negative,1.13,4.74,1.5,15.7,15.1
+P162,46,Male,African American,Asthma,None,T003,DrugD,Phase II,4/19/2022,12/19/2022,200mg,"Dizziness, None",TR0115,200mg,Deteriorated,Fatigue,82,0,BRCA2,Positive,4.48,3.86,8.2,12.1,16.9
+P163,35,Female,Other,Diabetes,BRCA2 Mutation,T019,DrugB,Phase III,9/18/2019,2/18/2021,50mg,None,TR0038,50mg,Deteriorated,Nausea,111,0,HER2,Negative,1.32,4.58,5.9,20.7,10.7
+P164,56,Female,African American,Diabetes,None,T004,DrugB,Phase II,10/20/2019,8/20/2020,100mg,"Fatigue, Dizziness, None",TR0007,100mg,No Change,Nausea,152,0,BRCA2,Negative,3.57,3.11,7.6,7.5,4
+P165,65,Male,Hispanic,Asthma,BRCA2 Mutation,T007,DrugB,Phase I,1/9/2022,1/9/2023,100mg,"Fatigue, Dizziness, Nausea",TR0046,100mg,No Change,Dizziness,155,0,TP53,Negative,1.99,1.64,8.8,9.9,19.6
+P166,49,Female,Hispanic,Hypertension,None,T013,DrugC,Phase IV,12/19/2023,3/19/2025,50mg,"Nausea, Headache, Fatigue",TR0011,50mg,Improved,Dizziness,167,1,HER2,Positive,2.35,1.73,8.1,17.9,11.5
+P167,67,Other,Caucasian,Diabetes,HER2 Mutation,T010,DrugC,Phase IV,7/10/2020,10/10/2021,50mg,"Dizziness, Fatigue, Headache",TR0166,50mg,No Change,Nausea,158,0,BRCA1,Positive,3.22,3.88,3.1,23.9,19.6
+P168,35,Female,Hispanic,None,BRCA2 Mutation,T015,DrugB,Phase IV,5/11/2019,10/11/2020,100mg,"Nausea, Dizziness, Headache",TR0181,100mg,No Change,None,51,0,EGFR,Negative,3.6,1.8,7.1,7.3,3.5
+P169,83,Other,Asian,Asthma,None,T002,DrugB,Phase III,11/28/2023,7/28/2024,100mg,Fatigue,TR0197,100mg,Deteriorated,Nausea,137,0,TP53,Negative,2.03,2.85,8.8,19.1,15.6
+P170,75,Female,Asian,Hypertension,None,T007,DrugA,Phase III,8/16/2019,9/16/2020,50mg,"Headache, Fatigue, Nausea",TR0151,50mg,Deteriorated,Headache,146,0,HER2,Negative,2.7,2.38,4.3,23.8,3.7
+P171,28,Other,Other,Hypertension,EGFR Mutation,T009,DrugB,Phase I,3/2/2020,7/2/2021,150mg,Fatigue,TR0009,150mg,Deteriorated,Dizziness,106,0,TP53,Positive,4.47,3.31,4.9,19.1,11.3
+P172,24,Male,Hispanic,Diabetes,TP53 Mutation,T020,DrugB,Phase IV,6/2/2023,1/2/2024,150mg,"None, Headache",TR0018,150mg,No Change,Dizziness,46,0,TP53,Negative,4.49,4.6,4.8,11,13.1
+P173,35,Male,African American,None,None,T017,DrugB,Phase II,1/4/2023,4/4/2024,50mg,"Dizziness, None",TR0110,50mg,Deteriorated,None,96,0,EGFR,Negative,4.65,1.84,6.6,17.4,15.5
+P174,34,Other,Other,Asthma,None,T016,DrugD,Phase II,4/23/2023,2/23/2024,100mg,Nausea,TR0007,100mg,No Change,Nausea,83,0,EGFR,Negative,1.53,3.86,9.2,9.2,7
+P175,70,Male,African American,None,None,T007,DrugA,Phase II,5/26/2021,12/26/2021,150mg,"Dizziness, None",TR0197,150mg,Improved,Nausea,115,1,TP53,Negative,4.89,1.72,8.7,14.9,7.2
+P176,21,Male,Asian,None,None,T016,DrugD,Phase I,8/5/2020,12/5/2021,200mg,"None, Headache, Fatigue",TR0191,200mg,Improved,Dizziness,106,1,EGFR,Negative,4.48,2.78,5.6,12.5,13.1
+P177,20,Male,Other,None,None,T012,DrugA,Phase II,1/11/2021,1/11/2022,100mg,"Dizziness, Headache, Nausea",TR0153,100mg,Improved,None,110,1,BRCA1,Negative,1.65,2.56,9.7,10.6,14.2
+P178,70,Male,Hispanic,Diabetes,TP53 Mutation,T007,DrugC,Phase II,6/26/2019,12/26/2019,100mg,Headache,TR0130,100mg,Improved,Headache,158,1,BRCA2,Positive,2.3,4.09,2.2,23.5,10.7
+P179,61,Female,Other,None,None,T005,DrugA,Phase II,12/2/2020,1/2/2022,200mg,"Dizziness, Nausea, Headache",TR0080,200mg,Improved,Dizziness,52,1,TP53,Negative,1.94,1.29,2.5,15.4,8.7
+P180,23,Male,Other,None,TP53 Mutation,T007,DrugC,Phase II,5/9/2020,7/9/2021,150mg,"Nausea, None",TR0039,150mg,Improved,None,59,1,BRCA1,Positive,4.32,2.72,3.2,17.1,15
+P181,44,Other,African American,Heart Disease,BRCA2 Mutation,T010,DrugB,Phase II,5/20/2019,4/20/2020,200mg,Fatigue,TR0008,200mg,No Change,Nausea,57,0,HER2,Positive,1.67,1.67,1.3,19.3,14.3
+P182,29,Female,Hispanic,Diabetes,None,T019,DrugD,Phase III,6/27/2021,3/27/2022,50mg,"Dizziness, Fatigue",TR0024,50mg,Deteriorated,Headache,54,0,HER2,Negative,2.9,4.38,8.3,16.5,17.8
+P183,77,Female,Asian,Diabetes,EGFR Mutation,T009,DrugC,Phase IV,12/22/2020,11/22/2021,150mg,"Headache, Nausea",TR0017,150mg,No Change,Nausea,119,0,HER2,Negative,1.82,1.45,3.4,7,12
+P184,39,Female,African American,Heart Disease,None,T017,DrugA,Phase IV,6/18/2019,10/18/2020,50mg,"Dizziness, Headache",TR0103,50mg,Deteriorated,Headache,91,0,EGFR,Positive,4.75,1.16,2.1,14.1,18.9
+P185,38,Female,Hispanic,Hypertension,EGFR Mutation,T014,DrugD,Phase III,12/8/2023,8/8/2024,50mg,"Dizziness, Headache, Nausea",TR0152,50mg,Deteriorated,Headache,113,0,EGFR,Positive,2.26,3.03,1.4,8.7,19.8
+P186,74,Male,African American,Asthma,BRCA1 Mutation,T020,DrugD,Phase III,11/22/2022,5/22/2023,50mg,Fatigue,TR0149,50mg,Deteriorated,Nausea,67,0,BRCA2,Negative,4.86,1.02,9.6,17.5,17.8
+P187,55,Female,Other,Heart Disease,BRCA2 Mutation,T011,DrugC,Phase III,12/12/2022,7/12/2023,50mg,"Dizziness, Headache, Nausea",TR0076,50mg,Improved,None,170,1,BRCA1,Positive,2.82,3.06,5.4,18,5.4
+P188,63,Male,African American,Hypertension,EGFR Mutation,T013,DrugC,Phase IV,7/14/2022,9/14/2023,100mg,"Fatigue, Headache, Nausea",TR0049,100mg,Deteriorated,Headache,122,0,HER2,Positive,1.12,2.23,7.3,9.6,14.4
+P189,54,Other,Asian,Diabetes,BRCA1 Mutation,T005,DrugD,Phase IV,2/5/2020,6/5/2021,200mg,"Dizziness, Headache",TR0160,200mg,Improved,Headache,160,1,HER2,Negative,4.88,1.38,7.1,14,17.8
+P190,67,Female,Asian,Diabetes,BRCA1 Mutation,T019,DrugD,Phase II,5/14/2023,7/14/2024,150mg,Nausea,TR0146,150mg,No Change,None,58,0,EGFR,Negative,1.71,3.77,8.5,23,14.6
+P191,28,Male,Other,None,BRCA1 Mutation,T017,DrugA,Phase II,11/24/2022,3/24/2024,50mg,"Dizziness, None, Headache",TR0014,50mg,No Change,Dizziness,32,0,HER2,Negative,2.99,3.47,8.8,16.3,3.5
+P192,83,Female,Other,None,TP53 Mutation,T010,DrugB,Phase I,12/10/2023,5/10/2025,150mg,Headache,TR0149,150mg,Improved,Dizziness,43,1,TP53,Positive,4.72,3.76,7.1,9.9,14.2
+P193,54,Female,Caucasian,Diabetes,None,T009,DrugC,Phase II,5/9/2023,3/9/2024,50mg,"Nausea, Fatigue, None",TR0190,50mg,Improved,Headache,124,1,BRCA2,Negative,2.58,3.6,2,17.8,20
+P194,48,Female,Asian,Heart Disease,None,T011,DrugA,Phase II,3/27/2023,4/27/2024,200mg,"Fatigue, Headache",TR0186,200mg,Deteriorated,Fatigue,83,0,EGFR,Negative,1.19,4.91,4.7,21.7,16.3
+P195,24,Other,African American,Hypertension,HER2 Mutation,T013,DrugD,Phase III,12/25/2022,2/25/2024,100mg,"Headache, Dizziness",TR0068,100mg,Improved,Dizziness,141,1,BRCA1,Negative,3.27,3.95,8.9,13.3,8.6
+P196,75,Female,African American,Heart Disease,None,T002,DrugA,Phase III,10/21/2022,8/21/2023,150mg,"None, Nausea",TR0066,150mg,Deteriorated,Dizziness,130,0,HER2,Positive,3.67,4.23,7.9,20.4,10.4
+P197,42,Other,African American,Diabetes,BRCA1 Mutation,T001,DrugA,Phase I,2/17/2022,9/17/2022,200mg,"Fatigue, None",TR0065,200mg,Improved,Nausea,36,1,EGFR,Positive,4.27,1.48,5.9,6.1,8.5
+P198,25,Other,Asian,Heart Disease,None,T004,DrugA,Phase II,11/25/2022,3/25/2024,100mg,Fatigue,TR0065,100mg,No Change,Headache,49,0,HER2,Negative,2.47,2.58,7.3,13,10.6
+P199,72,Other,African American,None,BRCA1 Mutation,T009,DrugA,Phase IV,6/2/2022,4/2/2023,150mg,Headache,TR0018,150mg,No Change,Fatigue,130,0,BRCA2,Negative,1.95,2.49,3,7.3,13.3
+P200,31,Male,Other,Asthma,BRCA1 Mutation,T015,DrugC,Phase I,2/3/2019,5/3/2020,150mg,"Nausea, Headache",TR0039,150mg,Deteriorated,Nausea,39,0,HER2,Negative,3.67,3.48,5.2,12.8,17.7
+P201,37,Other,African American,Asthma,None,T017,DrugD,Phase IV,7/28/2022,12/28/2023,50mg,"Fatigue, Nausea, Dizziness",TR0177,50mg,No Change,Nausea,175,0,EGFR,Negative,3.08,2.92,1.2,12.1,9.5
+P202,60,Other,African American,Asthma,BRCA1 Mutation,T012,DrugC,Phase I,5/21/2022,2/21/2023,100mg,"Nausea, Headache, None",TR0049,100mg,No Change,Headache,57,0,TP53,Negative,2.6,3.32,5.8,16.9,16
+P203,28,Other,Hispanic,Diabetes,BRCA2 Mutation,T001,DrugB,Phase IV,2/26/2022,4/26/2023,150mg,"Dizziness, Headache",TR0005,150mg,Improved,None,44,1,TP53,Positive,4.25,3.87,9.6,6.3,6.3
+P204,69,Male,Asian,Heart Disease,EGFR Mutation,T005,DrugB,Phase I,12/5/2019,1/5/2021,50mg,"Dizziness, Nausea",TR0063,50mg,Deteriorated,Fatigue,33,0,BRCA2,Positive,1.03,3.59,9.1,10.4,18.8
+P205,57,Male,Hispanic,Heart Disease,EGFR Mutation,T003,DrugA,Phase I,10/26/2022,1/26/2024,100mg,Fatigue,TR0110,100mg,No Change,Headache,113,0,BRCA1,Positive,1.24,4.74,4.2,7.8,11.3
+P206,59,Male,Caucasian,Heart Disease,BRCA1 Mutation,T004,DrugC,Phase II,3/23/2022,2/23/2023,100mg,"Fatigue, Nausea",TR0035,100mg,Improved,Dizziness,126,1,BRCA2,Positive,2.03,2.14,3.8,20.5,12.2
+P207,80,Male,Caucasian,Hypertension,BRCA1 Mutation,T019,DrugC,Phase IV,12/5/2022,9/5/2023,100mg,"None, Headache, Fatigue",TR0062,100mg,Improved,Dizziness,39,1,EGFR,Positive,2.25,3.44,7.4,10.9,10
+P208,81,Other,Caucasian,None,BRCA1 Mutation,T018,DrugB,Phase II,9/4/2019,12/4/2020,150mg,"Dizziness, Fatigue, Headache",TR0198,150mg,Deteriorated,Fatigue,100,0,BRCA1,Positive,1.49,1.72,7.1,9.3,11.9
+P209,32,Male,Hispanic,Asthma,BRCA1 Mutation,T002,DrugC,Phase III,7/9/2020,6/9/2021,200mg,Nausea,TR0190,200mg,Improved,Dizziness,75,1,BRCA2,Positive,3.84,1.43,6.1,10.6,19.4
+P210,80,Other,Caucasian,Hypertension,None,T015,DrugC,Phase IV,12/22/2020,11/22/2021,100mg,None,TR0059,100mg,Improved,Fatigue,135,1,BRCA2,Negative,2.93,4.22,6,6.8,13.8
+P211,46,Male,Hispanic,Heart Disease,HER2 Mutation,T005,DrugB,Phase IV,7/12/2020,3/12/2021,200mg,"Fatigue, None, Dizziness",TR0052,200mg,No Change,Fatigue,38,0,EGFR,Positive,4.81,3.41,8.4,21.9,6.9
+P212,53,Male,Caucasian,Asthma,BRCA2 Mutation,T011,DrugB,Phase III,3/26/2023,9/26/2024,100mg,"Dizziness, Fatigue, Nausea",TR0106,100mg,Deteriorated,Headache,85,0,EGFR,Negative,1.85,3.44,4.7,21.1,18.3
+P213,77,Female,Caucasian,Asthma,None,T008,DrugB,Phase III,10/8/2022,1/8/2024,100mg,"Nausea, Headache, Dizziness",TR0011,100mg,No Change,Dizziness,38,0,HER2,Negative,2.41,1.95,8,10.9,17
+P214,79,Other,Caucasian,Asthma,BRCA1 Mutation,T018,DrugA,Phase IV,3/12/2020,1/12/2021,100mg,"Nausea, Dizziness, Fatigue",TR0172,100mg,No Change,Fatigue,147,0,EGFR,Positive,2.69,3.67,1.9,17.2,10.7
+P215,76,Female,Asian,Asthma,TP53 Mutation,T015,DrugA,Phase I,12/11/2022,2/11/2024,50mg,"Headache, None",TR0179,50mg,Deteriorated,Dizziness,177,0,BRCA2,Positive,3.35,1.67,7.6,21.5,6.7
+P216,60,Other,Caucasian,Heart Disease,None,T012,DrugA,Phase I,6/15/2022,9/15/2023,50mg,"None, Fatigue",TR0166,50mg,Deteriorated,Nausea,173,0,BRCA2,Positive,1.38,1.09,6.8,16.9,12.3
+P217,60,Male,Other,Hypertension,None,T019,DrugB,Phase II,6/9/2021,8/9/2022,200mg,"Nausea, Dizziness",TR0096,200mg,No Change,Headache,154,0,EGFR,Positive,1.93,2.56,6.4,14.9,19.8
+P218,78,Other,Other,Heart Disease,None,T015,DrugC,Phase I,8/3/2020,3/3/2021,200mg,None,TR0020,200mg,Improved,Fatigue,100,1,BRCA1,Positive,1.55,3.78,4.6,13.7,15.2
+P219,81,Male,Asian,Heart Disease,None,T001,DrugC,Phase IV,3/16/2023,2/16/2024,200mg,"Nausea, None",TR0049,200mg,Improved,Nausea,89,1,EGFR,Negative,3.77,4.97,2.2,7.9,15.3
+P220,70,Other,African American,None,EGFR Mutation,T018,DrugD,Phase IV,10/5/2021,4/5/2023,150mg,None,TR0059,150mg,No Change,None,103,0,BRCA1,Positive,3.31,2.1,1.7,7.5,18.2
+P221,63,Female,Hispanic,Diabetes,None,T006,DrugC,Phase II,12/23/2020,4/23/2022,100mg,Fatigue,TR0030,100mg,Improved,None,177,1,BRCA2,Negative,1.77,2.29,3,12.4,4.2
+P222,51,Female,Asian,Diabetes,None,T002,DrugC,Phase III,6/15/2020,8/15/2021,100mg,"None, Nausea, Headache",TR0104,100mg,No Change,Fatigue,147,0,TP53,Positive,3.08,1.27,8.2,10.2,12.2
+P223,18,Other,Other,Heart Disease,TP53 Mutation,T016,DrugC,Phase II,12/15/2023,11/15/2024,50mg,"Headache, Nausea, Dizziness",TR0174,50mg,Deteriorated,Nausea,108,0,BRCA1,Negative,4.52,3.6,5.8,11.8,8.7
+P224,46,Female,African American,Hypertension,EGFR Mutation,T007,DrugB,Phase III,1/3/2020,3/3/2021,200mg,"Nausea, Headache, Dizziness",TR0126,200mg,No Change,Dizziness,160,0,BRCA1,Negative,3.68,4.98,7,16,15.4
+P225,68,Male,Hispanic,None,BRCA1 Mutation,T010,DrugC,Phase III,8/28/2021,10/28/2022,50mg,Headache,TR0190,50mg,No Change,Headache,103,0,BRCA2,Negative,2.86,1.24,6.1,23.2,6
+P226,71,Male,Other,Heart Disease,BRCA2 Mutation,T010,DrugD,Phase III,10/25/2019,10/25/2020,50mg,Headache,TR0164,50mg,No Change,Headache,74,0,EGFR,Negative,3.76,1.8,5.8,7.7,10.7
+P227,35,Male,Asian,Asthma,HER2 Mutation,T002,DrugC,Phase III,9/24/2022,10/24/2023,100mg,Nausea,TR0040,100mg,No Change,None,150,0,BRCA1,Negative,4.02,2.39,7,20.3,18.8
+P228,71,Male,Hispanic,Diabetes,TP53 Mutation,T016,DrugA,Phase III,8/19/2023,8/19/2024,150mg,"Headache, Nausea, Fatigue",TR0132,150mg,Deteriorated,Dizziness,34,0,TP53,Positive,1.94,2.6,2.4,23.9,18.8
+P229,25,Male,African American,Asthma,None,T005,DrugC,Phase II,5/12/2019,5/12/2020,150mg,None,TR0075,150mg,Deteriorated,Nausea,161,0,BRCA2,Positive,3.16,4.37,5.7,17.2,4.5
+P230,30,Other,Asian,Heart Disease,TP53 Mutation,T010,DrugC,Phase III,9/19/2019,8/19/2020,100mg,Fatigue,TR0133,100mg,No Change,None,154,0,HER2,Negative,4.02,1.51,8.4,20.1,15
+P231,38,Male,Asian,Diabetes,None,T007,DrugA,Phase IV,2/4/2022,10/4/2022,50mg,"None, Dizziness",TR0177,50mg,No Change,Fatigue,143,0,EGFR,Negative,1.14,2.21,3.4,12.5,4.5
+P232,40,Other,African American,Hypertension,None,T004,DrugB,Phase II,12/8/2020,10/8/2021,100mg,Fatigue,TR0021,100mg,No Change,Nausea,49,0,BRCA1,Negative,4.75,3.22,3.7,13.1,10.6
+P233,73,Male,Asian,Hypertension,EGFR Mutation,T019,DrugA,Phase IV,5/2/2019,12/2/2019,150mg,"Nausea, Dizziness, Headache",TR0155,150mg,Improved,Dizziness,81,1,BRCA2,Negative,3.4,3.06,9.3,14.9,19.9
+P234,21,Male,Asian,None,None,T012,DrugC,Phase II,12/20/2023,9/20/2024,50mg,Dizziness,TR0196,50mg,Improved,Dizziness,85,1,BRCA2,Negative,4.41,1.83,9.4,8.1,16.9
+P235,39,Other,Caucasian,Hypertension,None,T017,DrugD,Phase III,3/15/2023,7/15/2024,50mg,None,TR0098,50mg,No Change,Fatigue,161,0,BRCA2,Negative,2.52,4.51,8.8,20.5,16.4
+P236,32,Female,Caucasian,Asthma,BRCA2 Mutation,T016,DrugC,Phase III,12/2/2023,7/2/2024,150mg,"Nausea, Headache",TR0073,150mg,No Change,Dizziness,109,0,HER2,Positive,2.22,1.32,4.6,9.1,14.8
+P237,70,Female,Hispanic,Diabetes,None,T016,DrugC,Phase II,11/16/2019,3/16/2021,50mg,"Headache, Nausea",TR0031,50mg,Improved,Headache,132,1,EGFR,Positive,2.38,4.9,6.8,20.8,5.3
+P238,39,Male,African American,Diabetes,EGFR Mutation,T013,DrugA,Phase II,12/16/2022,10/16/2023,150mg,"Headache, None, Fatigue",TR0171,150mg,Deteriorated,Headache,154,0,EGFR,Negative,4.45,4.69,5.4,16.9,16
+P239,36,Female,Caucasian,Hypertension,HER2 Mutation,T008,DrugB,Phase I,12/2/2019,7/2/2020,200mg,"Nausea, Fatigue, Headache",TR0155,200mg,Deteriorated,None,69,0,TP53,Positive,1.7,3.01,4.6,8.6,9.2
+P240,27,Other,Other,Asthma,None,T007,DrugC,Phase IV,9/9/2022,11/9/2023,150mg,"Dizziness, Nausea, Headache",TR0111,150mg,Improved,Headache,145,1,TP53,Negative,1.27,1.1,2.2,23.3,12.3
+P241,74,Female,Caucasian,Hypertension,TP53 Mutation,T006,DrugD,Phase IV,5/23/2020,5/23/2021,200mg,Dizziness,TR0173,200mg,No Change,Dizziness,168,0,EGFR,Negative,4.86,2.73,3.8,15.1,10.5
+P242,78,Other,Asian,Heart Disease,TP53 Mutation,T016,DrugD,Phase III,6/2/2021,12/2/2021,50mg,None,TR0090,50mg,Deteriorated,Dizziness,36,0,TP53,Negative,1.42,3.56,2.9,17.2,14.1
+P243,30,Female,African American,None,BRCA1 Mutation,T008,DrugB,Phase II,10/3/2021,3/3/2023,50mg,"Nausea, None",TR0044,50mg,Improved,Dizziness,113,1,BRCA1,Negative,1.61,1.25,8,14.3,4
+P244,72,Other,Other,Asthma,HER2 Mutation,T019,DrugA,Phase III,10/13/2022,9/13/2023,50mg,"Nausea, Fatigue",TR0087,50mg,No Change,Dizziness,116,0,BRCA2,Negative,4.98,1.23,7.3,23.7,7.1
+P245,64,Female,Asian,Asthma,None,T003,DrugB,Phase III,1/10/2021,4/10/2022,200mg,Dizziness,TR0191,200mg,Improved,Dizziness,54,1,EGFR,Negative,1.57,1.49,3.7,7.8,14.8
+P246,52,Male,Other,Heart Disease,BRCA2 Mutation,T012,DrugA,Phase III,5/14/2023,9/14/2024,150mg,Headache,TR0103,150mg,No Change,Dizziness,161,0,HER2,Positive,1.25,3.04,10,20.7,13.5
+P247,20,Other,Other,Diabetes,None,T007,DrugD,Phase III,10/28/2023,4/28/2025,200mg,"Nausea, Fatigue, Headache",TR0119,200mg,Improved,Fatigue,68,1,TP53,Negative,2.23,3.5,5.7,13.7,5.2
+P248,70,Female,Caucasian,Diabetes,None,T009,DrugC,Phase II,11/20/2021,8/20/2022,200mg,Nausea,TR0039,200mg,Improved,Nausea,92,1,TP53,Negative,4.55,2.8,2.8,12.6,10
+P249,80,Other,Hispanic,Asthma,None,T002,DrugB,Phase II,3/1/2021,1/1/2022,150mg,"Dizziness, Fatigue, None",TR0011,150mg,Deteriorated,Headache,35,0,BRCA1,Positive,4.31,3.93,7.9,6.2,10.1
+P250,58,Other,African American,Hypertension,None,T014,DrugC,Phase I,12/27/2022,8/27/2023,100mg,Dizziness,TR0189,100mg,Deteriorated,Nausea,163,0,EGFR,Negative,2.93,1.08,3.3,19.7,5.3
+P251,81,Male,Asian,Heart Disease,TP53 Mutation,T011,DrugD,Phase II,4/5/2022,11/5/2022,100mg,None,TR0113,100mg,No Change,None,180,0,BRCA1,Negative,3.14,1.86,1.1,10.3,19.6
+P252,65,Other,Caucasian,None,None,T016,DrugB,Phase III,6/16/2020,11/16/2021,150mg,"Nausea, Dizziness",TR0190,150mg,Deteriorated,Nausea,91,0,TP53,Negative,4.21,4.84,5.4,8,12.3
+P253,57,Other,African American,Hypertension,None,T008,DrugD,Phase IV,7/9/2019,5/9/2020,50mg,None,TR0054,50mg,Improved,Headache,111,1,HER2,Positive,2.82,4.38,1.9,14.8,5.6
+P254,53,Male,Hispanic,Asthma,None,T011,DrugD,Phase I,12/9/2020,2/9/2022,50mg,"Headache, None",TR0117,50mg,Deteriorated,Nausea,43,0,BRCA2,Negative,2.3,3.95,5.3,12.8,9.7
+P255,35,Male,Hispanic,Diabetes,None,T011,DrugA,Phase I,4/17/2020,9/17/2021,100mg,"Headache, None, Fatigue",TR0123,100mg,Deteriorated,Fatigue,96,0,BRCA2,Negative,2.84,4.14,9,23.2,16.4
+P256,54,Male,Caucasian,Asthma,HER2 Mutation,T013,DrugB,Phase I,9/21/2019,12/21/2020,100mg,Headache,TR0051,100mg,No Change,Fatigue,42,0,HER2,Negative,2.26,3.75,4.9,10.6,17.3
+P257,51,Male,Caucasian,None,EGFR Mutation,T004,DrugA,Phase IV,11/16/2022,6/16/2023,100mg,"Fatigue, Dizziness, Headache",TR0074,100mg,Deteriorated,Headache,127,0,BRCA2,Negative,1.15,4.61,5.2,17.5,14.2
+P258,44,Other,Asian,None,None,T007,DrugD,Phase II,3/1/2022,1/1/2023,150mg,Dizziness,TR0116,150mg,Improved,None,179,1,HER2,Positive,4.58,3.55,6.5,7.2,11.8
+P259,19,Female,Asian,None,None,T013,DrugB,Phase IV,12/20/2022,10/20/2023,50mg,Dizziness,TR0016,50mg,Improved,None,90,1,HER2,Negative,1.6,3.95,5.6,18.2,3.7
+P260,23,Male,African American,Heart Disease,None,T010,DrugD,Phase III,9/2/2020,12/2/2021,100mg,"Fatigue, Headache",TR0087,100mg,No Change,Fatigue,52,0,TP53,Negative,1.34,3.87,1.6,7.3,3.2
+P261,36,Female,Caucasian,None,BRCA2 Mutation,T016,DrugC,Phase III,5/9/2022,8/9/2023,150mg,"None, Headache, Nausea",TR0081,150mg,Deteriorated,Headache,68,0,EGFR,Negative,4.83,3.95,4.2,11.3,8.9
+P262,24,Male,Asian,Hypertension,BRCA1 Mutation,T016,DrugC,Phase II,7/4/2022,8/4/2023,50mg,"None, Headache",TR0118,50mg,No Change,Nausea,67,0,BRCA1,Negative,4.1,3.65,2.7,9.1,4.7
+P263,29,Male,African American,Diabetes,None,T017,DrugC,Phase II,1/17/2023,7/17/2024,100mg,"Nausea, Fatigue",TR0197,100mg,No Change,Nausea,114,0,BRCA1,Negative,3.64,4.06,3.4,6.4,4.4
+P264,33,Female,African American,Heart Disease,None,T004,DrugC,Phase II,2/15/2019,7/15/2020,200mg,"None, Nausea",TR0085,200mg,Improved,Dizziness,145,1,TP53,Positive,4.87,2.18,7.9,17.2,9.5
+P265,45,Male,African American,None,None,T003,DrugD,Phase I,5/6/2022,2/6/2023,200mg,Nausea,TR0054,200mg,Improved,Headache,133,1,TP53,Positive,1.82,1.49,6.5,19.9,13.9
+P266,33,Female,Hispanic,Asthma,None,T010,DrugB,Phase III,6/17/2019,3/17/2020,200mg,"Headache, Dizziness",TR0069,200mg,Deteriorated,Dizziness,138,0,BRCA1,Negative,3.12,1.17,9.7,20.4,8
+P267,65,Other,Asian,Asthma,None,T003,DrugA,Phase III,11/8/2022,3/8/2024,100mg,"Dizziness, Nausea",TR0075,100mg,No Change,Headache,50,0,HER2,Negative,4.92,3.41,6.2,19.5,16.8
+P268,37,Male,African American,Diabetes,None,T010,DrugA,Phase I,9/4/2019,11/4/2020,200mg,"Nausea, Headache",TR0170,200mg,Deteriorated,Dizziness,94,0,TP53,Negative,3.63,1.51,4,22.7,6.8
+P269,28,Other,Caucasian,Hypertension,None,T015,DrugB,Phase II,1/3/2022,1/3/2023,150mg,"Dizziness, Headache",TR0194,150mg,Deteriorated,Headache,97,0,TP53,Positive,2.49,2.73,5,17,19
+P270,45,Male,Caucasian,Heart Disease,BRCA1 Mutation,T014,DrugA,Phase I,2/1/2022,10/1/2022,200mg,"Headache, Dizziness",TR0078,200mg,Deteriorated,Dizziness,122,0,HER2,Negative,1.96,1.49,2.8,22,14
+P271,29,Male,Asian,Hypertension,BRCA1 Mutation,T007,DrugA,Phase II,11/5/2022,3/5/2024,100mg,"Dizziness, Fatigue",TR0023,100mg,No Change,Headache,67,0,HER2,Negative,2.14,4.26,8.8,21.2,18.6
+P272,20,Male,Asian,Diabetes,None,T015,DrugD,Phase IV,8/19/2019,5/19/2020,100mg,"Dizziness, Headache",TR0014,100mg,No Change,Nausea,56,0,HER2,Negative,2.01,4.02,5.1,21.2,15.4
+P273,81,Other,Other,Heart Disease,None,T010,DrugA,Phase IV,8/17/2022,11/17/2023,200mg,Nausea,TR0136,200mg,Improved,Headache,177,1,TP53,Positive,4.11,3.62,2.6,15.8,19.7
+P274,52,Other,Hispanic,Asthma,EGFR Mutation,T012,DrugD,Phase IV,3/10/2019,8/10/2020,100mg,"None, Headache",TR0060,100mg,Deteriorated,Fatigue,180,0,TP53,Negative,4.75,1.17,2.5,8.4,15.3
+P275,34,Female,Hispanic,Asthma,None,T012,DrugD,Phase II,4/10/2023,9/10/2024,50mg,"Headache, Fatigue, Nausea",TR0052,50mg,Improved,Dizziness,155,1,BRCA1,Negative,4.27,1.85,5.6,21.1,15.5
+P276,81,Female,Asian,Diabetes,None,T001,DrugC,Phase III,11/6/2021,7/6/2022,50mg,None,TR0111,50mg,Improved,Dizziness,88,1,BRCA1,Positive,3.17,3.36,5.6,11.4,12.6
+P277,80,Female,African American,None,None,T018,DrugC,Phase II,10/22/2023,5/22/2024,50mg,"Headache, Nausea",TR0028,50mg,Deteriorated,Dizziness,56,0,EGFR,Positive,3.76,4.49,6.7,19.7,5.7
+P278,82,Male,Asian,Hypertension,None,T012,DrugB,Phase III,9/16/2022,2/16/2024,50mg,None,TR0086,50mg,Improved,Nausea,81,1,HER2,Negative,2.85,1.04,3.2,19.1,19.9
+P279,18,Male,Hispanic,None,BRCA2 Mutation,T003,DrugC,Phase III,6/21/2022,10/21/2023,100mg,Dizziness,TR0108,100mg,Improved,Fatigue,139,1,HER2,Negative,1.4,2.61,8.2,9.7,12.4
+P280,76,Other,African American,Hypertension,BRCA1 Mutation,T017,DrugA,Phase I,6/13/2021,12/13/2022,100mg,"Nausea, Headache",TR0195,100mg,Improved,Fatigue,177,1,BRCA1,Negative,3.93,3.46,2.7,12.4,16.3
+P281,71,Female,Other,None,None,T011,DrugC,Phase I,9/20/2021,5/20/2022,200mg,"Fatigue, Headache",TR0179,200mg,No Change,Headache,80,0,TP53,Positive,3.22,1.02,7.8,6.6,15.7
+P282,22,Other,African American,Asthma,None,T005,DrugC,Phase II,9/18/2019,7/18/2020,150mg,"Fatigue, Nausea, Headache",TR0139,150mg,Deteriorated,None,91,0,TP53,Negative,1.81,4.83,4.3,11.9,5.5
+P283,82,Male,Caucasian,None,EGFR Mutation,T012,DrugA,Phase I,8/10/2019,11/10/2020,50mg,"None, Fatigue",TR0191,50mg,Deteriorated,Dizziness,166,0,EGFR,Positive,2.22,4.51,10,12.6,10.6
+P284,62,Female,African American,Heart Disease,None,T013,DrugB,Phase I,9/19/2021,6/19/2022,150mg,"Nausea, Fatigue",TR0183,150mg,No Change,Headache,50,0,BRCA1,Positive,3.89,4.54,6.3,13,10
+P285,72,Male,Hispanic,Diabetes,TP53 Mutation,T017,DrugD,Phase IV,10/16/2021,2/16/2023,200mg,"Headache, Dizziness",TR0042,200mg,Improved,Dizziness,62,1,HER2,Negative,3.78,1.01,6.6,12.4,16.5
+P286,34,Other,Other,Heart Disease,BRCA2 Mutation,T015,DrugD,Phase I,9/12/2020,4/12/2021,200mg,Nausea,TR0095,200mg,Deteriorated,None,40,0,EGFR,Positive,1.37,3.35,5.3,17.6,4.1
+P287,33,Female,African American,None,HER2 Mutation,T001,DrugB,Phase II,7/2/2023,5/2/2024,150mg,Fatigue,TR0190,150mg,No Change,Nausea,61,0,EGFR,Negative,3.32,3.25,6,16.9,14.5
+P288,26,Male,Hispanic,Asthma,None,T019,DrugD,Phase III,8/27/2022,1/27/2024,100mg,Dizziness,TR0163,100mg,No Change,Headache,144,0,BRCA2,Negative,4.22,2.08,8.4,15,4.3
+P289,29,Other,Other,Asthma,HER2 Mutation,T011,DrugA,Phase IV,11/3/2021,7/3/2022,50mg,"None, Nausea, Dizziness",TR0144,50mg,Improved,Fatigue,168,1,EGFR,Positive,1.23,2.34,8.1,18.7,16.4
+P290,84,Male,Hispanic,Heart Disease,None,T004,DrugB,Phase I,4/8/2021,9/8/2022,200mg,Dizziness,TR0156,200mg,No Change,Headache,180,0,BRCA1,Negative,3.07,2.76,2.3,11.9,10.4
+P291,20,Female,Hispanic,Diabetes,EGFR Mutation,T011,DrugD,Phase III,2/4/2019,4/4/2020,100mg,"Fatigue, Dizziness",TR0066,100mg,Improved,Fatigue,108,1,HER2,Positive,1.35,1.88,6.4,19.2,20
+P292,25,Other,African American,Diabetes,BRCA1 Mutation,T010,DrugD,Phase I,3/14/2021,2/14/2022,150mg,"Nausea, Dizziness",TR0052,150mg,Improved,Dizziness,180,1,BRCA2,Negative,4.73,3.57,4.8,17.5,16.4
+P293,83,Other,Hispanic,Hypertension,TP53 Mutation,T015,DrugD,Phase I,1/14/2022,5/14/2023,100mg,None,TR0142,100mg,Deteriorated,Nausea,93,0,EGFR,Positive,1.47,2.64,8.6,12.9,12.7
+P294,56,Other,Hispanic,Asthma,EGFR Mutation,T007,DrugB,Phase III,3/26/2023,12/26/2023,200mg,"Headache, Nausea, Dizziness",TR0119,200mg,Deteriorated,None,72,0,BRCA1,Positive,3.35,1.74,4.3,12,3.4
+P295,79,Female,Other,None,None,T013,DrugC,Phase II,9/10/2023,3/10/2024,100mg,"Dizziness, Nausea, Fatigue",TR0023,100mg,No Change,Nausea,65,0,EGFR,Negative,1.1,4.33,3.5,15.3,8.1
+P296,73,Male,Other,Heart Disease,None,T011,DrugC,Phase III,5/8/2022,9/8/2023,150mg,"Fatigue, Headache",TR0154,150mg,No Change,Nausea,64,0,BRCA1,Negative,4.76,2.04,4.9,21.7,17.3
+P297,18,Male,Asian,Asthma,None,T016,DrugD,Phase I,9/1/2019,1/1/2021,200mg,"Nausea, None, Fatigue",TR0154,200mg,No Change,Headache,75,0,BRCA1,Positive,1.74,4.21,5.1,14.7,5.3
+P298,77,Female,Asian,Asthma,BRCA1 Mutation,T009,DrugC,Phase II,10/21/2019,8/21/2020,100mg,Headache,TR0093,100mg,Improved,None,156,1,EGFR,Positive,1.32,3.91,5.5,13.9,15.4
+P299,18,Male,Hispanic,Hypertension,None,T019,DrugD,Phase II,4/22/2023,9/22/2024,100mg,Dizziness,TR0033,100mg,Deteriorated,Nausea,62,0,TP53,Positive,4.06,1.64,6.5,8.4,15.8
+P300,84,Other,African American,Diabetes,None,T001,DrugC,Phase IV,7/21/2019,11/21/2020,50mg,"Headache, Dizziness",TR0071,50mg,Improved,Dizziness,149,1,HER2,Negative,3.63,4.83,1.6,7,7.8
+P301,84,Male,Asian,Hypertension,HER2 Mutation,T018,DrugD,Phase III,7/7/2019,6/7/2020,50mg,"Nausea, Fatigue, None",TR0109,50mg,Improved,Fatigue,80,1,BRCA2,Negative,2.05,1.99,9.2,10.5,7.6
+P302,57,Male,Caucasian,Hypertension,BRCA1 Mutation,T019,DrugC,Phase III,2/16/2020,11/16/2020,150mg,None,TR0134,150mg,Improved,Nausea,142,1,BRCA1,Negative,4.04,2.8,8,7.2,11.3
+P303,33,Male,Caucasian,Hypertension,BRCA1 Mutation,T005,DrugA,Phase IV,5/20/2019,9/20/2020,200mg,Nausea,TR0174,200mg,Improved,Dizziness,43,1,TP53,Negative,1.13,1.25,9.2,8.5,12.1
+P304,69,Male,Other,Asthma,EGFR Mutation,T020,DrugA,Phase IV,8/26/2022,8/26/2023,50mg,"Nausea, Headache",TR0133,50mg,No Change,Dizziness,79,0,BRCA1,Positive,2.64,2.39,9.1,6.4,14.3
+P305,19,Other,Caucasian,Heart Disease,None,T007,DrugB,Phase III,7/16/2021,12/16/2022,200mg,Fatigue,TR0036,200mg,Improved,Nausea,62,1,TP53,Negative,4.85,3.24,9.4,6.9,10.1
+P306,83,Other,African American,None,None,T018,DrugB,Phase II,5/20/2022,4/20/2023,150mg,"Nausea, Fatigue",TR0015,150mg,Improved,Dizziness,173,1,BRCA1,Negative,2.04,3.92,9.8,10.6,14.1
+P307,62,Male,Asian,Diabetes,None,T011,DrugB,Phase IV,10/23/2022,9/23/2023,150mg,"None, Headache, Fatigue",TR0042,150mg,Improved,Headache,40,1,HER2,Positive,1.79,3.26,5.2,23.5,13.3
+P308,18,Other,Asian,Diabetes,BRCA2 Mutation,T008,DrugD,Phase III,4/13/2022,12/13/2022,50mg,"Nausea, Dizziness",TR0092,50mg,Improved,Dizziness,59,1,BRCA2,Negative,2.4,1.46,2.4,10.1,7.3
+P309,74,Male,Other,None,BRCA1 Mutation,T007,DrugB,Phase III,4/9/2020,9/9/2021,100mg,"Dizziness, Fatigue",TR0046,100mg,Improved,Nausea,75,1,TP53,Positive,4.4,3.24,5.7,8.1,17.6
+P310,20,Other,Asian,Asthma,None,T004,DrugC,Phase II,8/8/2021,7/8/2022,150mg,"Fatigue, Headache, None",TR0017,150mg,Improved,Fatigue,63,1,BRCA2,Positive,3.89,1.27,7.4,15.8,4.4
+P311,66,Other,African American,None,None,T008,DrugA,Phase II,5/26/2023,1/26/2024,150mg,Nausea,TR0162,150mg,No Change,Fatigue,160,0,EGFR,Negative,2.83,2.94,2.5,23,17.4
+P312,44,Other,Caucasian,Asthma,None,T020,DrugA,Phase II,7/25/2023,11/25/2024,150mg,"Dizziness, Headache",TR0046,150mg,No Change,None,164,0,HER2,Negative,3.68,2.85,4.7,17.7,12.3
+P313,78,Female,Other,Asthma,None,T019,DrugA,Phase II,4/15/2020,1/15/2021,200mg,None,TR0109,200mg,No Change,Dizziness,70,0,TP53,Negative,1.25,3.05,8.3,14.3,3.9
+P314,28,Male,Caucasian,None,TP53 Mutation,T008,DrugA,Phase IV,10/11/2023,10/11/2024,200mg,"Headache, Dizziness",TR0095,200mg,No Change,None,99,0,HER2,Positive,4.15,1.81,3.3,9,8.6
+P315,40,Female,Asian,None,None,T012,DrugA,Phase III,9/18/2023,1/18/2025,50mg,"Fatigue, Nausea",TR0031,50mg,Improved,None,39,1,EGFR,Positive,4.03,3.08,2.8,21.8,18
+P316,60,Male,African American,None,TP53 Mutation,T007,DrugB,Phase III,5/10/2019,4/10/2020,200mg,"Dizziness, Nausea",TR0121,200mg,Deteriorated,Dizziness,68,0,HER2,Positive,4.48,1.96,5.1,23.7,16.1
+P317,47,Other,Asian,Asthma,EGFR Mutation,T018,DrugD,Phase IV,2/11/2021,11/11/2021,200mg,"Headache, Fatigue, Dizziness",TR0116,200mg,Deteriorated,Nausea,125,0,BRCA2,Positive,1.11,1.26,5.2,22.4,12.2
+P318,57,Other,Caucasian,Asthma,None,T012,DrugC,Phase II,7/22/2022,1/22/2024,200mg,"Dizziness, None, Fatigue",TR0151,200mg,Improved,Dizziness,38,1,BRCA2,Positive,2.99,1.42,6.9,20.8,9.5
+P319,60,Other,Other,Heart Disease,None,T013,DrugD,Phase II,2/18/2022,2/18/2023,100mg,"Nausea, None",TR0146,100mg,No Change,None,53,0,BRCA2,Positive,4.1,4.86,2.8,15.4,7.9
+P320,40,Male,Other,Asthma,BRCA2 Mutation,T003,DrugD,Phase III,4/10/2020,8/10/2021,50mg,"Nausea, None",TR0133,50mg,Improved,Fatigue,113,1,HER2,Negative,4.17,3.31,6.7,20.4,9.7
+P321,38,Male,Asian,Heart Disease,BRCA1 Mutation,T013,DrugB,Phase II,5/14/2020,10/14/2021,200mg,Dizziness,TR0148,200mg,No Change,Dizziness,81,0,EGFR,Negative,4.66,3.13,2.4,18.5,16.5
+P322,53,Male,Caucasian,Diabetes,HER2 Mutation,T020,DrugB,Phase III,8/15/2023,9/15/2024,50mg,"Nausea, None, Headache",TR0117,50mg,No Change,None,130,0,EGFR,Positive,2.27,4.43,9.2,11,19.7
+P323,71,Male,Asian,Heart Disease,None,T015,DrugD,Phase II,2/13/2023,7/13/2024,50mg,Fatigue,TR0071,50mg,Deteriorated,Dizziness,104,0,BRCA1,Positive,1.56,1.81,2.7,22.1,14.1
+P324,81,Female,Other,Hypertension,None,T003,DrugA,Phase III,8/6/2022,6/6/2023,100mg,"Nausea, Headache, Dizziness",TR0019,100mg,Deteriorated,Headache,127,0,TP53,Negative,1.61,2.76,6.5,7.5,18
+P325,42,Female,Caucasian,Hypertension,BRCA2 Mutation,T011,DrugD,Phase IV,2/3/2022,4/3/2023,100mg,"Headache, Fatigue, Dizziness",TR0072,100mg,Improved,Fatigue,34,1,EGFR,Positive,4.21,3.02,9.7,13.5,19.7
+P326,40,Female,Caucasian,Heart Disease,None,T006,DrugA,Phase I,3/15/2021,2/15/2022,100mg,Nausea,TR0173,100mg,Deteriorated,Fatigue,143,0,BRCA1,Positive,3.67,3.54,2.5,21.9,10.3
+P327,67,Other,African American,Asthma,BRCA1 Mutation,T002,DrugD,Phase II,6/8/2020,3/8/2021,50mg,Headache,TR0008,50mg,Improved,None,79,1,BRCA1,Positive,1.65,1.05,6,15.5,15.2
+P328,30,Other,Asian,Diabetes,EGFR Mutation,T004,DrugC,Phase III,11/7/2023,2/7/2025,100mg,"Headache, Dizziness, Nausea",TR0060,100mg,Improved,Nausea,121,1,TP53,Positive,4.56,1.32,7.6,9.4,17.6
+P329,19,Female,African American,Hypertension,HER2 Mutation,T008,DrugA,Phase III,6/2/2023,1/2/2024,100mg,"None, Headache",TR0027,100mg,Deteriorated,Dizziness,175,0,BRCA2,Negative,4.28,3.16,7.4,11.7,11
+P330,30,Other,African American,Asthma,None,T005,DrugC,Phase II,11/16/2021,6/16/2022,150mg,Dizziness,TR0150,150mg,No Change,Headache,160,0,BRCA2,Positive,4.29,2.84,4.2,14.9,17.1
+P331,47,Male,Other,Hypertension,HER2 Mutation,T008,DrugA,Phase I,6/16/2020,4/16/2021,100mg,Headache,TR0053,100mg,Deteriorated,Nausea,90,0,EGFR,Negative,2.34,1.7,7.4,20.9,4.7
+P332,60,Male,African American,None,None,T002,DrugD,Phase III,4/28/2019,9/28/2020,150mg,"Fatigue, Dizziness",TR0139,150mg,Improved,Fatigue,86,1,EGFR,Negative,1.96,1.57,4.1,14.1,15.7
+P333,84,Female,Asian,Asthma,None,T003,DrugD,Phase I,1/21/2020,9/21/2020,100mg,Nausea,TR0045,100mg,Deteriorated,Dizziness,82,0,BRCA2,Positive,3.6,3.48,4.2,21.1,11
+P334,72,Other,Hispanic,None,BRCA2 Mutation,T008,DrugD,Phase II,4/10/2023,2/10/2024,200mg,"Fatigue, None, Dizziness",TR0021,200mg,No Change,Headache,126,0,BRCA2,Negative,4.92,3.54,2.1,18.2,8.5
+P335,74,Female,Other,Heart Disease,None,T005,DrugD,Phase I,7/28/2022,2/28/2023,150mg,"Dizziness, Fatigue, None",TR0187,150mg,Improved,None,127,1,HER2,Negative,3.75,1.28,2.6,21.4,6.9
+P336,76,Female,Hispanic,Heart Disease,None,T003,DrugC,Phase II,4/5/2022,1/5/2023,50mg,Dizziness,TR0187,50mg,Deteriorated,None,155,0,HER2,Negative,4.35,2.12,6.8,18.5,11.7
+P337,68,Other,African American,Asthma,EGFR Mutation,T003,DrugD,Phase I,7/19/2019,3/19/2020,100mg,"None, Dizziness",TR0131,100mg,Deteriorated,Headache,124,0,BRCA1,Negative,2.22,1.85,1.3,11.5,14.1
+P338,72,Other,Asian,Diabetes,TP53 Mutation,T001,DrugB,Phase III,8/22/2023,4/22/2024,150mg,Dizziness,TR0149,150mg,Deteriorated,Fatigue,33,0,BRCA1,Positive,4.75,4.48,7.9,20.2,14.3
+P339,67,Female,Other,Hypertension,None,T007,DrugD,Phase II,5/23/2022,3/23/2023,200mg,"None, Headache, Dizziness",TR0023,200mg,Improved,Dizziness,118,1,BRCA2,Negative,2.04,4.63,7,16.1,4.9
+P340,44,Other,Hispanic,None,BRCA2 Mutation,T016,DrugA,Phase I,12/14/2019,2/14/2021,200mg,"None, Headache, Nausea",TR0046,200mg,No Change,Fatigue,64,0,BRCA2,Negative,2.79,2.84,8.8,15.8,9.5
+P341,41,Other,Caucasian,Asthma,None,T007,DrugB,Phase II,12/6/2019,6/6/2021,100mg,"Headache, Dizziness",TR0161,100mg,Deteriorated,Nausea,72,0,BRCA1,Negative,4.91,1.44,4.8,6.8,15.6
+P342,28,Female,Caucasian,None,BRCA1 Mutation,T019,DrugB,Phase IV,11/25/2022,6/25/2023,50mg,None,TR0193,50mg,Improved,Dizziness,40,1,BRCA1,Positive,4.67,2.12,8.7,11.3,18.5
+P343,84,Male,Hispanic,Heart Disease,None,T009,DrugD,Phase IV,10/14/2021,9/14/2022,150mg,"None, Dizziness, Nausea",TR0093,150mg,Deteriorated,Headache,126,0,EGFR,Positive,4.02,4.22,1.2,23.3,15.4
+P344,63,Female,Caucasian,Hypertension,HER2 Mutation,T005,DrugA,Phase I,5/23/2023,11/23/2024,100mg,"Headache, Dizziness",TR0132,100mg,No Change,Fatigue,30,0,TP53,Positive,2.22,4.32,3.5,21.7,4.9
+P345,64,Male,African American,Asthma,HER2 Mutation,T013,DrugA,Phase III,8/22/2022,1/22/2024,50mg,"Headache, None, Dizziness",TR0050,50mg,Deteriorated,Fatigue,163,0,EGFR,Positive,3.81,3.16,1.9,10.4,3.2
+P346,34,Female,Caucasian,None,None,T018,DrugD,Phase II,2/16/2022,6/16/2023,100mg,Fatigue,TR0044,100mg,Deteriorated,Nausea,57,0,HER2,Positive,2.88,2.21,6.4,11.4,8.1
+P347,38,Female,Hispanic,None,TP53 Mutation,T016,DrugA,Phase II,11/24/2023,12/24/2024,50mg,"None, Fatigue, Dizziness",TR0197,50mg,Deteriorated,Nausea,117,0,HER2,Negative,3.97,1.19,9.1,21.3,14.4
+P348,73,Male,Asian,None,BRCA1 Mutation,T004,DrugA,Phase III,4/24/2023,11/24/2023,150mg,None,TR0098,150mg,Deteriorated,Nausea,109,0,BRCA1,Positive,3.37,4.57,2.7,7.4,7.1
+P349,67,Female,African American,None,None,T005,DrugB,Phase I,1/18/2022,2/18/2023,150mg,None,TR0057,150mg,No Change,Headache,67,0,EGFR,Negative,4.18,1.14,6.2,23.9,17.5
+P350,36,Other,Caucasian,Heart Disease,EGFR Mutation,T004,DrugC,Phase IV,8/10/2020,1/10/2022,200mg,None,TR0040,200mg,Deteriorated,Fatigue,87,0,BRCA1,Positive,3.09,1.25,8.5,16.8,5
+P351,80,Other,Hispanic,None,None,T006,DrugA,Phase IV,7/22/2021,8/22/2022,150mg,"Headache, Nausea",TR0136,150mg,Deteriorated,None,102,0,BRCA2,Negative,1.38,4.64,7,20.9,17.9
+P352,30,Male,African American,Heart Disease,None,T002,DrugC,Phase IV,10/5/2020,11/5/2021,200mg,"Fatigue, Dizziness",TR0056,200mg,Deteriorated,Fatigue,32,0,TP53,Positive,3.29,3.07,4.9,11.7,10.4
+P353,36,Female,Hispanic,Diabetes,None,T004,DrugC,Phase IV,1/4/2020,3/4/2021,150mg,"Headache, Fatigue, None",TR0185,150mg,No Change,Fatigue,38,0,BRCA1,Positive,4.1,3.41,9,14,13.3
+P354,68,Female,African American,Heart Disease,None,T013,DrugA,Phase IV,5/21/2022,9/21/2023,200mg,"Nausea, Dizziness",TR0030,200mg,Improved,Nausea,155,1,EGFR,Positive,3.53,3.37,7.3,10.3,11.7
+P355,20,Other,Other,Heart Disease,BRCA1 Mutation,T019,DrugB,Phase IV,11/23/2022,11/23/2023,150mg,"Fatigue, Nausea, Dizziness",TR0017,150mg,Deteriorated,Dizziness,77,0,HER2,Positive,1.42,2.54,5.4,17.7,19.2
+P356,68,Other,Other,Heart Disease,EGFR Mutation,T019,DrugA,Phase II,3/28/2019,6/28/2020,100mg,Dizziness,TR0115,100mg,No Change,Nausea,40,0,BRCA2,Positive,3.4,3.97,5.6,17.4,4.2
+P357,38,Male,Other,None,None,T002,DrugA,Phase I,5/12/2023,7/12/2024,100mg,"Nausea, Fatigue",TR0077,100mg,Improved,Dizziness,105,1,EGFR,Negative,2.02,2.45,5.3,6.8,5.4
+P358,35,Other,Hispanic,None,None,T012,DrugB,Phase I,4/2/2019,1/2/2020,100mg,"Fatigue, Dizziness",TR0155,100mg,Deteriorated,Fatigue,121,0,TP53,Positive,2.11,4.89,4,14.7,6.3
+P359,72,Male,Other,None,BRCA2 Mutation,T013,DrugD,Phase I,11/14/2021,4/14/2023,100mg,"Fatigue, Nausea, None",TR0188,100mg,No Change,Fatigue,125,0,EGFR,Positive,3.44,2.12,2.9,15.3,3.1
+P360,71,Male,African American,Asthma,EGFR Mutation,T008,DrugA,Phase III,9/4/2019,1/4/2021,200mg,None,TR0164,200mg,Improved,None,115,1,TP53,Positive,1.03,1.88,1.3,7.9,8.8
+P361,46,Female,Caucasian,Hypertension,BRCA2 Mutation,T013,DrugA,Phase I,9/24/2020,7/24/2021,200mg,Dizziness,TR0090,200mg,Deteriorated,Dizziness,102,0,EGFR,Negative,4.21,3.29,5.6,11.3,18.8
+P362,30,Male,Asian,None,None,T013,DrugB,Phase III,9/20/2023,9/20/2024,200mg,"Fatigue, None, Nausea",TR0176,200mg,Deteriorated,Fatigue,62,0,BRCA2,Negative,2.59,1.35,6.6,8,8.9
+P363,52,Male,African American,Diabetes,None,T014,DrugD,Phase II,6/26/2022,7/26/2023,150mg,"Headache, Fatigue",TR0079,150mg,Deteriorated,Nausea,108,0,HER2,Negative,3.03,4.5,5.4,18.6,19.9
+P364,29,Other,Caucasian,Hypertension,None,T003,DrugB,Phase I,12/10/2019,2/10/2021,200mg,Headache,TR0174,200mg,Deteriorated,Fatigue,152,0,HER2,Positive,1.53,2.1,4.6,13.6,10
+P365,69,Male,Other,Diabetes,None,T001,DrugD,Phase III,12/22/2020,2/22/2022,50mg,"Headache, Fatigue, None",TR0196,50mg,Deteriorated,Fatigue,74,0,BRCA1,Negative,4.63,3.86,6.5,11.6,17
+P366,35,Other,African American,Hypertension,HER2 Mutation,T006,DrugC,Phase I,11/8/2021,1/8/2023,50mg,"None, Headache",TR0076,50mg,No Change,Fatigue,30,0,EGFR,Negative,4.82,4.28,1,17.5,3.9
+P367,45,Female,Other,Hypertension,None,T020,DrugD,Phase I,1/20/2021,2/20/2022,150mg,"None, Nausea",TR0002,150mg,No Change,Fatigue,132,0,TP53,Positive,2.03,1.24,6.4,18.4,4.9
+P368,30,Female,Hispanic,Diabetes,EGFR Mutation,T005,DrugD,Phase I,1/5/2022,7/5/2023,150mg,Headache,TR0102,150mg,No Change,None,123,0,HER2,Positive,2.54,2.82,4.3,8.2,10.1
+P369,52,Male,Hispanic,Asthma,TP53 Mutation,T014,DrugA,Phase III,2/7/2020,12/7/2020,50mg,Headache,TR0108,50mg,Deteriorated,None,38,0,BRCA2,Positive,4,1.28,1.7,12.4,19
+P370,79,Other,African American,Hypertension,EGFR Mutation,T016,DrugB,Phase III,9/24/2022,2/24/2024,200mg,Nausea,TR0028,200mg,Improved,Fatigue,69,1,TP53,Positive,3.67,3.71,4.3,16.7,3.2
+P371,48,Male,African American,Asthma,None,T001,DrugD,Phase IV,5/16/2021,12/16/2021,200mg,Dizziness,TR0040,200mg,Deteriorated,Dizziness,77,0,BRCA2,Negative,3.54,4.65,6.5,21.7,15.3
+P372,32,Female,Asian,Asthma,BRCA1 Mutation,T017,DrugB,Phase II,11/21/2023,7/21/2024,100mg,Fatigue,TR0103,100mg,Improved,None,79,1,BRCA2,Negative,1.48,4.61,1.6,15.6,5.4
+P373,20,Other,Asian,Hypertension,None,T013,DrugD,Phase III,4/11/2020,4/11/2021,200mg,Dizziness,TR0110,200mg,Deteriorated,Nausea,107,0,BRCA1,Negative,1.05,2.69,3.7,14.7,12.8
+P374,64,Female,African American,Asthma,BRCA1 Mutation,T006,DrugA,Phase I,11/24/2019,10/24/2020,100mg,"Headache, None",TR0156,100mg,Improved,Headache,77,1,TP53,Negative,1.17,1.49,6,12.2,15.4
+P375,64,Female,African American,Hypertension,BRCA1 Mutation,T018,DrugB,Phase III,12/26/2021,11/26/2022,150mg,None,TR0054,150mg,Deteriorated,Headache,52,0,BRCA1,Positive,3.61,4.38,7.2,13.7,14.4
+P376,33,Male,Other,Diabetes,HER2 Mutation,T004,DrugA,Phase III,12/16/2021,6/16/2023,100mg,"Fatigue, Nausea, Headache",TR0050,100mg,No Change,Dizziness,94,0,EGFR,Negative,2.1,2.23,8.1,14,16.6
+P377,64,Female,Caucasian,Asthma,HER2 Mutation,T017,DrugA,Phase II,5/23/2023,1/23/2024,150mg,Dizziness,TR0016,150mg,Deteriorated,Fatigue,131,0,HER2,Positive,4.29,4.43,9.2,13.8,8.4
+P378,39,Female,Other,Asthma,None,T013,DrugD,Phase III,3/1/2020,11/1/2020,100mg,"Nausea, Headache, None",TR0182,100mg,Deteriorated,Dizziness,96,0,TP53,Positive,3.33,2.48,6.4,18.7,14.7
+P379,55,Other,African American,Heart Disease,BRCA2 Mutation,T002,DrugB,Phase III,11/5/2019,9/5/2020,100mg,"Nausea, Fatigue",TR0054,100mg,Deteriorated,Nausea,30,0,TP53,Negative,2.5,1.67,4.9,8.6,18.1
+P380,59,Male,Other,None,None,T014,DrugC,Phase III,11/27/2019,5/27/2020,150mg,None,TR0046,150mg,No Change,Nausea,167,0,EGFR,Positive,2.38,1.62,1.2,17.6,13.8
+P381,66,Other,African American,Heart Disease,None,T015,DrugB,Phase III,4/19/2021,8/19/2022,200mg,Headache,TR0060,200mg,Deteriorated,Headache,124,0,BRCA2,Negative,2.36,1.29,4.7,11.6,14.5
+P382,29,Female,Asian,Asthma,BRCA2 Mutation,T007,DrugD,Phase II,1/10/2021,9/10/2021,100mg,"Dizziness, Fatigue",TR0018,100mg,Improved,Nausea,139,1,BRCA2,Negative,3.42,2.46,3,23.8,10.7
+P383,69,Male,Other,Diabetes,None,T001,DrugA,Phase IV,1/4/2022,7/4/2022,50mg,Fatigue,TR0198,50mg,Improved,None,66,1,EGFR,Positive,3.75,1.56,5.4,6.5,11.6
+P384,19,Male,Other,None,None,T003,DrugB,Phase II,10/15/2022,6/15/2023,150mg,"Headache, Fatigue",TR0063,150mg,Improved,Dizziness,98,1,EGFR,Positive,4.86,2.54,1.4,6.6,9.6
+P385,20,Male,Caucasian,Heart Disease,EGFR Mutation,T014,DrugB,Phase I,1/8/2020,1/8/2021,200mg,None,TR0168,200mg,No Change,Fatigue,128,0,BRCA1,Negative,1.64,1.09,7.8,14.3,7.9
+P386,39,Male,Asian,Hypertension,None,T010,DrugC,Phase I,6/4/2023,5/4/2024,50mg,Dizziness,TR0039,50mg,Improved,Headache,165,1,TP53,Positive,4.6,1.46,9.6,11.7,18.1
+P387,72,Male,African American,Heart Disease,None,T012,DrugA,Phase III,11/12/2022,9/12/2023,50mg,Fatigue,TR0200,50mg,Deteriorated,Fatigue,111,0,BRCA2,Negative,3.41,4.31,9.9,11.2,19.3
+P388,75,Other,Hispanic,Hypertension,HER2 Mutation,T009,DrugB,Phase I,3/6/2021,9/6/2022,200mg,"None, Headache",TR0109,200mg,No Change,Headache,115,0,BRCA2,Positive,2.56,2.54,4.1,15.7,5.6
+P389,67,Female,Other,Asthma,None,T016,DrugB,Phase IV,10/23/2019,10/23/2020,100mg,"Nausea, Fatigue, Headache",TR0001,100mg,Improved,Nausea,122,1,EGFR,Negative,3.21,3.17,7.9,21,10.5
+P390,35,Male,Caucasian,None,BRCA2 Mutation,T010,DrugD,Phase II,7/8/2023,4/8/2024,100mg,Fatigue,TR0031,100mg,Deteriorated,Fatigue,126,0,BRCA1,Negative,2.21,2.04,2.8,7,8.8
+P391,65,Male,Caucasian,Heart Disease,EGFR Mutation,T006,DrugA,Phase II,3/3/2021,12/3/2021,50mg,Dizziness,TR0107,50mg,Improved,Fatigue,150,1,BRCA2,Negative,2.08,4.87,6,12.3,12.9
+P392,78,Female,African American,Asthma,None,T001,DrugC,Phase I,1/21/2020,7/21/2020,100mg,"Fatigue, Nausea, Dizziness",TR0109,100mg,Deteriorated,Headache,171,0,TP53,Negative,1.56,2.78,6.6,14.8,9.8
+P393,47,Female,Asian,None,None,T017,DrugD,Phase II,7/20/2020,1/20/2021,100mg,"Fatigue, Nausea",TR0178,100mg,No Change,Headache,110,0,HER2,Negative,4.98,4.52,6.6,16.2,13.6
+P394,39,Male,African American,Asthma,BRCA1 Mutation,T004,DrugA,Phase III,6/1/2023,3/1/2024,150mg,Dizziness,TR0028,150mg,Improved,Fatigue,32,1,TP53,Positive,1.81,2.58,1.4,14.6,12.2
+P395,43,Other,Caucasian,Diabetes,EGFR Mutation,T019,DrugA,Phase IV,1/11/2019,8/11/2019,150mg,None,TR0193,150mg,No Change,Headache,158,0,BRCA2,Negative,1.91,4.86,9.2,19,12.1
+P396,68,Other,African American,Diabetes,None,T004,DrugC,Phase IV,2/17/2023,8/17/2024,100mg,Dizziness,TR0098,100mg,No Change,Dizziness,39,0,TP53,Positive,4.48,1.52,8.1,8.2,16.5
+P397,37,Other,Hispanic,Hypertension,None,T003,DrugB,Phase II,12/6/2020,2/6/2022,150mg,"Fatigue, None",TR0075,150mg,No Change,Dizziness,140,0,BRCA1,Negative,2.1,4.51,9.5,8.7,10.9
+P398,48,Male,Other,Heart Disease,BRCA2 Mutation,T019,DrugD,Phase I,3/25/2019,1/25/2020,50mg,"Nausea, Headache",TR0081,50mg,Improved,None,71,1,BRCA1,Negative,4.92,2.93,8.8,16.6,9.4
+P399,64,Female,Caucasian,Hypertension,HER2 Mutation,T009,DrugD,Phase III,11/5/2022,6/5/2023,200mg,None,TR0074,200mg,No Change,Headache,63,0,HER2,Negative,2.14,1.81,7.9,13,11.7
+P400,83,Other,African American,None,HER2 Mutation,T017,DrugD,Phase III,10/21/2019,4/21/2020,100mg,"Dizziness, Nausea, Headache",TR0027,100mg,No Change,Headache,70,0,EGFR,Negative,2.97,3.31,8.8,23.7,9.9
+P401,27,Male,Hispanic,Asthma,None,T012,DrugD,Phase IV,8/4/2023,3/4/2024,100mg,"Nausea, Headache, Fatigue",TR0052,100mg,No Change,None,46,0,TP53,Negative,4.31,4.06,6.2,23.2,6.4
+P402,80,Male,Hispanic,Hypertension,BRCA1 Mutation,T018,DrugB,Phase IV,11/7/2020,10/7/2021,50mg,"Headache, Nausea, Fatigue",TR0111,50mg,No Change,Fatigue,43,0,BRCA2,Positive,1.44,4.42,5,21.2,18.2
+P403,72,Female,African American,Diabetes,BRCA1 Mutation,T009,DrugD,Phase I,12/15/2021,12/15/2022,100mg,"None, Fatigue, Nausea",TR0024,100mg,No Change,None,106,0,BRCA2,Positive,1.25,4.53,5,15.2,13.7
+P404,62,Female,Hispanic,Asthma,None,T006,DrugD,Phase III,7/27/2023,1/27/2024,100mg,Dizziness,TR0158,100mg,Improved,None,111,1,BRCA1,Positive,4.71,1.08,5.3,18.4,15.3
+P405,76,Male,Hispanic,None,HER2 Mutation,T009,DrugA,Phase IV,11/15/2020,3/15/2022,50mg,Fatigue,TR0191,50mg,Improved,Headache,169,1,BRCA2,Negative,3.77,1.54,3.7,12.5,16.7
+P406,45,Female,Asian,Diabetes,None,T019,DrugA,Phase III,1/10/2021,11/10/2021,50mg,"Headache, Dizziness, Fatigue",TR0106,50mg,No Change,None,168,0,HER2,Negative,2.12,1.84,9.6,6.2,20
+P407,32,Male,Hispanic,Asthma,EGFR Mutation,T020,DrugB,Phase IV,5/28/2022,9/28/2023,200mg,"None, Nausea, Headache",TR0027,200mg,Improved,Nausea,135,1,BRCA1,Negative,3.71,4.31,3.7,6.3,15.5
+P408,30,Other,Hispanic,Heart Disease,None,T002,DrugC,Phase IV,4/25/2020,5/25/2021,200mg,Fatigue,TR0121,200mg,Improved,None,148,1,HER2,Negative,4.34,3.96,2.3,19.6,16.1
+P409,18,Female,Asian,Heart Disease,TP53 Mutation,T010,DrugD,Phase II,7/2/2019,1/2/2020,50mg,None,TR0133,50mg,Deteriorated,Dizziness,111,0,TP53,Positive,3.63,4.06,8.6,17,4.5
+P410,73,Male,Other,Asthma,HER2 Mutation,T002,DrugD,Phase II,12/6/2022,12/6/2023,150mg,"Fatigue, Headache, Nausea",TR0026,150mg,Deteriorated,Fatigue,159,0,BRCA1,Negative,2.95,1.31,4.7,13.3,4.1
+P411,51,Other,Asian,None,BRCA1 Mutation,T001,DrugD,Phase I,3/1/2023,6/1/2024,50mg,"Headache, Nausea, None",TR0188,50mg,Improved,Headache,121,1,BRCA2,Positive,2.4,1.44,8.3,23.1,4.2
+P412,46,Female,Asian,Heart Disease,None,T013,DrugC,Phase I,2/5/2021,6/5/2022,50mg,"Dizziness, Nausea, Headache",TR0118,50mg,Deteriorated,Nausea,57,0,BRCA2,Negative,4.82,3.09,3.7,7.4,11.5
+P413,51,Male,Caucasian,Hypertension,TP53 Mutation,T007,DrugD,Phase I,1/14/2022,8/14/2022,200mg,"Nausea, Fatigue, None",TR0108,200mg,No Change,None,145,0,BRCA2,Positive,4.18,3.83,1.5,7.3,9.8
+P414,56,Male,Asian,Heart Disease,None,T002,DrugA,Phase III,8/20/2021,11/20/2022,50mg,Dizziness,TR0190,50mg,No Change,Nausea,79,0,EGFR,Positive,2.18,1.93,3.5,20.5,18.8
+P415,20,Other,Other,Diabetes,TP53 Mutation,T004,DrugB,Phase I,3/8/2021,10/8/2021,100mg,"None, Headache",TR0052,100mg,Improved,None,171,1,TP53,Negative,2.62,4.62,3.9,14.6,6.8
+P416,81,Female,Other,Asthma,None,T009,DrugB,Phase II,7/4/2021,10/4/2022,150mg,Fatigue,TR0185,150mg,No Change,Headache,144,0,HER2,Negative,3.56,4.92,6.4,12.4,14
+P417,58,Other,Caucasian,Heart Disease,BRCA2 Mutation,T019,DrugC,Phase III,8/6/2019,2/6/2020,150mg,"Headache, None, Dizziness",TR0166,150mg,Deteriorated,None,131,0,BRCA1,Positive,1.49,4.55,5.5,14.1,13
+P418,41,Female,Hispanic,Diabetes,BRCA1 Mutation,T007,DrugC,Phase III,6/4/2020,12/4/2020,150mg,"Nausea, None, Dizziness",TR0120,150mg,Deteriorated,None,89,0,EGFR,Positive,3.5,1.29,7.1,10.4,15.1
+P419,67,Female,Other,Diabetes,None,T004,DrugC,Phase I,11/14/2023,3/14/2025,200mg,"None, Fatigue",TR0051,200mg,Improved,Headache,157,1,BRCA1,Negative,4.29,4.22,6,15.4,5.4
+P420,71,Male,Caucasian,Asthma,TP53 Mutation,T019,DrugD,Phase II,1/10/2023,7/10/2023,50mg,"None, Fatigue",TR0104,50mg,Improved,Dizziness,165,1,BRCA1,Negative,4.1,2.09,5.5,11.1,5.3
+P421,20,Male,Hispanic,Hypertension,None,T014,DrugC,Phase III,6/13/2021,1/13/2022,150mg,"Dizziness, Nausea",TR0101,150mg,No Change,Headache,156,0,BRCA1,Negative,3.52,1.22,7.7,11.7,3
+P422,31,Male,Asian,Hypertension,None,T005,DrugA,Phase III,4/6/2022,11/6/2022,100mg,"None, Nausea, Dizziness",TR0014,100mg,No Change,Nausea,58,0,BRCA1,Negative,3.04,1.19,3.5,18.7,4.1
+P423,27,Female,African American,Heart Disease,None,T013,DrugC,Phase II,10/15/2020,5/15/2021,100mg,"Fatigue, Headache",TR0164,100mg,No Change,Nausea,163,0,EGFR,Positive,4.36,1.02,3.2,19.3,8.4
+P424,79,Other,Hispanic,None,HER2 Mutation,T008,DrugA,Phase III,12/3/2021,11/3/2022,100mg,"Fatigue, Nausea, Headache",TR0127,100mg,Improved,Fatigue,33,1,BRCA2,Negative,1.41,2.44,3.4,21.2,8.3
+P425,67,Male,Hispanic,Hypertension,EGFR Mutation,T017,DrugC,Phase III,11/5/2022,1/5/2024,50mg,Fatigue,TR0094,50mg,No Change,Headache,161,0,BRCA2,Negative,4.16,4.57,4.9,22.4,9.4
+P426,42,Male,African American,Asthma,TP53 Mutation,T019,DrugA,Phase II,2/24/2022,9/24/2022,100mg,Headache,TR0048,100mg,No Change,Nausea,151,0,EGFR,Negative,4.86,1.36,7.2,14.9,9.6
+P427,63,Female,Caucasian,Heart Disease,HER2 Mutation,T007,DrugB,Phase IV,7/17/2023,6/17/2024,50mg,"None, Dizziness",TR0026,50mg,Improved,Headache,138,1,BRCA2,Negative,3.53,3.82,1,9,15.1
+P428,42,Female,Asian,Heart Disease,EGFR Mutation,T016,DrugD,Phase I,11/8/2019,6/8/2020,100mg,Nausea,TR0010,100mg,Deteriorated,None,91,0,BRCA1,Positive,3.67,4.86,7.8,23.1,14.9
+P429,53,Male,Other,Asthma,BRCA1 Mutation,T008,DrugC,Phase IV,3/26/2020,12/26/2020,150mg,"None, Dizziness, Headache",TR0001,150mg,Improved,Fatigue,158,1,EGFR,Negative,2.19,1.42,8,17.6,3.8
+P430,57,Other,Asian,Diabetes,BRCA1 Mutation,T006,DrugB,Phase III,3/1/2022,7/1/2023,200mg,"None, Nausea",TR0046,200mg,No Change,Nausea,73,0,BRCA1,Negative,2.44,4.83,5.5,13.8,10.8
+P431,78,Other,Caucasian,Asthma,None,T016,DrugA,Phase I,10/22/2019,8/22/2020,100mg,"Dizziness, Fatigue, Nausea",TR0199,100mg,Improved,Nausea,107,1,TP53,Negative,1.84,2.47,4.3,6.9,16
+P432,80,Other,African American,Heart Disease,HER2 Mutation,T009,DrugC,Phase IV,6/10/2019,11/10/2020,150mg,"Dizziness, Headache, Nausea",TR0070,150mg,Deteriorated,Dizziness,35,0,BRCA2,Negative,2.67,4.29,8.7,9.8,14.2
+P433,46,Other,Asian,None,BRCA2 Mutation,T019,DrugD,Phase III,12/3/2020,9/3/2021,200mg,"Nausea, None, Headache",TR0174,200mg,Deteriorated,Headache,164,0,BRCA2,Negative,2.89,4.52,2.9,18.2,13.3
+P434,62,Female,Hispanic,Heart Disease,TP53 Mutation,T010,DrugB,Phase I,9/23/2023,8/23/2024,50mg,"Headache, None",TR0074,50mg,Improved,Nausea,157,1,BRCA2,Negative,2.18,1.55,6.9,19.3,8.4
+P435,37,Other,African American,Heart Disease,None,T006,DrugC,Phase IV,2/26/2021,12/26/2021,50mg,"Nausea, Fatigue",TR0073,50mg,Deteriorated,Nausea,43,0,HER2,Negative,3.58,2.58,7.4,9.6,18.1
+P436,18,Female,African American,Hypertension,BRCA2 Mutation,T012,DrugC,Phase II,12/9/2019,8/9/2020,100mg,"Dizziness, Nausea",TR0075,100mg,Improved,Nausea,151,1,TP53,Positive,2.15,2.47,1.5,8,11.8
+P437,67,Female,Hispanic,Hypertension,None,T010,DrugC,Phase II,7/22/2023,6/22/2024,100mg,"Fatigue, None, Nausea",TR0107,100mg,Deteriorated,Fatigue,107,0,TP53,Positive,2.07,4.34,1.1,12.8,8.7
+P438,56,Other,Hispanic,Heart Disease,HER2 Mutation,T004,DrugB,Phase IV,9/22/2021,2/22/2023,150mg,"None, Headache",TR0120,150mg,No Change,Headache,148,0,BRCA1,Positive,1.08,1.5,4.7,14.9,9.9
+P439,71,Male,Asian,Heart Disease,None,T008,DrugC,Phase II,9/19/2023,7/19/2024,50mg,"Fatigue, Headache",TR0172,50mg,Improved,Headache,162,1,HER2,Positive,3.12,3.38,1.1,14.4,19.4
+P440,28,Male,African American,Hypertension,BRCA1 Mutation,T010,DrugD,Phase III,2/24/2019,5/24/2020,50mg,"Fatigue, Dizziness, None",TR0190,50mg,No Change,Fatigue,87,0,BRCA2,Negative,3.08,3.71,3.8,19.9,16.1
+P441,57,Other,Caucasian,Asthma,None,T007,DrugA,Phase I,3/20/2019,10/20/2019,50mg,Fatigue,TR0027,50mg,No Change,Nausea,159,0,HER2,Negative,3.09,4.9,2.1,6.3,16.1
+P442,25,Male,African American,Asthma,BRCA2 Mutation,T008,DrugC,Phase IV,2/14/2023,10/14/2023,50mg,Fatigue,TR0191,50mg,Deteriorated,Fatigue,73,0,EGFR,Positive,4.23,1.48,3.4,6.3,8
+P443,78,Female,African American,None,None,T019,DrugD,Phase III,7/13/2021,12/13/2022,50mg,"Headache, Dizziness",TR0038,50mg,Improved,None,147,1,BRCA1,Negative,4.09,3.07,4.1,12.7,3
+P444,19,Other,African American,Hypertension,None,T020,DrugD,Phase I,3/15/2021,8/15/2022,200mg,"Nausea, Fatigue",TR0092,200mg,Deteriorated,Dizziness,83,0,TP53,Negative,2.2,3.59,9.8,21.2,3.4
+P445,83,Male,Asian,Diabetes,EGFR Mutation,T011,DrugD,Phase II,11/10/2021,11/10/2022,50mg,"Headache, Dizziness, Fatigue",TR0156,50mg,Deteriorated,Fatigue,177,0,EGFR,Negative,4.59,4.13,8,14.2,9.8
+P446,34,Other,African American,Heart Disease,None,T012,DrugD,Phase I,1/28/2019,6/28/2020,100mg,Nausea,TR0171,100mg,Improved,Headache,151,1,TP53,Positive,2.21,1.26,3.1,10.4,11.2
+P447,48,Male,Asian,Asthma,None,T014,DrugA,Phase I,5/4/2023,11/4/2023,50mg,"None, Nausea",TR0045,50mg,No Change,Nausea,145,0,HER2,Positive,3.99,2.9,1.5,23.2,19
+P448,43,Male,African American,Asthma,TP53 Mutation,T008,DrugB,Phase II,9/26/2022,3/26/2024,100mg,Dizziness,TR0007,100mg,Deteriorated,Nausea,82,0,BRCA1,Positive,4.14,4.97,5.9,23.3,4.3
+P449,18,Female,Hispanic,Heart Disease,None,T003,DrugC,Phase II,8/7/2023,5/7/2024,200mg,"None, Dizziness, Headache",TR0144,200mg,Improved,Nausea,142,1,HER2,Negative,2.46,1.9,2.8,8.5,13.6
+P450,27,Other,Caucasian,Diabetes,None,T010,DrugA,Phase I,4/2/2022,7/2/2023,150mg,Fatigue,TR0075,150mg,No Change,Headache,121,0,BRCA1,Positive,4.13,3.31,2.3,20.6,13.8
+P451,54,Male,Other,Heart Disease,EGFR Mutation,T020,DrugC,Phase IV,1/18/2023,6/18/2024,50mg,"Headache, None, Dizziness",TR0008,50mg,Improved,None,137,1,TP53,Positive,2.55,3.7,3.3,12.2,18.6
+P452,60,Male,Asian,Diabetes,None,T011,DrugA,Phase II,2/26/2022,5/26/2023,50mg,"Nausea, Headache",TR0154,50mg,Deteriorated,Dizziness,50,0,EGFR,Negative,2.16,2.88,9,18.7,4.1
+P453,34,Female,Caucasian,Hypertension,EGFR Mutation,T008,DrugC,Phase IV,5/26/2022,2/26/2023,50mg,Nausea,TR0199,50mg,Improved,Dizziness,127,1,BRCA1,Negative,1.59,1.03,6.7,14.1,5.3
+P454,24,Female,Hispanic,Diabetes,HER2 Mutation,T018,DrugB,Phase I,2/20/2022,1/20/2023,150mg,None,TR0112,150mg,Improved,Fatigue,89,1,BRCA1,Positive,4.83,3.12,3.2,15,14.6
+P455,47,Female,Other,Heart Disease,BRCA1 Mutation,T008,DrugA,Phase I,3/15/2019,11/15/2019,150mg,None,TR0090,150mg,Deteriorated,Fatigue,104,0,BRCA2,Negative,1.3,2.1,8.3,14.3,12.3
+P456,79,Other,Caucasian,Hypertension,EGFR Mutation,T007,DrugD,Phase III,8/23/2020,6/23/2021,150mg,"None, Fatigue, Dizziness",TR0069,150mg,No Change,Dizziness,158,0,BRCA1,Positive,2.73,1.18,2.5,14,6.6
+P457,62,Female,Other,Asthma,BRCA2 Mutation,T005,DrugB,Phase III,4/4/2023,3/4/2024,100mg,Fatigue,TR0179,100mg,No Change,Headache,59,0,BRCA1,Negative,1.2,4.37,9.8,20.3,17.5
+P458,22,Female,African American,Heart Disease,BRCA1 Mutation,T002,DrugC,Phase IV,1/28/2022,1/28/2023,200mg,"Nausea, Fatigue",TR0053,200mg,No Change,Fatigue,140,0,EGFR,Positive,1.97,4.84,2.8,23.1,19.9
+P459,57,Male,Other,None,None,T020,DrugC,Phase III,4/25/2023,10/25/2023,150mg,"Dizziness, Headache, Fatigue",TR0187,150mg,Deteriorated,Nausea,57,0,EGFR,Negative,3.85,4.92,6.1,10.7,10.4
+P460,54,Other,Hispanic,Asthma,None,T019,DrugC,Phase II,8/24/2022,5/24/2023,100mg,None,TR0175,100mg,No Change,Nausea,93,0,EGFR,Negative,3.37,1.29,6.6,23.7,6.2
+P461,61,Other,Hispanic,Hypertension,None,T012,DrugC,Phase III,1/4/2023,11/4/2023,150mg,"Fatigue, Headache",TR0119,150mg,Improved,Headache,32,1,HER2,Positive,4.17,4.63,9.5,23.3,11.9
+P462,63,Female,Other,Diabetes,EGFR Mutation,T003,DrugC,Phase III,8/6/2019,6/6/2020,150mg,"Headache, Fatigue",TR0059,150mg,Deteriorated,Fatigue,67,0,EGFR,Positive,4.91,4.03,2.5,14.6,15.2
+P463,47,Male,Caucasian,Diabetes,None,T015,DrugC,Phase I,12/8/2023,6/8/2024,150mg,"Nausea, None",TR0139,150mg,Deteriorated,Nausea,90,0,TP53,Positive,1.99,3.56,7,8.9,12.6
+P464,27,Other,Hispanic,Hypertension,None,T008,DrugB,Phase III,6/27/2023,10/27/2024,200mg,Headache,TR0073,200mg,Improved,Nausea,113,1,EGFR,Negative,4.09,3,1.1,6.2,9.1
+P465,60,Female,African American,Asthma,None,T010,DrugA,Phase II,1/10/2021,9/10/2021,50mg,Dizziness,TR0055,50mg,No Change,Dizziness,160,0,EGFR,Negative,4.7,1.91,6.7,10,8.5
+P466,45,Female,Other,Hypertension,None,T005,DrugD,Phase I,4/19/2019,6/19/2020,200mg,"Nausea, Dizziness, None",TR0121,200mg,Deteriorated,Dizziness,163,0,HER2,Negative,4.39,3.92,1.9,13.7,3.5
+P467,52,Male,Other,None,None,T011,DrugB,Phase III,8/11/2020,1/11/2022,50mg,"Fatigue, Headache, None",TR0105,50mg,No Change,Nausea,120,0,EGFR,Positive,2.92,3.65,2.1,11.2,9.8
+P468,64,Other,Hispanic,Heart Disease,HER2 Mutation,T008,DrugB,Phase II,11/19/2022,3/19/2024,100mg,"None, Dizziness, Fatigue",TR0081,100mg,Improved,Nausea,134,1,HER2,Positive,4.68,4.97,1.4,19.7,9.3
+P469,81,Other,Asian,Diabetes,None,T001,DrugB,Phase I,5/25/2022,7/25/2023,200mg,"Nausea, Fatigue, Dizziness",TR0111,200mg,Improved,Fatigue,48,1,BRCA2,Negative,2.57,4.02,9.3,23.1,12.8
+P470,72,Female,Asian,Asthma,None,T008,DrugC,Phase I,6/19/2021,9/19/2022,50mg,"Nausea, Dizziness, None",TR0091,50mg,No Change,Headache,145,0,HER2,Negative,2.43,4.15,3.3,16.2,9.1
+P471,79,Other,Asian,Diabetes,None,T019,DrugA,Phase II,10/19/2019,9/19/2020,200mg,"None, Headache",TR0046,200mg,Deteriorated,Dizziness,101,0,BRCA1,Positive,3.63,1.96,2.7,22.5,4.7
+P472,56,Female,African American,Hypertension,None,T017,DrugD,Phase III,7/11/2021,1/11/2023,100mg,Nausea,TR0189,100mg,Deteriorated,Fatigue,140,0,EGFR,Negative,3.02,1.88,1.4,6.6,6
+P473,58,Male,African American,None,TP53 Mutation,T009,DrugD,Phase IV,3/10/2020,1/10/2021,50mg,None,TR0037,50mg,Improved,Fatigue,171,1,EGFR,Positive,4.47,2.13,9.6,16.5,10.4
+P474,21,Other,Caucasian,Heart Disease,None,T007,DrugA,Phase IV,6/7/2019,4/7/2020,200mg,"Headache, Fatigue, Dizziness",TR0076,200mg,Improved,Nausea,143,1,HER2,Negative,3.32,3.07,7.8,11.1,9
+P475,51,Male,Asian,None,None,T004,DrugC,Phase I,12/3/2020,11/3/2021,100mg,"None, Dizziness, Fatigue",TR0162,100mg,Deteriorated,Dizziness,48,0,TP53,Positive,4.58,4.79,9,13.6,16.3
+P476,73,Male,Other,None,EGFR Mutation,T002,DrugA,Phase II,10/13/2020,7/13/2021,100mg,"Headache, Fatigue",TR0125,100mg,Improved,Headache,102,1,BRCA2,Positive,2.91,2.99,2.8,16.6,6.2
+P477,29,Other,Asian,Hypertension,HER2 Mutation,T018,DrugB,Phase II,7/23/2019,5/23/2020,200mg,"Dizziness, Fatigue, None",TR0090,200mg,No Change,Dizziness,76,0,TP53,Positive,2.33,4.42,2.9,7.3,4.2
+P478,55,Other,Hispanic,Asthma,None,T013,DrugC,Phase IV,2/8/2021,9/8/2021,150mg,"Headache, None",TR0064,150mg,Deteriorated,Headache,59,0,BRCA2,Negative,4.76,3.03,4.7,20.6,17.2
+P479,58,Other,Caucasian,None,None,T005,DrugD,Phase IV,7/22/2023,4/22/2024,50mg,"None, Fatigue",TR0105,50mg,Improved,Dizziness,112,1,TP53,Negative,2.33,3.77,7.9,17.8,5.6
+P480,70,Female,Hispanic,Asthma,BRCA1 Mutation,T009,DrugD,Phase II,11/27/2021,5/27/2022,150mg,"Headache, Fatigue",TR0147,150mg,Improved,Dizziness,82,1,BRCA1,Negative,4.5,3.16,3.5,13.7,3.6
+P481,34,Other,Other,Hypertension,None,T001,DrugD,Phase I,6/25/2021,12/25/2022,50mg,"Nausea, Fatigue, Headache",TR0138,50mg,Improved,Fatigue,167,1,HER2,Positive,1.51,4.06,1,13.5,11.9
+P482,55,Male,African American,None,EGFR Mutation,T008,DrugA,Phase I,9/4/2019,11/4/2020,200mg,"Nausea, Fatigue",TR0073,200mg,No Change,Nausea,88,0,BRCA2,Positive,1.22,4.89,3,11.5,8.2
+P483,52,Other,Caucasian,Asthma,None,T005,DrugC,Phase I,2/17/2019,7/17/2020,200mg,Nausea,TR0191,200mg,Deteriorated,Dizziness,68,0,BRCA1,Negative,1.92,1.01,7.6,23.4,6.8
+P484,42,Other,African American,None,BRCA1 Mutation,T010,DrugC,Phase IV,2/9/2020,6/9/2021,200mg,"None, Headache",TR0024,200mg,Improved,Headache,173,1,TP53,Negative,3.65,3.97,8.6,13.6,8.1
+P485,54,Other,Other,Heart Disease,BRCA1 Mutation,T016,DrugD,Phase III,12/4/2023,1/4/2025,100mg,"Nausea, Headache, Dizziness",TR0115,100mg,No Change,Headache,174,0,BRCA1,Negative,2.3,3.85,8.4,9.3,9.3
+P486,60,Male,Caucasian,Hypertension,None,T007,DrugD,Phase II,3/13/2019,6/13/2020,200mg,"Dizziness, Fatigue, Nausea",TR0197,200mg,No Change,None,135,0,TP53,Negative,4.61,4.23,9.9,19.6,9.7
+P487,37,Male,African American,Heart Disease,None,T001,DrugC,Phase II,8/18/2023,9/18/2024,150mg,"Fatigue, None, Dizziness",TR0182,150mg,No Change,Dizziness,172,0,BRCA1,Positive,3.36,3.64,1.7,15.8,15.1
+P488,72,Other,Caucasian,Asthma,BRCA1 Mutation,T006,DrugA,Phase II,8/28/2020,3/28/2021,50mg,"Headache, Fatigue",TR0161,50mg,Deteriorated,Headache,65,0,EGFR,Negative,1.67,4.12,6.3,23.1,3.7
+P489,69,Male,African American,Hypertension,TP53 Mutation,T009,DrugC,Phase III,11/6/2023,7/6/2024,150mg,"Fatigue, None, Headache",TR0155,150mg,No Change,Headache,148,0,BRCA2,Negative,2.06,3.41,3.7,18.9,15.9
+P490,35,Male,Other,Asthma,HER2 Mutation,T006,DrugB,Phase IV,1/10/2019,6/10/2020,100mg,Nausea,TR0138,100mg,No Change,None,54,0,BRCA1,Negative,1.41,3.06,5.6,12.6,18.9
+P491,38,Male,African American,Heart Disease,None,T012,DrugA,Phase II,5/27/2021,5/27/2022,150mg,"Dizziness, Headache",TR0066,150mg,Deteriorated,Dizziness,81,0,BRCA1,Positive,4.31,3.79,7.4,14.3,18.7
+P492,31,Other,Asian,None,EGFR Mutation,T004,DrugB,Phase IV,10/25/2021,1/25/2023,150mg,"Dizziness, Headache, Nausea",TR0044,150mg,Improved,Fatigue,85,1,BRCA1,Positive,3.78,3.92,8.8,10.9,16.7
+P493,36,Male,Hispanic,Hypertension,BRCA1 Mutation,T005,DrugD,Phase IV,6/10/2022,8/10/2023,50mg,Dizziness,TR0101,50mg,No Change,Headache,151,0,TP53,Negative,1.78,2.38,4,23.6,17.6
+P494,84,Female,Other,Hypertension,None,T007,DrugB,Phase III,7/18/2020,8/18/2021,200mg,"None, Nausea, Dizziness",TR0112,200mg,Deteriorated,None,75,0,BRCA1,Negative,3.8,3.91,6.1,23,11.4
+P495,77,Other,African American,Asthma,EGFR Mutation,T007,DrugD,Phase III,12/1/2020,9/1/2021,200mg,"Dizziness, Fatigue",TR0002,200mg,Deteriorated,None,114,0,BRCA1,Negative,2.52,1.65,8.1,19.2,9.5
+P496,50,Other,Caucasian,Heart Disease,TP53 Mutation,T016,DrugD,Phase I,5/21/2021,11/21/2021,50mg,"Headache, Dizziness, Fatigue",TR0045,50mg,No Change,Dizziness,56,0,BRCA1,Negative,1.1,4.36,1.1,18.7,19.5
+P497,21,Other,Asian,Diabetes,None,T005,DrugA,Phase IV,1/15/2019,5/15/2020,50mg,"Nausea, None",TR0050,50mg,Deteriorated,Dizziness,34,0,TP53,Negative,2.75,1.94,7.3,20.7,12.3
+P498,39,Other,African American,Heart Disease,HER2 Mutation,T014,DrugA,Phase I,9/5/2020,2/5/2022,150mg,Fatigue,TR0114,150mg,Improved,None,80,1,EGFR,Negative,4.87,1.21,5.5,18.9,17.7
+P499,40,Other,Caucasian,None,TP53 Mutation,T004,DrugC,Phase IV,12/3/2023,3/3/2025,200mg,Nausea,TR0024,200mg,Improved,Nausea,77,1,TP53,Positive,1.72,4.2,6,13.1,5.2
+P500,39,Male,Asian,None,BRCA2 Mutation,T010,DrugB,Phase II,1/13/2021,6/13/2022,150mg,None,TR0036,150mg,Deteriorated,None,135,0,BRCA2,Positive,4.46,1.63,3.8,11.2,17.8
+P501,52,Male,Asian,None,HER2 Mutation,T009,DrugA,Phase IV,10/12/2021,9/12/2022,200mg,"Fatigue, Nausea, None",TR0099,200mg,Improved,Dizziness,175,1,BRCA2,Negative,3.69,4.19,3.3,17.2,12.7
+P502,62,Other,African American,Diabetes,EGFR Mutation,T018,DrugC,Phase I,4/9/2023,1/9/2024,200mg,"Nausea, Dizziness",TR0133,200mg,Deteriorated,Fatigue,151,0,BRCA2,Negative,4.33,4.62,1.1,18.1,3.9
+P503,59,Female,Other,Asthma,None,T002,DrugC,Phase I,1/6/2021,1/6/2022,200mg,"None, Nausea",TR0048,200mg,No Change,None,71,0,HER2,Positive,3.2,2.15,3.8,12.4,13.6
+P504,20,Female,Other,Asthma,None,T014,DrugD,Phase IV,5/24/2020,4/24/2021,150mg,"Headache, None",TR0011,150mg,Improved,Dizziness,57,1,HER2,Negative,2.34,3.93,4.6,7.2,16.3
+P505,52,Other,Hispanic,Heart Disease,EGFR Mutation,T006,DrugC,Phase II,3/5/2023,7/5/2024,150mg,Nausea,TR0080,150mg,Improved,None,147,1,HER2,Positive,2.14,2.73,7.2,12,4
+P506,76,Male,Asian,Diabetes,None,T010,DrugC,Phase I,4/28/2020,1/28/2021,200mg,Fatigue,TR0040,200mg,Deteriorated,Dizziness,125,0,BRCA1,Negative,2.5,4.78,6.8,18.1,13.7
+P507,38,Female,Caucasian,Asthma,None,T013,DrugB,Phase IV,8/23/2022,5/23/2023,50mg,"Fatigue, None",TR0196,50mg,Improved,Headache,113,1,TP53,Negative,1.8,2.67,7.8,7.8,7.7
+P508,68,Other,Caucasian,None,EGFR Mutation,T001,DrugB,Phase II,6/12/2020,5/12/2021,50mg,"Dizziness, Headache, Nausea",TR0166,50mg,Improved,Fatigue,157,1,BRCA2,Positive,2.11,2.73,9.8,7.2,11.8
+P509,45,Female,Hispanic,Hypertension,BRCA2 Mutation,T014,DrugB,Phase III,7/22/2021,8/22/2022,50mg,"Headache, Fatigue",TR0042,50mg,No Change,Dizziness,57,0,HER2,Positive,1.72,4.88,2,13.3,15.5
+P510,62,Other,Caucasian,Asthma,None,T001,DrugB,Phase III,10/17/2020,10/17/2021,200mg,Headache,TR0168,200mg,Deteriorated,Headache,138,0,BRCA1,Negative,3.82,2.69,4.1,13.2,7.5
+P511,72,Female,Caucasian,Heart Disease,None,T015,DrugC,Phase IV,9/12/2021,4/12/2022,100mg,"Dizziness, Headache",TR0173,100mg,Improved,Fatigue,31,1,TP53,Negative,1.82,2.93,3.4,11.2,14.2
+P512,43,Other,Other,Asthma,HER2 Mutation,T010,DrugA,Phase I,8/12/2022,2/12/2023,150mg,"Headache, None",TR0173,150mg,No Change,Nausea,168,0,TP53,Positive,4.87,3.41,1.7,7.4,19.2
+P513,55,Female,Hispanic,Hypertension,TP53 Mutation,T002,DrugA,Phase III,9/24/2019,9/24/2020,100mg,Nausea,TR0137,100mg,Improved,Fatigue,67,1,HER2,Negative,2.19,1.37,6.4,17.2,14
+P514,53,Female,Hispanic,Heart Disease,EGFR Mutation,T019,DrugD,Phase I,6/12/2019,12/12/2019,100mg,"Nausea, Headache, None",TR0186,100mg,Improved,None,107,1,HER2,Negative,2.07,1.06,9.7,10.5,14.5
+P515,20,Male,African American,Hypertension,None,T014,DrugA,Phase II,5/10/2023,8/10/2024,100mg,"Nausea, None, Headache",TR0122,100mg,Improved,Headache,100,1,BRCA2,Negative,3.83,3.44,3.8,10.9,13.2
+P516,82,Other,Caucasian,Heart Disease,BRCA2 Mutation,T010,DrugC,Phase I,4/1/2022,10/1/2023,200mg,"Fatigue, None, Dizziness",TR0119,200mg,Deteriorated,None,54,0,BRCA2,Positive,4.46,4.79,2,8.8,19.1
+P517,20,Other,African American,Diabetes,TP53 Mutation,T020,DrugD,Phase IV,6/18/2023,6/18/2024,200mg,"Nausea, None, Fatigue",TR0082,200mg,No Change,Headache,68,0,HER2,Negative,3.95,4.53,2.8,16.6,14.9
+P518,44,Other,Asian,Asthma,BRCA1 Mutation,T019,DrugA,Phase IV,6/3/2023,3/3/2024,150mg,"None, Dizziness",TR0116,150mg,Deteriorated,Headache,37,0,BRCA2,Positive,3.72,2.63,1.1,16.5,7.3
+P519,63,Other,Hispanic,Asthma,None,T001,DrugC,Phase IV,7/18/2020,3/18/2021,200mg,"Nausea, Dizziness, Fatigue",TR0056,200mg,Improved,Nausea,176,1,TP53,Positive,2.8,4.83,4.6,21.1,6.2
+P520,38,Other,Hispanic,Heart Disease,BRCA2 Mutation,T014,DrugC,Phase III,11/4/2021,3/4/2023,150mg,"Dizziness, Headache, Nausea",TR0104,150mg,No Change,Headache,103,0,HER2,Positive,3.69,4.91,1.9,6.1,10.4
+P521,40,Female,African American,Hypertension,None,T011,DrugD,Phase II,7/19/2019,11/19/2020,200mg,"Headache, Fatigue",TR0163,200mg,Improved,Dizziness,87,1,BRCA2,Positive,1.37,3.99,9.2,13.8,7.4
+P522,70,Male,African American,Heart Disease,EGFR Mutation,T016,DrugA,Phase III,12/20/2019,6/20/2021,200mg,"Dizziness, Fatigue, Nausea",TR0118,200mg,No Change,Fatigue,74,0,HER2,Positive,2.74,3.89,1.1,16.6,13.4
+P523,59,Male,African American,Hypertension,None,T007,DrugD,Phase IV,11/20/2020,12/20/2021,100mg,Headache,TR0129,100mg,Deteriorated,Nausea,114,0,BRCA2,Positive,3.55,1.97,7.4,7.6,6.4
+P524,77,Other,Caucasian,Hypertension,None,T014,DrugD,Phase IV,7/9/2019,12/9/2020,50mg,"Dizziness, Nausea, Fatigue",TR0124,50mg,Deteriorated,Nausea,104,0,HER2,Positive,4.51,3.95,1.1,10.5,6.6
+P525,64,Female,Other,Asthma,BRCA1 Mutation,T004,DrugB,Phase III,2/24/2023,10/24/2023,150mg,"None, Fatigue",TR0063,150mg,No Change,Fatigue,97,0,BRCA1,Negative,2.08,1.99,1.6,14.3,15.5
+P526,27,Female,Hispanic,Diabetes,None,T011,DrugC,Phase IV,8/23/2021,6/23/2022,150mg,"Nausea, Fatigue, Dizziness",TR0134,150mg,No Change,Nausea,86,0,TP53,Negative,3.43,3.69,1.7,23.1,17.3
+P527,55,Female,Asian,Heart Disease,None,T016,DrugD,Phase III,12/26/2020,5/26/2022,100mg,Dizziness,TR0075,100mg,No Change,None,88,0,BRCA1,Positive,4.22,4.29,9.4,15.8,6.4
+P528,56,Male,Other,Hypertension,EGFR Mutation,T017,DrugD,Phase IV,3/12/2023,7/12/2024,100mg,"Dizziness, None, Headache",TR0096,100mg,No Change,Headache,73,0,EGFR,Negative,3.47,3.97,7.6,15.4,4.2
+P529,40,Female,Hispanic,Hypertension,None,T003,DrugC,Phase II,4/8/2021,12/8/2021,150mg,"Nausea, Fatigue, Headache",TR0128,150mg,No Change,Dizziness,33,0,EGFR,Positive,2.48,4.68,6.3,15.7,7.6
+P530,43,Female,Caucasian,Asthma,None,T011,DrugA,Phase III,9/28/2023,2/28/2025,50mg,Headache,TR0146,50mg,Deteriorated,Fatigue,92,0,TP53,Positive,2.47,4.58,7,20.2,10.7
+P531,49,Male,Hispanic,Diabetes,EGFR Mutation,T009,DrugC,Phase I,12/27/2020,7/27/2021,100mg,"None, Nausea, Headache",TR0059,100mg,Improved,Dizziness,178,1,HER2,Negative,3.52,1.99,7.3,13.7,10.5
+P532,30,Other,Caucasian,None,None,T003,DrugB,Phase IV,8/3/2019,9/3/2020,100mg,Dizziness,TR0151,100mg,Improved,Dizziness,154,1,TP53,Positive,3.6,4.75,1.6,20.8,8
+P533,73,Male,Hispanic,Diabetes,None,T020,DrugD,Phase I,7/20/2021,5/20/2022,200mg,"Fatigue, None, Headache",TR0124,200mg,Deteriorated,None,106,0,TP53,Positive,2.78,1.09,3.7,15,4
+P534,61,Female,Other,Heart Disease,HER2 Mutation,T004,DrugB,Phase IV,6/17/2019,7/17/2020,200mg,Fatigue,TR0017,200mg,No Change,None,54,0,HER2,Negative,2.96,4.71,1.9,19.8,10
+P535,41,Male,Caucasian,Diabetes,EGFR Mutation,T010,DrugC,Phase IV,11/10/2019,2/10/2021,100mg,"Fatigue, None, Nausea",TR0050,100mg,No Change,Fatigue,70,0,EGFR,Positive,3.62,2.04,2.4,8.9,4.2
+P536,59,Other,Hispanic,Heart Disease,None,T009,DrugB,Phase III,5/12/2022,1/12/2023,150mg,"None, Dizziness",TR0116,150mg,No Change,Headache,174,0,HER2,Negative,1.74,3.66,8.9,20.7,14.6
+P537,18,Female,Caucasian,Asthma,BRCA2 Mutation,T015,DrugC,Phase I,4/22/2020,9/22/2021,150mg,"None, Nausea",TR0083,150mg,No Change,Headache,113,0,EGFR,Positive,1.44,2.16,3.8,10.5,11.8
+P538,45,Other,Other,Asthma,None,T004,DrugA,Phase II,6/24/2020,7/24/2021,200mg,Headache,TR0177,200mg,Deteriorated,Headache,93,0,TP53,Negative,3.14,2.43,4.2,20.9,16.4
+P539,25,Male,Caucasian,None,TP53 Mutation,T015,DrugC,Phase I,3/24/2022,10/24/2022,150mg,"Headache, Fatigue, Nausea",TR0151,150mg,No Change,Dizziness,81,0,EGFR,Positive,2.23,4.66,9.6,11.9,9
+P540,74,Male,African American,Heart Disease,None,T009,DrugC,Phase I,2/28/2020,8/28/2021,150mg,"Headache, Fatigue",TR0048,150mg,No Change,Headache,88,0,HER2,Negative,3.02,4.76,8.9,7.8,9.7
+P541,60,Male,African American,None,None,T001,DrugB,Phase I,7/13/2022,1/13/2024,200mg,Dizziness,TR0016,200mg,Deteriorated,None,34,0,EGFR,Negative,3.21,3.01,2.7,21.5,14.5
+P542,22,Other,African American,Heart Disease,EGFR Mutation,T011,DrugA,Phase I,2/18/2023,8/18/2024,50mg,"Fatigue, Nausea, None",TR0120,50mg,Deteriorated,Fatigue,48,0,HER2,Negative,4.35,4.44,7.7,13.9,13.4
+P543,77,Female,Asian,None,EGFR Mutation,T011,DrugD,Phase IV,7/19/2019,5/19/2020,50mg,"Headache, Nausea, Dizziness",TR0058,50mg,No Change,Headache,68,0,TP53,Positive,1.64,3.69,2.6,18.5,6.9
+P544,59,Other,Hispanic,Diabetes,None,T019,DrugC,Phase II,3/7/2020,1/7/2021,100mg,Nausea,TR0137,100mg,Deteriorated,Nausea,62,0,EGFR,Negative,1.47,1.66,1,18.9,15.5
+P545,26,Female,African American,Diabetes,None,T007,DrugC,Phase II,5/8/2022,2/8/2023,150mg,Fatigue,TR0113,150mg,Improved,Headache,36,1,HER2,Positive,3.06,1.65,1.8,6.3,5.8
+P546,66,Male,Hispanic,Asthma,BRCA2 Mutation,T013,DrugA,Phase I,9/19/2020,2/19/2022,50mg,Fatigue,TR0031,50mg,No Change,Dizziness,121,0,TP53,Negative,4.56,1.97,4.2,7.9,6.8
+P547,42,Male,Caucasian,Heart Disease,TP53 Mutation,T017,DrugA,Phase IV,1/13/2019,7/13/2020,200mg,"Nausea, None",TR0093,200mg,No Change,Nausea,141,0,TP53,Positive,3.08,3.43,3.2,7,9.6
+P548,28,Other,Hispanic,Asthma,TP53 Mutation,T011,DrugA,Phase II,3/19/2020,9/19/2020,100mg,"Fatigue, Dizziness, None",TR0121,100mg,Improved,Nausea,83,1,TP53,Negative,1.94,1.88,9.6,17.1,12.5
+P549,71,Male,Hispanic,Diabetes,EGFR Mutation,T005,DrugB,Phase III,3/1/2019,4/1/2020,100mg,"Headache, None",TR0068,100mg,Deteriorated,None,37,0,BRCA1,Negative,2.66,2.72,5.9,18.5,14.9
+P550,21,Female,Caucasian,Diabetes,None,T002,DrugD,Phase II,2/1/2020,1/1/2021,100mg,Headache,TR0017,100mg,Improved,Headache,148,1,HER2,Negative,1.69,3,4.7,21.7,13.7
+P551,35,Other,Caucasian,None,TP53 Mutation,T005,DrugC,Phase III,11/23/2023,6/23/2024,200mg,"Dizziness, Fatigue",TR0033,200mg,Improved,Dizziness,63,1,BRCA2,Positive,3.13,1.46,6.5,8.1,8.7
+P552,28,Other,Caucasian,Asthma,EGFR Mutation,T004,DrugB,Phase II,3/24/2021,7/24/2022,150mg,"Headache, None",TR0195,150mg,Improved,None,138,1,TP53,Positive,1.57,3.77,2.9,13.1,18.2
+P553,22,Other,Hispanic,Hypertension,None,T006,DrugA,Phase II,4/6/2019,4/6/2020,150mg,Dizziness,TR0124,150mg,No Change,None,78,0,EGFR,Negative,1.82,3.03,4.8,6.3,16.5
+P554,75,Male,Hispanic,Heart Disease,HER2 Mutation,T004,DrugC,Phase III,3/9/2021,2/9/2022,200mg,"Headache, Nausea, None",TR0088,200mg,Deteriorated,None,46,0,TP53,Negative,1.28,2.9,6,17.3,14.7
+P555,21,Other,Asian,Hypertension,HER2 Mutation,T004,DrugA,Phase III,6/10/2020,7/10/2021,200mg,"Nausea, Fatigue, Headache",TR0131,200mg,Improved,Fatigue,86,1,BRCA1,Positive,2.01,1.04,7.5,15.6,17.2
+P556,63,Other,Other,Diabetes,None,T017,DrugA,Phase III,4/23/2023,6/23/2024,100mg,"Fatigue, Nausea",TR0175,100mg,Improved,Dizziness,87,1,BRCA2,Negative,4.29,4.37,5.4,12,16.5
+P557,43,Female,Caucasian,Asthma,EGFR Mutation,T014,DrugD,Phase IV,3/24/2021,1/24/2022,50mg,None,TR0182,50mg,Deteriorated,None,83,0,EGFR,Positive,2.81,1.73,8.7,21.9,10.9
+P558,25,Female,Asian,Diabetes,BRCA2 Mutation,T008,DrugD,Phase II,7/19/2022,4/19/2023,100mg,"Nausea, Fatigue",TR0071,100mg,Improved,Headache,61,1,EGFR,Positive,1.3,2.55,8.2,22.2,6.5
+P559,44,Female,Asian,None,None,T001,DrugA,Phase III,2/25/2023,6/25/2024,200mg,Headache,TR0077,200mg,Improved,Dizziness,146,1,BRCA2,Positive,1.27,4.51,4.5,15.8,19.5
+P560,61,Female,Caucasian,Asthma,None,T009,DrugA,Phase IV,10/6/2022,3/6/2024,200mg,"Fatigue, Nausea",TR0023,200mg,Deteriorated,Dizziness,122,0,BRCA2,Negative,1.27,3.59,1.7,12.8,16.7
+P561,73,Female,Caucasian,Hypertension,None,T009,DrugC,Phase III,6/14/2023,10/14/2024,150mg,"Nausea, Dizziness",TR0026,150mg,Deteriorated,Headache,92,0,EGFR,Negative,2.73,4.99,6,11.8,6.7
+P562,46,Other,Hispanic,None,HER2 Mutation,T018,DrugD,Phase IV,10/4/2019,1/4/2021,50mg,"Nausea, Dizziness, Headache",TR0093,50mg,Deteriorated,Dizziness,137,0,HER2,Positive,2.4,2.49,1.6,12.7,10.9
+P563,62,Other,Hispanic,Asthma,None,T017,DrugA,Phase IV,11/1/2022,8/1/2023,100mg,None,TR0026,100mg,No Change,Headache,37,0,HER2,Negative,3.89,3.63,7.4,6.2,6.7
+P564,63,Other,African American,None,None,T008,DrugC,Phase IV,6/15/2019,11/15/2020,150mg,Fatigue,TR0143,150mg,Deteriorated,None,132,0,TP53,Positive,3.65,2.94,1,20.5,16.1
+P565,81,Male,African American,None,None,T008,DrugC,Phase III,12/3/2019,4/3/2021,200mg,"Dizziness, Headache",TR0164,200mg,Improved,Headache,81,1,TP53,Negative,3.19,1.27,7.9,16.5,16.3
+P566,62,Female,Hispanic,None,None,T006,DrugC,Phase I,4/19/2019,2/19/2020,150mg,"Dizziness, Fatigue, Headache",TR0159,150mg,Deteriorated,Nausea,80,0,BRCA1,Positive,4.01,4.21,5.7,8.5,14.4
+P567,69,Female,Asian,None,None,T013,DrugB,Phase IV,12/27/2019,6/27/2021,150mg,"Dizziness, Nausea, Fatigue",TR0058,150mg,No Change,Nausea,92,0,EGFR,Positive,3.48,3.97,2.5,9.5,18.1
+P568,53,Male,Hispanic,Diabetes,None,T008,DrugB,Phase II,11/26/2022,8/26/2023,100mg,None,TR0063,100mg,Improved,Dizziness,153,1,HER2,Negative,4,4.63,7.8,16.7,14.1
+P569,42,Female,Asian,Heart Disease,None,T019,DrugD,Phase III,5/14/2021,4/14/2022,150mg,None,TR0139,150mg,No Change,Nausea,64,0,TP53,Positive,4.56,3.32,6.7,8.8,11.1
+P570,34,Male,Other,Asthma,None,T004,DrugB,Phase III,4/15/2023,2/15/2024,50mg,"Dizziness, Headache",TR0128,50mg,Deteriorated,Headache,46,0,BRCA2,Positive,3.87,2.08,2.8,11.6,7.1
+P571,75,Other,Caucasian,None,BRCA2 Mutation,T003,DrugC,Phase I,10/9/2021,3/9/2023,50mg,"Dizziness, Headache, Fatigue",TR0181,50mg,Improved,Headache,85,1,HER2,Negative,1.86,2.7,9.2,15.1,6.2
+P572,56,Female,Asian,Heart Disease,None,T017,DrugD,Phase II,11/19/2023,10/19/2024,50mg,"Nausea, None, Headache",TR0031,50mg,Improved,Dizziness,46,1,EGFR,Negative,1.31,3.78,4.4,20.8,14.2
+P573,38,Other,Asian,Diabetes,None,T006,DrugB,Phase I,12/4/2022,11/4/2023,50mg,Headache,TR0147,50mg,Deteriorated,Headache,134,0,HER2,Negative,4.18,2.09,7.2,10.8,19
+P574,35,Female,Asian,Hypertension,BRCA2 Mutation,T014,DrugC,Phase IV,3/9/2019,3/9/2020,100mg,None,TR0166,100mg,Deteriorated,Nausea,116,0,HER2,Positive,3.55,2.3,3.4,9.4,14.8
+P575,85,Female,Caucasian,Heart Disease,EGFR Mutation,T002,DrugC,Phase I,1/17/2020,7/17/2020,50mg,"Headache, None",TR0008,50mg,Deteriorated,Dizziness,125,0,BRCA1,Positive,1.87,3.38,3.4,17.9,16.9
+P576,42,Other,Other,Asthma,BRCA2 Mutation,T012,DrugA,Phase II,6/19/2023,2/19/2024,200mg,"Fatigue, Dizziness, Headache",TR0008,200mg,Deteriorated,Nausea,167,0,BRCA1,Negative,4.11,4.04,2.7,7.6,14.9
+P577,55,Male,African American,Diabetes,None,T006,DrugA,Phase IV,10/5/2020,1/5/2022,150mg,"Dizziness, Headache",TR0115,150mg,Improved,Dizziness,46,1,TP53,Positive,2.47,2.73,1.3,10.7,3.6
+P578,64,Male,Asian,Asthma,HER2 Mutation,T002,DrugC,Phase I,11/23/2022,5/23/2024,50mg,"Nausea, None, Headache",TR0145,50mg,Deteriorated,Dizziness,163,0,HER2,Positive,4.52,1.97,6,6.7,14.3
+P579,54,Female,Asian,Asthma,None,T010,DrugD,Phase IV,7/3/2022,8/3/2023,50mg,"Nausea, None",TR0144,50mg,No Change,Dizziness,129,0,TP53,Negative,2.29,4.59,9,11.9,18.3
+P580,54,Other,Caucasian,Heart Disease,None,T007,DrugA,Phase III,12/19/2023,2/19/2025,100mg,"None, Nausea, Dizziness",TR0008,100mg,Improved,None,128,1,BRCA2,Negative,4.98,4.3,8.6,10.5,12.8
+P581,24,Other,Hispanic,Heart Disease,None,T006,DrugC,Phase I,2/15/2020,10/15/2020,100mg,"None, Nausea, Dizziness",TR0053,100mg,No Change,Fatigue,176,0,EGFR,Positive,1.27,1.38,10,11.9,15.7
+P582,23,Female,Asian,Hypertension,None,T001,DrugB,Phase III,7/27/2020,4/27/2021,150mg,"Nausea, Fatigue",TR0037,150mg,Deteriorated,Fatigue,96,0,HER2,Negative,4.23,4.43,10,10.3,3.7
+P583,44,Other,African American,Asthma,None,T014,DrugD,Phase IV,4/27/2021,10/27/2022,200mg,"Dizziness, Nausea",TR0161,200mg,Deteriorated,Headache,40,0,HER2,Positive,2.64,1.52,1.2,12.5,16.3
+P584,46,Male,Caucasian,Hypertension,HER2 Mutation,T003,DrugB,Phase III,12/9/2020,4/9/2022,200mg,"Dizziness, None",TR0073,200mg,Deteriorated,None,57,0,BRCA1,Negative,3.26,2.25,6.9,10.2,3.2
+P585,43,Male,Other,Asthma,EGFR Mutation,T002,DrugD,Phase IV,2/8/2019,8/8/2019,200mg,Nausea,TR0196,200mg,Deteriorated,Nausea,91,0,HER2,Negative,4.06,3.49,7.9,6.7,17.2
+P586,74,Other,Asian,Asthma,None,T002,DrugB,Phase II,1/19/2021,7/19/2021,100mg,"None, Fatigue",TR0090,100mg,No Change,Fatigue,44,0,HER2,Negative,3.48,3.25,6.6,21.6,13
+P587,37,Female,Other,Hypertension,BRCA2 Mutation,T011,DrugD,Phase I,2/27/2022,11/27/2022,150mg,"Fatigue, Dizziness, None",TR0082,150mg,Improved,Nausea,46,1,HER2,Positive,3.32,4.96,7.8,14,15
+P588,39,Other,African American,None,BRCA1 Mutation,T008,DrugA,Phase IV,10/2/2019,10/2/2020,50mg,Nausea,TR0145,50mg,Deteriorated,Nausea,35,0,HER2,Negative,2.56,1.92,6.4,22.7,18.8
+P589,54,Other,Other,Asthma,BRCA2 Mutation,T016,DrugC,Phase III,8/5/2022,9/5/2023,150mg,Fatigue,TR0074,150mg,Deteriorated,Fatigue,129,0,TP53,Positive,2.37,3.11,2.9,23.9,19.7
+P590,65,Other,Caucasian,Asthma,None,T005,DrugA,Phase IV,12/18/2022,9/18/2023,200mg,None,TR0054,200mg,No Change,Headache,136,0,HER2,Negative,3.6,4.22,7.4,16.7,3.9
+P591,74,Female,Hispanic,None,HER2 Mutation,T005,DrugB,Phase II,12/7/2020,3/7/2022,100mg,"Dizziness, None, Fatigue",TR0141,100mg,No Change,None,108,0,BRCA2,Negative,2.82,3.7,7.1,12.7,19
+P592,36,Female,Caucasian,Heart Disease,None,T010,DrugD,Phase I,4/11/2020,6/11/2021,100mg,"Headache, Dizziness, Nausea",TR0114,100mg,Improved,Fatigue,128,1,EGFR,Positive,1.67,3,7.2,18.5,14
+P593,52,Other,Other,Diabetes,None,T019,DrugB,Phase II,6/15/2022,3/15/2023,100mg,"None, Nausea",TR0174,100mg,Improved,Nausea,51,1,BRCA1,Positive,2.1,1.62,6.7,16.8,6
+P594,24,Female,Caucasian,None,None,T012,DrugB,Phase II,5/27/2020,12/27/2020,150mg,"None, Headache, Fatigue",TR0087,150mg,Deteriorated,Fatigue,104,0,TP53,Positive,3.82,2.82,7,21.1,5.9
+P595,38,Male,Asian,Asthma,EGFR Mutation,T014,DrugB,Phase IV,12/28/2021,9/28/2022,50mg,"Fatigue, Headache, Nausea",TR0194,50mg,Improved,Fatigue,127,1,HER2,Negative,1.08,4.12,6.5,18.6,17.2
+P596,79,Male,Caucasian,Heart Disease,None,T012,DrugD,Phase II,1/16/2022,5/16/2023,150mg,"Nausea, None",TR0018,150mg,Improved,Fatigue,106,1,HER2,Positive,4.21,4.84,5.8,14.8,9.8
+P597,32,Other,Asian,None,BRCA1 Mutation,T012,DrugD,Phase I,10/14/2023,6/14/2024,150mg,"Fatigue, None",TR0134,150mg,Improved,Headache,111,1,BRCA2,Positive,1.61,3.29,3.5,22.6,12.9
+P598,48,Other,African American,None,HER2 Mutation,T011,DrugA,Phase III,11/3/2022,10/3/2023,50mg,Dizziness,TR0003,50mg,Deteriorated,Dizziness,34,0,TP53,Negative,3.37,2.42,1.5,6.6,10.2
+P599,43,Female,Hispanic,Asthma,TP53 Mutation,T013,DrugC,Phase III,7/14/2023,12/14/2024,150mg,None,TR0185,150mg,No Change,Dizziness,79,0,HER2,Negative,1.34,3.43,8.9,21.9,14.2
+P600,52,Male,Hispanic,Hypertension,None,T011,DrugA,Phase I,2/8/2020,9/8/2020,100mg,"Nausea, Fatigue",TR0147,100mg,Improved,Nausea,49,1,BRCA1,Positive,1.84,4.45,9,9.5,15.5
+P601,61,Other,Caucasian,Diabetes,None,T015,DrugC,Phase I,2/2/2023,7/2/2024,100mg,Nausea,TR0048,100mg,Improved,Nausea,30,1,HER2,Positive,2.15,4.21,10,6.5,18.3
+P602,44,Male,Caucasian,Asthma,EGFR Mutation,T007,DrugD,Phase II,10/23/2022,6/23/2023,200mg,"Dizziness, Nausea",TR0114,200mg,Improved,Dizziness,31,1,BRCA1,Positive,3.49,4.89,5.2,21.3,4.1
+P603,43,Female,Asian,Heart Disease,None,T007,DrugA,Phase I,3/28/2020,2/28/2021,100mg,Headache,TR0163,100mg,Deteriorated,None,135,0,EGFR,Negative,2.34,1.27,9.8,20.7,17.5
+P604,45,Female,African American,None,None,T017,DrugA,Phase III,3/3/2021,9/3/2021,50mg,"None, Nausea",TR0159,50mg,No Change,Nausea,144,0,BRCA1,Positive,4.75,1.34,4.5,7.3,6.6
+P605,58,Other,African American,Heart Disease,None,T003,DrugC,Phase III,6/24/2022,12/24/2023,200mg,"Headache, None",TR0196,200mg,No Change,None,169,0,BRCA2,Positive,1.92,2.88,3.4,7.8,5.8
+P606,39,Male,African American,Asthma,HER2 Mutation,T011,DrugD,Phase IV,8/5/2022,4/5/2023,200mg,"Nausea, Fatigue",TR0082,200mg,No Change,Fatigue,132,0,TP53,Positive,1.59,4.89,7.8,23.4,10.5
+P607,73,Other,Asian,Diabetes,None,T006,DrugB,Phase I,7/16/2019,3/16/2020,150mg,"Fatigue, Nausea",TR0128,150mg,No Change,Fatigue,107,0,EGFR,Negative,2.11,4.19,3.9,11.4,7
+P608,47,Male,Hispanic,Heart Disease,None,T014,DrugD,Phase II,11/2/2022,10/2/2023,50mg,None,TR0181,50mg,No Change,Dizziness,104,0,BRCA2,Positive,1.52,2.03,4.2,18.1,4.1
+P609,84,Female,Asian,Asthma,TP53 Mutation,T006,DrugC,Phase III,7/20/2023,2/20/2024,100mg,"None, Dizziness, Headache",TR0096,100mg,Deteriorated,Fatigue,124,0,EGFR,Negative,1.84,4.24,2.3,12.2,17.7
+P610,26,Male,Hispanic,None,BRCA2 Mutation,T011,DrugB,Phase III,5/18/2022,4/18/2023,150mg,"Fatigue, Dizziness, Headache",TR0162,150mg,Deteriorated,Fatigue,90,0,BRCA2,Negative,1.62,1.33,5.4,11.4,12.6
+P611,78,Male,African American,Heart Disease,None,T013,DrugB,Phase III,9/16/2019,10/16/2020,150mg,Headache,TR0100,150mg,Improved,None,66,1,TP53,Positive,4.22,1.55,6.2,15.1,5.4
+P612,78,Male,Asian,Hypertension,EGFR Mutation,T016,DrugB,Phase III,8/11/2021,11/11/2022,100mg,"Fatigue, Nausea, Dizziness",TR0188,100mg,Improved,Fatigue,164,1,EGFR,Negative,3.5,2.09,5.4,7.5,10.8
+P613,49,Female,Hispanic,Hypertension,BRCA2 Mutation,T005,DrugC,Phase I,11/21/2019,5/21/2021,200mg,None,TR0120,200mg,Improved,Headache,127,1,EGFR,Positive,2.23,4.29,1.5,13.5,10.8
+P614,74,Female,Caucasian,None,BRCA2 Mutation,T020,DrugD,Phase III,10/5/2020,9/5/2021,50mg,Nausea,TR0084,50mg,Deteriorated,Headache,124,0,BRCA2,Negative,3.9,3.3,7,20,17.7
+P615,66,Other,Caucasian,Asthma,None,T013,DrugB,Phase III,1/21/2023,11/21/2023,150mg,"Dizziness, Nausea, None",TR0015,150mg,Deteriorated,Fatigue,157,0,BRCA1,Positive,2.26,3.15,8.6,23.8,18.1
+P616,35,Male,Caucasian,Heart Disease,BRCA2 Mutation,T003,DrugC,Phase III,2/14/2021,1/14/2022,50mg,"Headache, Nausea",TR0135,50mg,No Change,Headache,69,0,EGFR,Positive,2.49,1.78,5.4,19.3,11.4
+P617,44,Female,Asian,Hypertension,None,T009,DrugB,Phase II,11/22/2019,1/22/2021,50mg,Fatigue,TR0123,50mg,Improved,Nausea,86,1,BRCA2,Positive,2.93,4.35,4.3,21.5,9.9
+P618,35,Other,African American,None,HER2 Mutation,T001,DrugC,Phase IV,11/23/2019,4/23/2021,200mg,"Nausea, Dizziness, Headache",TR0151,200mg,Improved,Fatigue,88,1,EGFR,Negative,2.31,2.82,7.9,8.3,6.3
+P619,18,Female,Caucasian,Heart Disease,None,T017,DrugB,Phase IV,3/18/2020,9/18/2020,150mg,"Dizziness, None",TR0131,150mg,No Change,Fatigue,81,0,EGFR,Negative,4.81,1.7,6.1,16.4,11.3
+P620,60,Male,African American,None,TP53 Mutation,T015,DrugA,Phase IV,11/22/2023,1/22/2025,200mg,Fatigue,TR0029,200mg,Improved,Headache,57,1,BRCA2,Positive,3.58,1.92,6,12.7,14.2
+P621,56,Other,Asian,Heart Disease,None,T012,DrugD,Phase I,10/27/2020,8/27/2021,100mg,"Nausea, None, Dizziness",TR0056,100mg,Improved,None,82,1,HER2,Negative,1.56,3.28,2.7,11,6.7
+P622,59,Female,Hispanic,Heart Disease,None,T016,DrugD,Phase III,2/20/2020,9/20/2020,50mg,Dizziness,TR0013,50mg,Improved,None,30,1,TP53,Negative,1.73,4.3,3.6,22.7,19.5
+P623,66,Other,Other,Diabetes,TP53 Mutation,T007,DrugB,Phase IV,2/9/2021,2/9/2022,50mg,"Nausea, Dizziness",TR0078,50mg,Improved,None,146,1,BRCA2,Positive,3.29,1.57,4.4,20.4,9.2
+P624,21,Female,Asian,Hypertension,BRCA2 Mutation,T015,DrugC,Phase III,12/19/2019,1/19/2021,50mg,"Fatigue, Dizziness, Nausea",TR0102,50mg,Deteriorated,Headache,37,0,BRCA1,Negative,1.35,3.23,8.6,20.3,6
+P625,73,Female,Hispanic,Diabetes,None,T019,DrugA,Phase I,12/10/2021,5/10/2023,200mg,None,TR0007,200mg,Deteriorated,None,78,0,BRCA2,Negative,3.69,1.88,3,21.7,7.2
+P626,18,Other,Caucasian,Heart Disease,None,T014,DrugD,Phase II,5/12/2019,12/12/2019,150mg,"Headache, Fatigue",TR0096,150mg,Deteriorated,None,171,0,EGFR,Positive,2.05,1,8.8,20.3,13.7
+P627,59,Other,African American,Asthma,HER2 Mutation,T012,DrugD,Phase III,3/27/2021,7/27/2022,200mg,"Dizziness, Headache, Fatigue",TR0111,200mg,Improved,Dizziness,94,1,BRCA2,Negative,4,1.61,5.1,12.3,4.6
+P628,63,Other,Hispanic,Asthma,None,T006,DrugA,Phase III,11/5/2023,2/5/2025,150mg,"Fatigue, Dizziness, Nausea",TR0178,150mg,No Change,Nausea,137,0,BRCA1,Positive,2.94,4.68,1.4,11.2,6.5
+P629,84,Male,Other,Hypertension,EGFR Mutation,T006,DrugB,Phase III,2/11/2022,7/11/2023,150mg,"Headache, Dizziness, Nausea",TR0148,150mg,No Change,Headache,57,0,BRCA2,Negative,1.95,4.63,5.2,14.4,15.9
+P630,37,Other,Asian,Hypertension,None,T017,DrugA,Phase IV,2/23/2020,12/23/2020,100mg,"None, Fatigue",TR0139,100mg,Deteriorated,Nausea,78,0,BRCA1,Positive,1.62,2.95,4.9,16.7,20
+P631,21,Female,Caucasian,Diabetes,BRCA1 Mutation,T003,DrugC,Phase IV,7/12/2019,11/12/2020,200mg,Dizziness,TR0077,200mg,No Change,Headache,125,0,BRCA2,Negative,4.08,2.59,8.4,9.1,3.5
+P632,72,Other,Other,Asthma,None,T019,DrugA,Phase IV,8/11/2019,7/11/2020,50mg,"Headache, Dizziness",TR0193,50mg,Deteriorated,Nausea,138,0,EGFR,Negative,1.82,2.36,5.6,17.1,18.5
+P633,80,Male,Hispanic,Hypertension,None,T003,DrugD,Phase III,2/3/2023,11/3/2023,50mg,"Headache, None",TR0062,50mg,Deteriorated,Headache,38,0,TP53,Negative,3.04,3.01,1.5,6.6,12.4
+P634,75,Male,Other,Asthma,BRCA2 Mutation,T019,DrugA,Phase IV,9/6/2019,10/6/2020,150mg,"Dizziness, Headache, None",TR0168,150mg,Deteriorated,Nausea,94,0,EGFR,Positive,2.75,4.36,2.4,6.4,10.6
+P635,84,Female,Asian,Asthma,BRCA2 Mutation,T002,DrugC,Phase III,2/22/2022,10/22/2022,50mg,Headache,TR0125,50mg,Improved,Nausea,129,1,BRCA2,Negative,1.95,1.2,7.5,8,13.3
+P636,23,Female,Asian,Diabetes,EGFR Mutation,T016,DrugB,Phase IV,2/6/2019,10/6/2019,100mg,"Dizziness, Nausea, Fatigue",TR0128,100mg,No Change,Headache,35,0,EGFR,Negative,2.12,1.69,4.4,20.4,9.7
+P637,31,Female,Hispanic,Hypertension,EGFR Mutation,T014,DrugA,Phase I,5/22/2019,4/22/2020,200mg,"Dizziness, Fatigue",TR0036,200mg,Improved,Nausea,71,1,BRCA1,Positive,4,1.5,8,10.3,14.5
+P638,43,Female,Other,None,None,T016,DrugA,Phase II,7/4/2023,9/4/2024,50mg,Fatigue,TR0038,50mg,No Change,Fatigue,130,0,BRCA1,Negative,3.26,4.72,4.5,7.2,3.3
+P639,25,Other,Caucasian,Hypertension,None,T009,DrugA,Phase III,6/8/2020,7/8/2021,100mg,Headache,TR0123,100mg,No Change,Fatigue,55,0,BRCA2,Negative,4.31,3.1,8,10.2,8.9
+P640,27,Male,Asian,Heart Disease,BRCA1 Mutation,T016,DrugA,Phase II,11/25/2020,11/25/2021,150mg,None,TR0105,150mg,Improved,Headache,40,1,TP53,Negative,1.12,4.85,7,22.8,7.5
+P641,21,Male,African American,Asthma,BRCA2 Mutation,T005,DrugD,Phase IV,4/20/2020,6/20/2021,150mg,"Nausea, Headache",TR0154,150mg,Improved,Headache,46,1,EGFR,Positive,3.45,3.71,3.9,21.3,19.1
+P642,36,Other,Caucasian,None,TP53 Mutation,T015,DrugC,Phase III,10/11/2023,8/11/2024,200mg,"Headache, Dizziness, None",TR0151,200mg,Deteriorated,Dizziness,176,0,BRCA2,Negative,4.54,3.96,3.5,11.1,19.4
+P643,61,Male,Hispanic,None,None,T020,DrugA,Phase III,5/28/2021,3/28/2022,100mg,"None, Fatigue",TR0145,100mg,Improved,None,108,1,BRCA2,Negative,1.04,3.86,7.4,17.2,19.8
+P644,84,Other,Hispanic,None,HER2 Mutation,T007,DrugB,Phase III,11/22/2020,10/22/2021,150mg,Headache,TR0149,150mg,Deteriorated,Fatigue,60,0,TP53,Positive,2.25,2.36,1.7,14,7.4
+P645,44,Other,African American,Diabetes,None,T016,DrugC,Phase II,8/23/2022,6/23/2023,200mg,"None, Fatigue, Headache",TR0156,200mg,Improved,None,61,1,HER2,Negative,2.37,4.34,9.4,9.3,9.3
+P646,18,Male,Asian,None,None,T015,DrugC,Phase IV,5/2/2020,5/2/2021,200mg,"Nausea, Headache, Fatigue",TR0100,200mg,No Change,Nausea,65,0,BRCA2,Positive,4.71,1.25,1.8,8.9,13.1
+P647,64,Male,Caucasian,Hypertension,EGFR Mutation,T018,DrugC,Phase II,12/22/2019,12/22/2020,100mg,Dizziness,TR0016,100mg,Improved,Nausea,116,1,EGFR,Negative,1.6,4.87,5,15,7.2
+P648,54,Female,Asian,Diabetes,EGFR Mutation,T019,DrugC,Phase III,3/1/2020,5/1/2021,150mg,Fatigue,TR0099,150mg,Improved,Dizziness,34,1,BRCA2,Positive,2.88,3.65,7.8,19.6,12.8
+P649,52,Female,Caucasian,Hypertension,HER2 Mutation,T008,DrugB,Phase IV,3/6/2023,12/6/2023,150mg,Nausea,TR0062,150mg,Deteriorated,None,141,0,EGFR,Negative,4.62,4.27,7.8,7,3.1
+P650,75,Male,Asian,Hypertension,None,T014,DrugD,Phase IV,12/13/2020,3/13/2022,200mg,Dizziness,TR0196,200mg,No Change,Fatigue,155,0,HER2,Negative,1.85,3.65,4.7,13.2,18
+P651,59,Male,Hispanic,Heart Disease,None,T015,DrugB,Phase III,12/3/2020,3/3/2022,200mg,Headache,TR0054,200mg,Improved,None,120,1,HER2,Negative,4.58,4.64,3.8,18.4,7.6
+P652,49,Other,African American,Diabetes,HER2 Mutation,T001,DrugB,Phase I,12/26/2022,6/26/2023,200mg,"None, Dizziness, Fatigue",TR0006,200mg,No Change,Headache,144,0,HER2,Positive,1.76,1.74,4.1,13.7,17.1
+P653,73,Female,African American,Diabetes,TP53 Mutation,T016,DrugB,Phase II,10/21/2020,12/21/2021,100mg,Headache,TR0094,100mg,Improved,Fatigue,53,1,BRCA2,Positive,1.48,3.94,5.8,11.2,11.4
+P654,24,Female,Caucasian,Heart Disease,None,T015,DrugB,Phase III,7/9/2020,3/9/2021,100mg,"None, Fatigue",TR0134,100mg,Improved,Fatigue,53,1,EGFR,Positive,2.2,3.38,4.9,9,5
+P655,40,Female,Other,Asthma,None,T006,DrugB,Phase I,10/23/2020,5/23/2021,50mg,None,TR0046,50mg,Deteriorated,Nausea,148,0,EGFR,Negative,3.19,4.61,4.1,19.2,14.2
+P656,40,Male,Other,Diabetes,BRCA1 Mutation,T011,DrugB,Phase III,1/17/2023,3/17/2024,50mg,"Fatigue, Dizziness",TR0013,50mg,No Change,Fatigue,63,0,BRCA2,Negative,4.73,4.28,6.1,17.8,18.3
+P657,53,Female,Asian,Asthma,BRCA1 Mutation,T008,DrugB,Phase I,7/5/2019,1/5/2020,150mg,"Dizziness, Headache",TR0174,150mg,No Change,Dizziness,168,0,HER2,Negative,2.6,2.31,1.1,20.9,16.6
+P658,84,Female,Other,Heart Disease,None,T013,DrugC,Phase IV,9/28/2020,10/28/2021,100mg,Fatigue,TR0019,100mg,Deteriorated,None,106,0,BRCA1,Negative,1.42,3.31,5.2,8.1,19.7
+P659,66,Female,African American,None,HER2 Mutation,T007,DrugA,Phase II,11/25/2022,7/25/2023,200mg,"Fatigue, None, Dizziness",TR0063,200mg,Improved,Nausea,88,1,HER2,Negative,1.86,1.27,6.4,19.3,3.6
+P660,80,Female,Hispanic,Asthma,BRCA2 Mutation,T015,DrugB,Phase IV,4/5/2019,8/5/2020,50mg,"None, Nausea",TR0090,50mg,No Change,Headache,140,0,BRCA1,Negative,3.63,3.13,1.9,9.1,12.7
+P661,63,Other,Other,Asthma,HER2 Mutation,T003,DrugC,Phase III,5/17/2020,1/17/2021,50mg,Fatigue,TR0191,50mg,Deteriorated,Dizziness,99,0,BRCA1,Positive,2.19,4.75,8.4,23.7,7.4
+P662,83,Male,Other,None,HER2 Mutation,T011,DrugD,Phase III,6/10/2023,5/10/2024,50mg,"Dizziness, Nausea, Fatigue",TR0195,50mg,No Change,Headache,161,0,BRCA1,Positive,4.88,2.72,4.1,6.9,3.9
+P663,37,Female,African American,Asthma,None,T009,DrugB,Phase II,2/20/2020,2/20/2021,150mg,"Fatigue, Nausea",TR0012,150mg,No Change,Nausea,64,0,BRCA2,Negative,3.77,2.83,3,17.1,7.3
+P664,42,Female,Asian,Asthma,None,T009,DrugB,Phase I,3/28/2019,9/28/2019,150mg,"Headache, Nausea, Dizziness",TR0120,150mg,Improved,Headache,59,1,BRCA1,Negative,3.31,2.44,8.4,20.8,11.1
+P665,61,Other,African American,Asthma,None,T009,DrugC,Phase III,3/22/2023,7/22/2024,150mg,"Fatigue, Dizziness, Nausea",TR0112,150mg,No Change,None,114,0,EGFR,Negative,2.4,2.45,8.3,11.9,6.6
+P666,81,Other,Hispanic,Hypertension,None,T010,DrugC,Phase I,9/8/2020,3/8/2022,100mg,Headache,TR0040,100mg,Improved,Dizziness,159,1,TP53,Negative,1.34,2.87,5.3,21.1,6.8
+P667,69,Female,Other,None,BRCA2 Mutation,T006,DrugD,Phase I,1/14/2021,1/14/2022,200mg,Headache,TR0122,200mg,Improved,None,124,1,BRCA1,Negative,2.52,4.23,8.4,12.9,10.8
+P668,48,Female,Hispanic,Asthma,None,T013,DrugD,Phase II,4/20/2021,10/20/2022,100mg,"Fatigue, None",TR0152,100mg,No Change,Nausea,55,0,BRCA1,Positive,2.21,4.73,2.1,22.8,14.6
+P669,19,Male,Other,Asthma,BRCA1 Mutation,T005,DrugA,Phase I,3/2/2022,11/2/2022,150mg,"None, Nausea",TR0011,150mg,Improved,None,114,1,BRCA1,Positive,3.13,1.13,5.3,13.3,5.7
+P670,28,Male,Other,Hypertension,None,T007,DrugB,Phase IV,2/9/2022,5/9/2023,150mg,"Dizziness, Nausea, None",TR0073,150mg,Improved,Nausea,148,1,EGFR,Negative,3.63,4.88,6.1,18.9,4.2
+P671,38,Other,Other,Hypertension,BRCA2 Mutation,T010,DrugA,Phase IV,11/6/2021,4/6/2023,200mg,"None, Dizziness",TR0076,200mg,Deteriorated,Headache,137,0,BRCA2,Negative,2.67,1.47,6.5,22.9,14.3
+P672,59,Male,Asian,Asthma,BRCA2 Mutation,T002,DrugA,Phase I,2/5/2023,9/5/2023,200mg,Fatigue,TR0186,200mg,Improved,None,115,1,TP53,Positive,1.31,2.42,6,13.3,17.2
+P673,79,Female,Hispanic,Hypertension,None,T018,DrugC,Phase II,11/2/2022,10/2/2023,100mg,"Fatigue, None",TR0017,100mg,Improved,Nausea,94,1,HER2,Positive,4.26,3.45,4.4,10.6,4.8
+P674,81,Female,Hispanic,None,TP53 Mutation,T014,DrugC,Phase II,3/9/2019,3/9/2020,50mg,"None, Fatigue",TR0011,50mg,Improved,Fatigue,161,1,EGFR,Negative,2.42,2.65,7.1,17.8,4.2
+P675,53,Male,Asian,Asthma,BRCA1 Mutation,T012,DrugC,Phase III,1/4/2021,2/4/2022,100mg,Fatigue,TR0086,100mg,Deteriorated,Dizziness,100,0,EGFR,Negative,2.58,1.73,2.4,20.9,3.7
+P676,85,Other,Other,Heart Disease,BRCA1 Mutation,T015,DrugC,Phase IV,5/11/2019,11/11/2019,200mg,"Nausea, Headache, Fatigue",TR0119,200mg,Deteriorated,Dizziness,89,0,TP53,Positive,2.68,1.67,8.9,16,6.9
+P677,75,Female,African American,Hypertension,None,T019,DrugC,Phase IV,1/17/2021,10/17/2021,50mg,Headache,TR0062,50mg,No Change,Nausea,140,0,BRCA1,Positive,3.01,3.93,9.6,10,18.1
+P678,53,Other,Other,Asthma,TP53 Mutation,T020,DrugA,Phase IV,4/18/2023,8/18/2024,150mg,Fatigue,TR0100,150mg,Deteriorated,None,75,0,EGFR,Positive,4.74,4.67,6.7,17.3,9.9
+P679,19,Other,Hispanic,Hypertension,BRCA2 Mutation,T016,DrugA,Phase I,12/24/2020,10/24/2021,100mg,"None, Dizziness, Fatigue",TR0042,100mg,No Change,Fatigue,71,0,TP53,Positive,4.01,3.13,7.1,13.7,15.4
+P680,54,Female,Other,Heart Disease,None,T003,DrugB,Phase I,4/3/2019,10/3/2020,150mg,Nausea,TR0196,150mg,No Change,None,61,0,EGFR,Negative,4.3,1.59,8.5,15.7,17.4
+P681,83,Male,Hispanic,Heart Disease,BRCA1 Mutation,T012,DrugA,Phase III,7/26/2020,4/26/2021,150mg,"Nausea, Dizziness, Headache",TR0042,150mg,Improved,None,71,1,EGFR,Positive,2.73,2.52,9.2,10.5,17.4
+P682,79,Other,African American,Hypertension,HER2 Mutation,T014,DrugA,Phase IV,3/7/2020,6/7/2021,200mg,"Nausea, Fatigue, None",TR0200,200mg,No Change,Dizziness,147,0,HER2,Negative,2.94,3.06,3.8,16.3,8.5
+P683,65,Male,Caucasian,Hypertension,BRCA1 Mutation,T019,DrugC,Phase I,11/11/2021,11/11/2022,50mg,"Headache, Nausea",TR0035,50mg,Improved,Dizziness,163,1,EGFR,Positive,1.16,2.09,1.1,23.6,19.4
+P684,35,Female,Hispanic,Heart Disease,None,T011,DrugA,Phase I,4/10/2021,6/10/2022,200mg,"Nausea, Dizziness",TR0015,200mg,No Change,Fatigue,96,0,HER2,Positive,2.58,3.91,4.1,18.1,16.7
+P685,53,Female,Hispanic,Hypertension,None,T012,DrugA,Phase IV,12/10/2021,12/10/2022,50mg,None,TR0084,50mg,Improved,Nausea,65,1,EGFR,Positive,4.79,2.6,8,10.8,19.8
+P686,64,Male,Caucasian,None,None,T011,DrugA,Phase II,4/19/2023,10/19/2024,50mg,Nausea,TR0071,50mg,No Change,Dizziness,168,0,BRCA1,Negative,1.1,3.41,6.9,18.4,5
+P687,56,Male,Hispanic,Hypertension,HER2 Mutation,T003,DrugC,Phase III,3/3/2019,10/3/2019,50mg,Headache,TR0011,50mg,No Change,None,133,0,EGFR,Positive,4.75,1.72,6.6,10,8.2
+P688,51,Male,Other,Heart Disease,None,T008,DrugA,Phase III,3/21/2020,6/21/2021,50mg,"Nausea, Headache, Dizziness",TR0187,50mg,Deteriorated,Fatigue,73,0,EGFR,Positive,3.19,2.67,2.4,9.1,10.1
+P689,70,Male,Other,None,None,T007,DrugD,Phase II,7/7/2019,10/7/2020,200mg,Dizziness,TR0075,200mg,No Change,Fatigue,133,0,EGFR,Negative,4.03,4.59,1.8,13.1,4.7
+P690,54,Female,Asian,Heart Disease,None,T004,DrugD,Phase III,8/1/2023,3/1/2024,200mg,"Fatigue, None, Headache",TR0033,200mg,Deteriorated,Fatigue,178,0,BRCA1,Positive,1.07,3.65,6.4,8.9,7
+P691,34,Other,Caucasian,Diabetes,None,T002,DrugA,Phase IV,4/9/2020,11/9/2020,50mg,"Fatigue, Nausea, None",TR0004,50mg,No Change,Nausea,117,0,BRCA2,Negative,1.09,4.34,9.8,8.4,6.9
+P692,36,Male,Caucasian,None,HER2 Mutation,T013,DrugC,Phase IV,11/5/2020,8/5/2021,200mg,"Fatigue, Dizziness",TR0126,200mg,No Change,None,141,0,BRCA1,Negative,4.47,4.71,4.8,6.9,3.7
+P693,18,Female,Hispanic,Diabetes,BRCA1 Mutation,T015,DrugC,Phase II,2/10/2022,10/10/2022,150mg,"Fatigue, Headache",TR0197,150mg,Improved,Headache,165,1,BRCA1,Negative,3.3,2.57,1.3,16.5,3.2
+P694,62,Female,Asian,Asthma,TP53 Mutation,T016,DrugD,Phase III,8/8/2020,9/8/2021,100mg,Fatigue,TR0166,100mg,No Change,Headache,86,0,EGFR,Positive,4.15,2.23,1.4,16.6,9.8
+P695,32,Female,African American,Heart Disease,BRCA1 Mutation,T009,DrugC,Phase IV,2/19/2019,9/19/2019,100mg,"None, Fatigue",TR0194,100mg,Deteriorated,Dizziness,177,0,EGFR,Positive,4.9,3.18,3.5,18.8,7.6
+P696,81,Other,Caucasian,Diabetes,None,T011,DrugD,Phase III,8/7/2019,4/7/2020,50mg,"None, Headache, Fatigue",TR0179,50mg,No Change,Dizziness,81,0,HER2,Negative,4.62,2.5,5.9,6.9,10.2
+P697,30,Female,Hispanic,Heart Disease,BRCA2 Mutation,T011,DrugA,Phase III,8/25/2021,5/25/2022,150mg,"Fatigue, Headache",TR0144,150mg,Improved,Nausea,56,1,EGFR,Positive,4.33,4.22,3,10.1,16.9
+P698,47,Female,Caucasian,Diabetes,EGFR Mutation,T003,DrugA,Phase IV,4/24/2020,1/24/2021,100mg,"Nausea, Dizziness",TR0066,100mg,Improved,Dizziness,134,1,BRCA1,Negative,4.72,1.38,5.1,12.1,17.8
+P699,75,Male,Caucasian,None,None,T020,DrugA,Phase I,10/18/2021,3/18/2023,100mg,Headache,TR0177,100mg,No Change,Dizziness,72,0,BRCA1,Negative,1.33,1.84,7.8,6.9,11.4
+P700,45,Female,African American,Hypertension,EGFR Mutation,T008,DrugC,Phase I,12/12/2022,11/12/2023,200mg,"Fatigue, Nausea, None",TR0025,200mg,Deteriorated,Dizziness,35,0,TP53,Positive,2.77,2.34,4.6,15.5,5.7
+P701,40,Male,Asian,Hypertension,None,T007,DrugB,Phase II,5/15/2020,11/15/2020,200mg,Dizziness,TR0035,200mg,Improved,Nausea,82,1,TP53,Negative,3.29,4.22,7.8,8.8,5.5
+P702,73,Male,Caucasian,Diabetes,BRCA1 Mutation,T006,DrugC,Phase I,3/22/2023,3/22/2024,50mg,Fatigue,TR0055,50mg,Improved,Fatigue,136,1,BRCA1,Negative,2.07,2.44,4.7,18.2,4
+P703,47,Other,Asian,None,None,T018,DrugC,Phase IV,10/18/2020,2/18/2022,100mg,"Headache, Fatigue",TR0157,100mg,No Change,None,110,0,TP53,Positive,1.14,2.57,7.3,9.5,13.9
+P704,20,Male,Hispanic,None,EGFR Mutation,T015,DrugA,Phase I,1/8/2020,6/8/2021,50mg,"Headache, Dizziness, None",TR0149,50mg,Deteriorated,Fatigue,43,0,EGFR,Positive,2.04,4.54,9.1,11.4,6.9
+P705,47,Male,Asian,Hypertension,None,T020,DrugA,Phase II,9/3/2023,8/3/2024,50mg,"None, Dizziness",TR0141,50mg,Improved,Fatigue,41,1,HER2,Negative,2.65,1.96,7.1,20.9,14.4
+P706,44,Male,Asian,Hypertension,None,T020,DrugD,Phase I,12/21/2022,2/21/2024,50mg,"None, Headache, Nausea",TR0175,50mg,No Change,None,37,0,BRCA1,Positive,4.3,2.59,2.4,19.3,9.1
+P707,21,Other,Caucasian,Hypertension,BRCA2 Mutation,T019,DrugA,Phase I,8/26/2020,3/26/2021,200mg,"None, Nausea, Dizziness",TR0192,200mg,Deteriorated,Nausea,68,0,TP53,Negative,3.69,2.08,1.7,23.9,5.7
+P708,66,Other,Caucasian,Heart Disease,None,T010,DrugC,Phase II,9/27/2019,5/27/2020,200mg,"Headache, Nausea",TR0039,200mg,Improved,None,158,1,EGFR,Positive,4.95,4.91,8.1,17.9,12.8
+P709,58,Female,Hispanic,Hypertension,None,T015,DrugA,Phase I,1/1/2023,5/1/2024,150mg,Headache,TR0089,150mg,Deteriorated,None,52,0,TP53,Negative,4.46,2.16,5.2,17.1,10
+P710,85,Male,Hispanic,Asthma,None,T008,DrugD,Phase II,9/8/2021,8/8/2022,150mg,"Nausea, None, Fatigue",TR0044,150mg,Deteriorated,Headache,40,0,EGFR,Positive,2.71,2.32,6.1,21.3,6.4
+P711,78,Male,Hispanic,Diabetes,EGFR Mutation,T020,DrugD,Phase III,10/25/2019,2/25/2021,100mg,Nausea,TR0016,100mg,No Change,Nausea,61,0,HER2,Negative,4.74,3.76,8.4,16,16.3
+P712,85,Male,Other,Heart Disease,None,T009,DrugC,Phase II,8/16/2023,5/16/2024,100mg,"Fatigue, Nausea",TR0103,100mg,No Change,Fatigue,69,0,BRCA1,Positive,1.06,4.27,1.4,22,19.9
+P713,69,Other,African American,Diabetes,None,T010,DrugD,Phase III,1/8/2020,1/8/2021,100mg,"Dizziness, Headache",TR0055,100mg,Improved,None,94,1,BRCA1,Negative,2.18,1.84,7.9,10.6,17.7
+P714,23,Female,African American,Asthma,TP53 Mutation,T010,DrugA,Phase II,4/24/2022,8/24/2023,150mg,"Dizziness, Fatigue",TR0076,150mg,Improved,Nausea,51,1,HER2,Negative,1.41,1.5,9.8,18.1,17.4
+P715,57,Female,African American,None,None,T017,DrugA,Phase II,6/8/2019,8/8/2020,100mg,"None, Fatigue",TR0120,100mg,Deteriorated,Nausea,117,0,BRCA1,Negative,2.3,3.71,6.3,16.9,14.6
+P716,25,Female,Asian,Diabetes,None,T007,DrugC,Phase II,5/19/2023,4/19/2024,50mg,"Fatigue, Dizziness",TR0027,50mg,Improved,Nausea,146,1,EGFR,Negative,3.3,2.72,3.5,19.8,6.8
+P717,33,Other,Caucasian,Heart Disease,None,T008,DrugA,Phase II,4/5/2022,4/5/2023,150mg,Nausea,TR0105,150mg,Improved,Nausea,51,1,EGFR,Negative,3.77,1.93,6.6,19.4,6.7
+P718,59,Female,Caucasian,Asthma,None,T014,DrugA,Phase I,4/27/2020,10/27/2020,50mg,"Nausea, None, Fatigue",TR0029,50mg,Deteriorated,Fatigue,164,0,BRCA1,Positive,1.24,1.52,6.5,21.3,3.8
+P719,66,Female,Hispanic,Asthma,TP53 Mutation,T020,DrugA,Phase IV,10/22/2019,7/22/2020,200mg,"Dizziness, None",TR0035,200mg,Improved,Nausea,109,1,EGFR,Positive,3.94,2.37,5.3,22.7,8.6
+P720,33,Other,Other,None,TP53 Mutation,T008,DrugB,Phase IV,8/11/2023,2/11/2024,100mg,"Fatigue, Dizziness",TR0186,100mg,Improved,Fatigue,159,1,BRCA2,Positive,2.86,1.05,1.7,10.7,3.5
+P721,48,Female,African American,None,BRCA1 Mutation,T003,DrugC,Phase I,3/17/2021,5/17/2022,200mg,"Nausea, None, Headache",TR0006,200mg,No Change,Fatigue,156,0,HER2,Negative,3.53,2.71,5.9,9.1,8
+P722,73,Other,Caucasian,Heart Disease,None,T004,DrugB,Phase IV,1/7/2019,7/7/2019,100mg,"Headache, Dizziness",TR0156,100mg,Improved,Nausea,128,1,BRCA2,Negative,3.66,4.86,1.5,22,12.8
+P723,27,Female,Asian,Hypertension,None,T007,DrugC,Phase III,1/27/2021,1/27/2022,100mg,"Dizziness, Nausea",TR0125,100mg,Deteriorated,Headache,138,0,EGFR,Positive,3.26,3,1.6,7.6,13.2
+P724,44,Other,African American,None,None,T002,DrugA,Phase II,9/1/2021,3/1/2023,200mg,None,TR0077,200mg,Improved,Headache,170,1,EGFR,Positive,2.36,4.67,4.7,8.6,15.2
+P725,70,Male,Asian,Diabetes,None,T020,DrugA,Phase I,11/12/2019,12/12/2020,50mg,"Nausea, None, Headache",TR0149,50mg,Deteriorated,Nausea,104,0,TP53,Positive,2.17,3.1,7.3,22.2,16.5
+P726,20,Other,Hispanic,None,None,T006,DrugD,Phase IV,10/26/2023,10/26/2024,150mg,"Dizziness, Headache, Nausea",TR0134,150mg,No Change,Fatigue,167,0,TP53,Negative,3.71,3.72,9.5,11.3,3
+P727,49,Male,African American,Heart Disease,BRCA1 Mutation,T017,DrugC,Phase II,4/4/2020,12/4/2020,100mg,"Fatigue, Headache",TR0104,100mg,Deteriorated,Dizziness,44,0,HER2,Positive,2.09,1.87,7,17.4,13.1
+P728,78,Male,Hispanic,Hypertension,HER2 Mutation,T001,DrugD,Phase II,5/18/2020,10/18/2021,100mg,"Dizziness, Fatigue, Headache",TR0172,100mg,Deteriorated,Dizziness,122,0,BRCA2,Positive,1.06,3.92,3.9,18,12.5
+P729,20,Female,Caucasian,None,None,T004,DrugB,Phase IV,1/18/2021,7/18/2022,100mg,"Dizziness, None",TR0140,100mg,Deteriorated,Fatigue,141,0,TP53,Positive,2.37,1.54,1.8,21,18.6
+P730,66,Other,Hispanic,None,BRCA1 Mutation,T007,DrugA,Phase IV,2/22/2022,6/22/2023,100mg,Dizziness,TR0081,100mg,Deteriorated,None,60,0,TP53,Positive,3.6,1.41,4.6,19.1,16.3
+P731,52,Female,Other,Diabetes,TP53 Mutation,T017,DrugC,Phase I,3/16/2019,9/16/2020,100mg,Nausea,TR0171,100mg,Deteriorated,Headache,130,0,HER2,Positive,1.47,1,7.4,12.4,7.3
+P732,25,Male,Hispanic,Heart Disease,BRCA1 Mutation,T007,DrugC,Phase I,2/13/2019,4/13/2020,50mg,"None, Nausea, Fatigue",TR0162,50mg,Deteriorated,Nausea,112,0,BRCA1,Negative,1.05,3.16,8.7,23.2,12.6
+P733,70,Male,Other,Diabetes,None,T015,DrugD,Phase II,12/12/2019,9/12/2020,150mg,"Nausea, Headache",TR0113,150mg,No Change,Dizziness,102,0,HER2,Positive,3.06,1.34,5.9,12.8,13.3
+P734,25,Other,Hispanic,Diabetes,None,T014,DrugB,Phase II,1/18/2021,7/18/2022,50mg,"Headache, Dizziness, Fatigue",TR0013,50mg,Improved,Dizziness,47,1,TP53,Positive,2.55,1.96,1.9,11.7,4.6
+P735,68,Other,Other,None,BRCA2 Mutation,T007,DrugB,Phase IV,2/5/2020,1/5/2021,150mg,"Fatigue, Dizziness, Headache",TR0103,150mg,Improved,Headache,169,1,BRCA1,Negative,1.71,4.95,5,15.6,17.9
+P736,19,Male,Asian,Hypertension,BRCA2 Mutation,T001,DrugD,Phase I,7/8/2020,9/8/2021,150mg,Headache,TR0127,150mg,Deteriorated,Dizziness,118,0,HER2,Positive,4.98,3.33,8.3,11.9,8.2
+P737,42,Male,Hispanic,Hypertension,None,T018,DrugC,Phase III,10/2/2021,3/2/2023,100mg,"None, Nausea, Headache",TR0102,100mg,No Change,Dizziness,41,0,BRCA1,Negative,2.61,3.69,7.1,11.7,5.3
+P738,53,Female,Caucasian,Diabetes,TP53 Mutation,T004,DrugD,Phase IV,2/5/2023,3/5/2024,200mg,"Dizziness, Fatigue, Nausea",TR0020,200mg,Improved,Fatigue,53,1,HER2,Positive,3.53,1.51,6.2,18.5,14.9
+P739,31,Other,Asian,None,None,T014,DrugB,Phase III,12/22/2022,3/22/2024,200mg,Headache,TR0060,200mg,Deteriorated,Fatigue,59,0,EGFR,Positive,4.01,4.49,5.5,19.1,13.5
+P740,58,Female,Caucasian,None,HER2 Mutation,T001,DrugD,Phase IV,11/4/2022,12/4/2023,200mg,"Nausea, Headache, Fatigue",TR0061,200mg,No Change,Dizziness,67,0,BRCA1,Negative,1.75,1.1,3.6,14,13.5
+P741,18,Female,Other,Diabetes,BRCA2 Mutation,T006,DrugB,Phase III,11/6/2021,6/6/2022,200mg,"None, Nausea, Fatigue",TR0139,200mg,No Change,Nausea,97,0,HER2,Positive,4.4,1.78,2.1,23.3,4.8
+P742,27,Other,Asian,Hypertension,None,T005,DrugC,Phase IV,10/2/2022,12/2/2023,150mg,Headache,TR0160,150mg,Deteriorated,Dizziness,103,0,EGFR,Positive,2.91,3.34,5.9,7.5,4
+P743,38,Male,Caucasian,None,None,T020,DrugB,Phase IV,12/23/2023,10/23/2024,150mg,"Fatigue, None, Headache",TR0087,150mg,Deteriorated,Dizziness,161,0,EGFR,Positive,1.42,3.34,5.9,10.2,13.8
+P744,28,Female,African American,Asthma,None,T017,DrugD,Phase I,2/12/2022,10/12/2022,100mg,"Headache, Dizziness, Fatigue",TR0123,100mg,Improved,Dizziness,77,1,BRCA1,Negative,4.28,1.17,5.5,18.4,7.3
+P745,53,Female,Caucasian,Heart Disease,HER2 Mutation,T016,DrugD,Phase IV,3/28/2023,6/28/2024,200mg,"Headache, Fatigue, Nausea",TR0082,200mg,Deteriorated,Dizziness,80,0,HER2,Positive,2.23,3.45,9.1,20.6,12.9
+P746,58,Other,Other,Hypertension,BRCA2 Mutation,T008,DrugC,Phase I,1/22/2021,12/22/2021,200mg,"Dizziness, None",TR0176,200mg,No Change,Dizziness,39,0,BRCA1,Positive,3.92,2.46,6.8,14.4,6.2
+P747,39,Female,Other,Diabetes,None,T011,DrugC,Phase III,3/17/2021,3/17/2022,200mg,"Headache, Fatigue, Nausea",TR0091,200mg,Deteriorated,None,77,0,BRCA2,Positive,3.81,3.23,4.2,22.4,3.4
+P748,52,Female,Asian,Diabetes,None,T019,DrugA,Phase III,3/9/2022,10/9/2022,150mg,Dizziness,TR0195,150mg,No Change,Headache,75,0,TP53,Negative,2.26,1.23,7.9,18.6,8.6
+P749,39,Other,Asian,Asthma,None,T008,DrugB,Phase III,10/26/2023,2/26/2025,150mg,Fatigue,TR0130,150mg,Improved,Dizziness,130,1,TP53,Negative,3.7,2.58,7.8,14.2,10
+P750,21,Other,Hispanic,Heart Disease,HER2 Mutation,T018,DrugC,Phase I,6/25/2023,7/25/2024,150mg,"Fatigue, Nausea",TR0050,150mg,No Change,Dizziness,60,0,EGFR,Positive,4.74,2,2.1,16.5,19.5
+P751,32,Female,Other,Asthma,BRCA2 Mutation,T017,DrugC,Phase II,1/3/2021,12/3/2021,100mg,"None, Nausea",TR0084,100mg,No Change,Headache,57,0,TP53,Negative,2.51,1.25,4.1,15.1,5.8
+P752,43,Male,Asian,Diabetes,BRCA2 Mutation,T014,DrugD,Phase I,7/15/2020,6/15/2021,50mg,Dizziness,TR0069,50mg,Improved,Nausea,102,1,BRCA1,Positive,3.63,4.99,5.1,12.4,9.8
+P753,63,Male,Hispanic,Asthma,None,T004,DrugD,Phase I,12/27/2023,8/27/2024,200mg,None,TR0093,200mg,Improved,Fatigue,161,1,EGFR,Negative,1.46,4.53,4.7,13,14.2
+P754,69,Male,Asian,None,None,T014,DrugD,Phase I,10/17/2021,10/17/2022,200mg,"Headache, None, Fatigue",TR0043,200mg,Improved,Headache,116,1,EGFR,Negative,2.77,3.59,1.6,20.6,19
+P755,53,Other,African American,Heart Disease,TP53 Mutation,T011,DrugC,Phase II,3/10/2023,6/10/2024,50mg,Headache,TR0086,50mg,Improved,Fatigue,31,1,BRCA1,Positive,3.6,4.82,2.4,14.6,13.2
+P756,37,Female,African American,Diabetes,None,T008,DrugA,Phase II,11/27/2020,6/27/2021,150mg,"Nausea, Fatigue",TR0002,150mg,No Change,None,153,0,BRCA1,Positive,3.33,2.61,4,8.3,9.7
+P757,72,Other,Asian,Hypertension,TP53 Mutation,T017,DrugD,Phase IV,10/23/2023,11/23/2024,100mg,"Fatigue, Headache",TR0115,100mg,Deteriorated,Headache,104,0,HER2,Positive,1.65,3.94,2.9,7.1,12.4
+P758,18,Male,African American,Heart Disease,None,T006,DrugC,Phase III,2/17/2020,11/17/2020,100mg,"Dizziness, Nausea, None",TR0035,100mg,Improved,Nausea,62,1,BRCA2,Positive,3.38,4.49,6.2,12.2,16.7
+P759,18,Other,African American,Heart Disease,HER2 Mutation,T001,DrugA,Phase II,5/16/2022,1/16/2023,100mg,"Dizziness, Headache, Fatigue",TR0007,100mg,Deteriorated,Fatigue,150,0,HER2,Positive,3.16,1.32,6.1,22.3,9.7
+P760,76,Male,Asian,None,TP53 Mutation,T009,DrugC,Phase III,3/13/2022,11/13/2022,50mg,"Fatigue, Nausea",TR0131,50mg,Deteriorated,Headache,127,0,EGFR,Positive,2.19,1.57,2.4,13.8,13.1
+P761,31,Female,Caucasian,Heart Disease,None,T015,DrugA,Phase IV,2/15/2020,6/15/2021,100mg,Headache,TR0184,100mg,Deteriorated,Fatigue,174,0,EGFR,Positive,1.32,4.76,7.8,16.6,17.1
+P762,21,Female,Asian,Diabetes,EGFR Mutation,T020,DrugB,Phase IV,2/24/2020,2/24/2021,150mg,"Dizziness, Nausea, None",TR0078,150mg,Improved,Dizziness,170,1,BRCA2,Positive,1.32,2.91,6.7,20.9,16.3
+P763,39,Female,African American,Diabetes,None,T018,DrugB,Phase III,5/9/2023,5/9/2024,50mg,"Headache, Dizziness",TR0057,50mg,Improved,Headache,104,1,BRCA2,Positive,2.11,4.76,2.1,21.8,19.5
+P764,60,Female,African American,Heart Disease,None,T016,DrugA,Phase II,10/27/2022,1/27/2024,200mg,Fatigue,TR0147,200mg,Improved,Headache,47,1,BRCA2,Positive,1.71,3.89,1.4,13.3,11.8
+P765,60,Male,Other,Asthma,None,T016,DrugA,Phase II,12/27/2022,11/27/2023,100mg,"Dizziness, Fatigue, Nausea",TR0039,100mg,Improved,Nausea,64,1,TP53,Negative,3.32,4.74,7.1,14.7,16.8
+P766,24,Other,Asian,Diabetes,BRCA1 Mutation,T009,DrugD,Phase IV,9/17/2023,12/17/2024,200mg,"Fatigue, None",TR0171,200mg,Deteriorated,None,77,0,BRCA2,Negative,4.8,1.09,9.8,7.6,16.8
+P767,25,Male,Asian,Hypertension,TP53 Mutation,T008,DrugD,Phase I,10/11/2023,5/11/2024,200mg,None,TR0042,200mg,Improved,Dizziness,53,1,BRCA1,Positive,2.12,1.53,5,17.6,9.5
+P768,39,Other,Other,None,None,T003,DrugC,Phase II,5/21/2022,10/21/2023,100mg,Dizziness,TR0051,100mg,Improved,Dizziness,136,1,HER2,Positive,1.22,3.4,9.1,12.9,6.7
+P769,44,Other,Other,Asthma,BRCA1 Mutation,T005,DrugD,Phase I,12/5/2020,7/5/2021,100mg,Nausea,TR0176,100mg,Deteriorated,Headache,134,0,HER2,Positive,2.77,1.19,8.4,20.9,13
+P770,24,Male,Other,Hypertension,HER2 Mutation,T013,DrugA,Phase II,1/4/2020,4/4/2021,50mg,"Fatigue, None",TR0170,50mg,Deteriorated,Dizziness,142,0,BRCA2,Positive,2.41,4.2,6,20.9,13.7
+P771,45,Male,African American,Heart Disease,HER2 Mutation,T011,DrugB,Phase I,8/21/2020,12/21/2021,150mg,"Nausea, Fatigue, Headache",TR0046,150mg,Improved,Nausea,102,1,BRCA1,Negative,4.14,3.39,4.7,23.2,12.2
+P772,85,Male,African American,Hypertension,None,T011,DrugB,Phase II,5/13/2023,1/13/2024,50mg,"Fatigue, None, Dizziness",TR0185,50mg,No Change,Nausea,30,0,BRCA2,Negative,3.42,1.88,6.6,16.3,6.1
+P773,34,Other,Other,Asthma,None,T004,DrugB,Phase IV,3/9/2019,12/9/2019,200mg,"Dizziness, None",TR0139,200mg,No Change,Headache,108,0,BRCA2,Positive,1.24,3.42,7.9,15.4,6.9
+P774,21,Female,Caucasian,Diabetes,HER2 Mutation,T002,DrugD,Phase I,10/6/2021,11/6/2022,100mg,"Headache, None, Nausea",TR0043,100mg,Deteriorated,Dizziness,45,0,HER2,Positive,3.67,1.32,5,8.9,6.1
+P775,73,Female,Other,Hypertension,BRCA2 Mutation,T005,DrugC,Phase I,6/9/2021,2/9/2022,50mg,None,TR0009,50mg,Improved,Nausea,61,1,BRCA1,Negative,1.81,2.55,1.5,13.2,11.7
+P776,69,Female,Other,Asthma,TP53 Mutation,T020,DrugA,Phase III,10/22/2022,4/22/2024,150mg,"None, Headache",TR0045,150mg,Improved,None,152,1,BRCA1,Positive,2.93,2.53,8.6,8.6,11.6
+P777,50,Female,Hispanic,Hypertension,EGFR Mutation,T002,DrugA,Phase I,4/1/2019,10/1/2020,200mg,"Fatigue, Nausea, Dizziness",TR0103,200mg,No Change,Nausea,155,0,BRCA2,Negative,1.25,1.28,6.2,16.2,17.9
+P778,84,Male,Other,Hypertension,None,T012,DrugD,Phase I,10/1/2020,3/1/2022,50mg,"Nausea, Headache",TR0022,50mg,Improved,Dizziness,40,1,HER2,Negative,3.23,4.84,1.4,7.8,3.7
+P779,31,Male,Caucasian,Asthma,None,T011,DrugA,Phase I,6/17/2021,4/17/2022,200mg,"Fatigue, Headache",TR0045,200mg,Improved,Fatigue,36,1,BRCA1,Negative,1.74,3.17,6.8,6.8,19.1
+P780,41,Female,Other,Heart Disease,None,T015,DrugD,Phase IV,5/16/2023,11/16/2023,100mg,Dizziness,TR0002,100mg,No Change,Fatigue,81,0,EGFR,Negative,4.37,2.19,1.7,9.1,5.2
+P781,38,Female,African American,Asthma,None,T014,DrugB,Phase I,10/3/2021,12/3/2022,100mg,Headache,TR0005,100mg,Improved,Nausea,98,1,HER2,Negative,1.49,3.07,3.2,12.4,19.8
+P782,72,Male,African American,None,None,T001,DrugA,Phase I,8/19/2019,9/19/2020,200mg,None,TR0010,200mg,Improved,None,179,1,BRCA2,Positive,3.74,4.8,2.3,12.9,12.4
+P783,52,Other,Caucasian,None,BRCA1 Mutation,T011,DrugB,Phase I,10/20/2021,12/20/2022,50mg,"None, Headache, Fatigue",TR0156,50mg,Deteriorated,Headache,87,0,BRCA1,Positive,1.31,1.02,7,17.6,10
+P784,77,Other,Hispanic,Hypertension,None,T013,DrugC,Phase I,7/4/2022,3/4/2023,100mg,"None, Nausea",TR0125,100mg,No Change,Dizziness,98,0,BRCA2,Positive,2.96,2.66,1.2,12,6
+P785,40,Female,Hispanic,Diabetes,EGFR Mutation,T019,DrugC,Phase I,8/26/2023,2/26/2024,50mg,"None, Fatigue, Headache",TR0170,50mg,Improved,Nausea,84,1,HER2,Positive,1.39,4.83,6.4,19.1,8.4
+P786,83,Female,Other,Diabetes,HER2 Mutation,T002,DrugB,Phase I,2/28/2021,4/28/2022,50mg,None,TR0176,50mg,Deteriorated,Dizziness,176,0,EGFR,Negative,2.57,1.95,1.9,9.2,16.6
+P787,36,Male,Caucasian,Asthma,None,T018,DrugC,Phase I,9/13/2019,7/13/2020,150mg,"Fatigue, Dizziness, Nausea",TR0116,150mg,No Change,Dizziness,161,0,BRCA2,Negative,3.71,3.19,5.3,22.6,4.2
+P788,82,Female,Hispanic,Hypertension,None,T002,DrugA,Phase III,1/14/2023,2/14/2024,150mg,"Nausea, Fatigue",TR0049,150mg,No Change,Dizziness,51,0,TP53,Negative,2.12,2.4,8,23.9,7.1
+P789,29,Other,Caucasian,Diabetes,None,T016,DrugC,Phase II,11/14/2023,1/14/2025,100mg,"Headache, Dizziness",TR0171,100mg,Deteriorated,Nausea,98,0,BRCA1,Negative,4.5,4.32,3,13.2,10
+P790,47,Other,Caucasian,None,None,T003,DrugD,Phase I,7/2/2021,8/2/2022,100mg,Headache,TR0073,100mg,Deteriorated,Dizziness,172,0,BRCA2,Negative,4.91,1.72,8.2,12,15.4
+P791,66,Female,Caucasian,Asthma,None,T013,DrugB,Phase III,10/14/2019,3/14/2021,150mg,"Headache, Dizziness, None",TR0064,150mg,Deteriorated,None,139,0,BRCA1,Negative,2.68,3.31,8.5,20.5,17.7
+P792,75,Other,African American,Diabetes,BRCA1 Mutation,T005,DrugC,Phase I,3/6/2022,2/6/2023,100mg,"Headache, None, Dizziness",TR0140,100mg,Improved,Nausea,158,1,EGFR,Positive,1.24,3.77,2.3,13.5,12.3
+P793,52,Other,Hispanic,Heart Disease,None,T008,DrugA,Phase IV,5/13/2020,6/13/2021,100mg,"Headache, Nausea, Fatigue",TR0006,100mg,Deteriorated,Nausea,52,0,TP53,Positive,2.61,3.08,10,8.4,14.5
+P794,45,Male,Other,Diabetes,EGFR Mutation,T006,DrugB,Phase IV,4/7/2019,5/7/2020,200mg,None,TR0048,200mg,Improved,Nausea,95,1,TP53,Positive,2.58,1.53,2.4,23.1,18
+P795,69,Female,Caucasian,Diabetes,TP53 Mutation,T010,DrugD,Phase II,2/20/2021,9/20/2021,200mg,"Nausea, Fatigue",TR0179,200mg,No Change,None,37,0,EGFR,Negative,4.63,4.97,2.9,12.4,14.4
+P796,69,Male,Hispanic,Asthma,None,T003,DrugB,Phase III,9/19/2023,3/19/2025,50mg,"Dizziness, Nausea, Fatigue",TR0119,50mg,Deteriorated,Fatigue,54,0,TP53,Positive,2.94,2.67,4.2,16.7,12.8
+P797,74,Female,Hispanic,Heart Disease,None,T004,DrugB,Phase III,3/13/2023,7/13/2024,200mg,"Dizziness, Headache",TR0158,200mg,Deteriorated,Dizziness,93,0,EGFR,Negative,1.65,2.89,6,16.3,6.6
+P798,74,Female,Other,Asthma,None,T003,DrugC,Phase III,5/11/2023,11/11/2024,50mg,Nausea,TR0158,50mg,Improved,Dizziness,76,1,BRCA1,Negative,3.97,1.1,4.2,20,12.6
+P799,64,Male,Hispanic,Hypertension,BRCA1 Mutation,T016,DrugA,Phase IV,4/27/2019,7/27/2020,200mg,Headache,TR0081,200mg,Improved,Headache,62,1,BRCA1,Negative,2.04,3.78,6.1,20.3,15.5
+P800,59,Female,Other,Hypertension,BRCA1 Mutation,T002,DrugA,Phase III,5/17/2020,8/17/2021,150mg,Nausea,TR0076,150mg,No Change,Headache,100,0,EGFR,Negative,3.44,2.95,2.2,10.7,10.1
+P801,73,Female,Hispanic,Hypertension,HER2 Mutation,T009,DrugB,Phase I,6/14/2021,5/14/2022,200mg,"None, Nausea",TR0147,200mg,No Change,None,111,0,BRCA2,Positive,3.4,3.05,3.6,6.1,11.4
+P802,82,Other,Caucasian,Asthma,TP53 Mutation,T009,DrugD,Phase IV,11/6/2020,5/6/2022,200mg,"None, Nausea",TR0028,200mg,No Change,None,118,0,BRCA2,Positive,2.14,3.94,1.2,16.5,19
+P803,19,Other,Hispanic,Diabetes,None,T004,DrugB,Phase II,3/25/2021,9/25/2022,200mg,"Headache, Dizziness",TR0080,200mg,No Change,Fatigue,110,0,EGFR,Positive,1.7,2.89,1.8,17.3,12.4
+P804,67,Male,Caucasian,Hypertension,BRCA1 Mutation,T003,DrugC,Phase III,9/21/2023,9/21/2024,50mg,Dizziness,TR0004,50mg,Improved,Headache,180,1,EGFR,Negative,2.63,3.09,9.1,9.5,3.4
+P805,79,Other,Hispanic,Heart Disease,BRCA1 Mutation,T006,DrugC,Phase IV,5/15/2019,1/15/2020,200mg,"Fatigue, Headache",TR0020,200mg,Improved,Nausea,72,1,BRCA1,Positive,4.45,3.31,9,16.7,16.8
+P806,85,Female,Asian,Asthma,HER2 Mutation,T012,DrugD,Phase I,9/12/2022,1/12/2024,100mg,"None, Fatigue",TR0080,100mg,Improved,Nausea,172,1,BRCA2,Negative,2.72,4,9.2,16.3,6.1
+P807,50,Female,African American,Hypertension,HER2 Mutation,T009,DrugC,Phase III,11/15/2021,10/15/2022,100mg,Nausea,TR0029,100mg,Improved,Fatigue,69,1,HER2,Negative,2.08,1.79,3.2,11.5,12.4
+P808,80,Other,Other,Hypertension,HER2 Mutation,T007,DrugB,Phase III,8/6/2020,2/6/2021,100mg,"Dizziness, Headache, None",TR0044,100mg,Improved,Headache,120,1,BRCA1,Positive,3.35,2.71,6.5,7.5,4.5
+P809,26,Other,Hispanic,Diabetes,None,T009,DrugC,Phase II,7/20/2019,1/20/2021,100mg,"Dizziness, Fatigue",TR0069,100mg,Deteriorated,Fatigue,114,0,BRCA2,Negative,1.69,3.07,2.9,11.1,9.8
+P810,19,Male,Caucasian,Heart Disease,HER2 Mutation,T015,DrugD,Phase III,2/27/2023,2/27/2024,150mg,None,TR0066,150mg,No Change,None,96,0,TP53,Negative,4.25,1.06,6.8,18,16.6
+P811,24,Other,Asian,Heart Disease,None,T003,DrugD,Phase II,12/26/2022,2/26/2024,50mg,None,TR0062,50mg,Deteriorated,Dizziness,61,0,BRCA2,Negative,4.73,1.08,2.4,22,10.8
+P812,82,Other,African American,Heart Disease,None,T020,DrugD,Phase II,1/10/2023,12/10/2023,200mg,"Fatigue, Headache, Nausea",TR0071,200mg,No Change,Fatigue,94,0,HER2,Positive,3.26,3.65,7.1,22.8,19.9
+P813,22,Male,Other,Heart Disease,None,T013,DrugC,Phase II,3/7/2021,5/7/2022,100mg,"Headache, Fatigue, None",TR0061,100mg,Improved,Dizziness,56,1,BRCA2,Positive,3.88,2.15,8.9,6.9,6.9
+P814,81,Male,Hispanic,Diabetes,None,T019,DrugB,Phase II,9/2/2023,2/2/2025,100mg,Fatigue,TR0032,100mg,Improved,Nausea,33,1,BRCA2,Positive,4.59,2.02,3,8.5,17.6
+P815,40,Male,Caucasian,Hypertension,None,T013,DrugD,Phase IV,2/2/2022,8/2/2022,200mg,"Headache, Nausea, Dizziness",TR0141,200mg,Improved,None,78,1,TP53,Negative,3,3.7,3.2,19.6,15.9
+P816,29,Female,Caucasian,Diabetes,None,T010,DrugC,Phase II,10/17/2019,4/17/2021,50mg,"None, Headache",TR0193,50mg,Deteriorated,Fatigue,79,0,TP53,Negative,2.25,2.64,2.9,23.6,14
+P817,70,Other,African American,Hypertension,BRCA2 Mutation,T001,DrugD,Phase IV,1/12/2020,11/12/2020,150mg,"Dizziness, Headache, Fatigue",TR0020,150mg,No Change,Nausea,41,0,HER2,Negative,4.74,2.21,8,19.8,14.8
+P818,67,Female,African American,Hypertension,HER2 Mutation,T012,DrugC,Phase I,12/27/2019,9/27/2020,150mg,Headache,TR0139,150mg,No Change,Nausea,132,0,EGFR,Negative,4.86,2.57,2.2,18.1,15.4
+P819,78,Male,Other,Heart Disease,EGFR Mutation,T007,DrugD,Phase IV,4/10/2023,6/10/2024,100mg,"Dizziness, Headache",TR0041,100mg,No Change,Dizziness,147,0,BRCA1,Positive,3.3,1.83,5.5,11.6,10.3
+P820,73,Other,Other,Heart Disease,None,T019,DrugA,Phase IV,11/22/2023,3/22/2025,200mg,"Nausea, None, Dizziness",TR0095,200mg,Deteriorated,Headache,76,0,TP53,Negative,3.58,3.98,3.1,13.3,7.6
+P821,27,Other,Hispanic,Asthma,EGFR Mutation,T008,DrugB,Phase I,3/14/2019,8/14/2020,150mg,"Dizziness, Fatigue",TR0098,150mg,Improved,None,50,1,EGFR,Positive,1.79,4.13,9.2,12.7,15.8
+P822,65,Male,Caucasian,Asthma,EGFR Mutation,T011,DrugA,Phase IV,8/10/2022,1/10/2024,50mg,"Fatigue, Headache, Dizziness",TR0099,50mg,Deteriorated,Fatigue,49,0,BRCA1,Positive,4.59,4.38,2.6,23.2,9.4
+P823,53,Male,Other,Heart Disease,BRCA2 Mutation,T014,DrugC,Phase II,3/20/2020,4/20/2021,150mg,"Dizziness, Nausea, Fatigue",TR0014,150mg,Deteriorated,None,123,0,TP53,Positive,2.36,1.25,5.4,8,7.2
+P824,31,Other,African American,None,BRCA1 Mutation,T011,DrugD,Phase II,10/5/2019,6/5/2020,150mg,"Nausea, Dizziness",TR0188,150mg,Improved,Nausea,132,1,BRCA2,Negative,2.27,4.24,8.9,11.4,17.6
+P825,70,Female,Caucasian,Asthma,BRCA2 Mutation,T009,DrugD,Phase II,3/18/2023,6/18/2024,150mg,"None, Nausea, Headache",TR0023,150mg,No Change,Dizziness,162,0,BRCA2,Positive,4.43,4.06,2.3,18.4,19.1
+P826,51,Other,Hispanic,Diabetes,HER2 Mutation,T003,DrugD,Phase III,8/3/2019,2/3/2020,150mg,"Nausea, Dizziness, Headache",TR0148,150mg,No Change,Nausea,75,0,HER2,Positive,3.73,2.33,5.5,17.6,11.7
+P827,29,Female,Asian,Asthma,BRCA1 Mutation,T012,DrugB,Phase IV,10/5/2019,7/5/2020,50mg,Headache,TR0019,50mg,No Change,Dizziness,110,0,BRCA1,Positive,1.48,2.25,8.2,21.5,5.3
+P828,79,Female,Caucasian,Heart Disease,None,T010,DrugC,Phase III,11/5/2020,5/5/2022,200mg,"Dizziness, Fatigue",TR0106,200mg,No Change,Fatigue,95,0,TP53,Negative,4.81,2.32,7,19.5,16.8
+P829,32,Female,Caucasian,Heart Disease,None,T017,DrugB,Phase IV,5/26/2020,7/26/2021,50mg,Nausea,TR0010,50mg,No Change,None,41,0,BRCA2,Negative,4.78,2.25,8.7,8.4,15
+P830,69,Male,Asian,Hypertension,TP53 Mutation,T007,DrugC,Phase IV,9/25/2021,6/25/2022,150mg,Headache,TR0136,150mg,Improved,Headache,99,1,EGFR,Negative,3.97,3.71,3.3,21.7,5.9
+P831,22,Other,Hispanic,Asthma,EGFR Mutation,T008,DrugC,Phase III,9/7/2023,11/7/2024,150mg,None,TR0059,150mg,No Change,None,133,0,BRCA2,Positive,1.21,3.87,5.3,21.3,9.5
+P832,60,Female,Caucasian,Asthma,None,T009,DrugA,Phase IV,8/20/2021,7/20/2022,150mg,None,TR0102,150mg,Improved,Fatigue,174,1,BRCA2,Positive,1.67,4.35,5.9,9.4,15.2
+P833,22,Other,African American,None,HER2 Mutation,T010,DrugA,Phase I,2/3/2020,9/3/2020,200mg,"Headache, Nausea, None",TR0176,200mg,Improved,Fatigue,114,1,TP53,Negative,3.04,3.42,5.1,20.9,17.1
+P834,67,Male,Asian,Diabetes,None,T013,DrugC,Phase II,5/23/2021,12/23/2021,100mg,Nausea,TR0171,100mg,Improved,Fatigue,142,1,TP53,Negative,3.84,1.42,8.5,18.1,14.8
+P835,25,Male,Asian,Asthma,None,T002,DrugA,Phase III,6/7/2019,11/7/2020,100mg,"Dizziness, None",TR0113,100mg,Deteriorated,Dizziness,116,0,BRCA1,Negative,2.45,4.52,7.5,8,9.9
+P836,54,Male,Hispanic,Hypertension,None,T007,DrugB,Phase IV,9/2/2023,8/2/2024,150mg,"Nausea, Fatigue, None",TR0193,150mg,Improved,Nausea,32,1,HER2,Negative,4.55,1.19,9.7,18.2,13.7
+P837,45,Female,Caucasian,Diabetes,None,T019,DrugA,Phase I,6/5/2021,12/5/2021,100mg,"Nausea, None",TR0017,100mg,Improved,Dizziness,106,1,EGFR,Positive,2.08,2,9.5,11.4,16.2
+P838,46,Other,African American,Heart Disease,None,T006,DrugC,Phase III,6/22/2020,9/22/2021,150mg,Nausea,TR0093,150mg,No Change,Nausea,38,0,BRCA1,Negative,2.57,1.56,1.1,15.8,19.6
+P839,80,Other,Other,Hypertension,None,T013,DrugD,Phase I,9/13/2019,2/13/2021,200mg,"None, Nausea",TR0200,200mg,Deteriorated,Fatigue,152,0,EGFR,Negative,2.48,2.43,4.1,15.4,10.5
+P840,34,Other,Asian,Diabetes,None,T010,DrugC,Phase III,1/1/2020,1/1/2021,200mg,"Headache, Fatigue",TR0086,200mg,No Change,Nausea,85,0,BRCA2,Negative,4.52,3.02,5.6,8.5,19.7
+P841,19,Male,Hispanic,Diabetes,None,T011,DrugC,Phase II,3/10/2022,10/10/2022,200mg,"None, Fatigue, Dizziness",TR0016,200mg,Deteriorated,Fatigue,176,0,BRCA2,Positive,2,1.29,7,16.7,10.1
+P842,46,Female,African American,Hypertension,BRCA1 Mutation,T019,DrugA,Phase IV,6/8/2019,12/8/2019,200mg,"None, Fatigue, Nausea",TR0039,200mg,Improved,Nausea,128,1,HER2,Negative,2.69,4.14,2.8,20.8,14
+P843,46,Male,Other,Hypertension,TP53 Mutation,T015,DrugC,Phase IV,10/28/2021,6/28/2022,50mg,Dizziness,TR0189,50mg,Deteriorated,Headache,109,0,BRCA2,Negative,2.68,2.83,3.3,19.5,11.7
+P844,23,Male,Asian,Asthma,None,T006,DrugA,Phase II,6/12/2022,8/12/2023,100mg,None,TR0119,100mg,No Change,Nausea,62,0,BRCA1,Negative,2.28,3.38,10,13.8,18.7
+P845,32,Male,African American,Diabetes,EGFR Mutation,T001,DrugB,Phase II,12/6/2022,7/6/2023,100mg,None,TR0135,100mg,Improved,Dizziness,176,1,HER2,Positive,2.38,1.22,2.8,13.5,6.7
+P846,64,Other,Caucasian,Asthma,BRCA1 Mutation,T017,DrugD,Phase II,6/11/2023,8/11/2024,50mg,"Dizziness, None, Headache",TR0192,50mg,No Change,Headache,72,0,BRCA1,Negative,1,4.66,8.6,19.4,5.9
+P847,84,Male,Caucasian,None,None,T016,DrugB,Phase I,7/20/2023,3/20/2024,200mg,Dizziness,TR0071,200mg,No Change,None,43,0,BRCA1,Positive,1.48,1.27,7.5,22.7,10.3
+P848,39,Other,Hispanic,Diabetes,BRCA2 Mutation,T018,DrugB,Phase III,3/21/2023,12/21/2023,100mg,"Fatigue, Nausea, Dizziness",TR0023,100mg,No Change,None,154,0,TP53,Positive,1.48,3.05,4.1,12.7,13.6
+P849,34,Other,Other,Hypertension,TP53 Mutation,T019,DrugB,Phase I,12/21/2020,5/21/2022,50mg,Nausea,TR0163,50mg,Improved,Nausea,100,1,BRCA2,Positive,3.87,1.44,1.3,23.9,7
+P850,34,Male,Hispanic,Asthma,BRCA2 Mutation,T004,DrugB,Phase III,1/25/2020,7/25/2021,100mg,"Nausea, Headache, Fatigue",TR0013,100mg,No Change,None,131,0,BRCA2,Positive,1.22,1.76,1.4,13.1,16.6
+P851,25,Female,Other,Diabetes,None,T015,DrugD,Phase IV,7/19/2021,2/19/2022,100mg,Nausea,TR0176,100mg,Improved,Fatigue,52,1,HER2,Positive,2.36,2.78,7.1,15.2,17.6
+P852,78,Female,Hispanic,Heart Disease,BRCA2 Mutation,T019,DrugB,Phase I,5/8/2019,10/8/2020,150mg,Dizziness,TR0100,150mg,No Change,Fatigue,68,0,EGFR,Positive,4.46,1.04,8,14.3,19.8
+P853,43,Male,Hispanic,Asthma,BRCA1 Mutation,T012,DrugD,Phase III,7/15/2022,1/15/2024,50mg,"Fatigue, Headache",TR0040,50mg,Improved,Dizziness,161,1,HER2,Negative,2.93,4.95,7.8,10.5,12.2
+P854,64,Male,African American,Heart Disease,TP53 Mutation,T010,DrugA,Phase IV,7/7/2022,11/7/2023,150mg,"Fatigue, Dizziness, None",TR0107,150mg,No Change,Nausea,107,0,EGFR,Negative,4.97,4.43,1.9,18.7,8.9
+P855,39,Female,Asian,Diabetes,None,T013,DrugB,Phase IV,2/10/2019,10/10/2019,150mg,Headache,TR0171,150mg,Improved,None,172,1,TP53,Negative,1.03,2.61,3.1,20.7,8.7
+P856,37,Male,Other,Heart Disease,None,T002,DrugD,Phase I,7/5/2023,11/5/2024,100mg,"None, Nausea, Dizziness",TR0154,100mg,Deteriorated,Headache,97,0,BRCA2,Positive,4.31,1,3.8,10.3,7
+P857,61,Male,Asian,None,None,T006,DrugC,Phase I,9/8/2021,6/8/2022,100mg,"Fatigue, Nausea",TR0177,100mg,Improved,Nausea,50,1,TP53,Negative,1.27,1.75,6,11.2,10.1
+P858,69,Male,African American,None,HER2 Mutation,T013,DrugC,Phase IV,8/13/2021,11/13/2022,150mg,"None, Fatigue, Headache",TR0062,150mg,No Change,None,174,0,HER2,Negative,2.51,4.5,9.1,14.9,8.6
+P859,68,Female,Other,Heart Disease,BRCA1 Mutation,T014,DrugB,Phase III,2/6/2020,1/6/2021,150mg,"Nausea, Dizziness",TR0147,150mg,No Change,Dizziness,108,0,EGFR,Positive,1.43,4.81,1.5,11.4,8.1
+P860,61,Male,Hispanic,Heart Disease,TP53 Mutation,T019,DrugD,Phase IV,8/6/2021,3/6/2022,100mg,Headache,TR0071,100mg,Improved,Fatigue,124,1,EGFR,Positive,2.28,1.66,8,8.2,13.8
+P861,52,Male,Hispanic,Hypertension,None,T010,DrugA,Phase III,10/7/2023,7/7/2024,100mg,"Nausea, None",TR0199,100mg,No Change,None,84,0,BRCA1,Negative,1.5,1.28,9.2,9.4,17
+P862,70,Male,Hispanic,Diabetes,BRCA1 Mutation,T001,DrugA,Phase IV,6/6/2023,2/6/2024,50mg,None,TR0187,50mg,Deteriorated,Headache,53,0,EGFR,Negative,3.18,1.31,9.6,10.4,17.6
+P863,58,Male,Asian,None,None,T009,DrugB,Phase IV,8/9/2023,6/9/2024,200mg,Nausea,TR0128,200mg,Improved,Fatigue,36,1,EGFR,Negative,1.68,4.42,1.1,15.2,16.1
+P864,61,Other,Asian,Diabetes,None,T015,DrugD,Phase II,7/13/2023,11/13/2024,150mg,"Fatigue, Dizziness",TR0120,150mg,Improved,Nausea,101,1,BRCA1,Positive,4.74,4.64,8.4,22,6.4
+P865,63,Male,Hispanic,Heart Disease,TP53 Mutation,T011,DrugA,Phase I,3/16/2019,7/16/2020,100mg,"Fatigue, Nausea, Dizziness",TR0048,100mg,No Change,Headache,79,0,BRCA1,Negative,2.14,2.16,4.4,13.1,12.3
+P866,21,Other,African American,Diabetes,None,T004,DrugB,Phase IV,11/23/2023,6/23/2024,200mg,Nausea,TR0051,200mg,Improved,Fatigue,126,1,EGFR,Negative,1.64,3.76,2.5,11.6,11.6
+P867,62,Other,Asian,Heart Disease,None,T006,DrugA,Phase II,12/21/2023,1/21/2025,100mg,"Fatigue, None",TR0158,100mg,No Change,Fatigue,90,0,BRCA2,Positive,4.19,3.96,6.8,8.8,12.3
+P868,37,Other,Hispanic,Diabetes,None,T007,DrugB,Phase I,6/28/2021,7/28/2022,100mg,"Fatigue, Dizziness",TR0059,100mg,No Change,Headache,52,0,EGFR,Negative,1.35,2.51,4.7,6.7,7.7
+P869,22,Female,Hispanic,Hypertension,None,T018,DrugD,Phase I,3/13/2023,6/13/2024,200mg,Dizziness,TR0041,200mg,Improved,Headache,39,1,BRCA1,Positive,4.82,4.81,4.2,6.8,6
+P870,80,Male,Asian,Asthma,EGFR Mutation,T008,DrugB,Phase I,11/26/2022,3/26/2024,200mg,"None, Dizziness, Fatigue",TR0123,200mg,Improved,None,143,1,TP53,Positive,2.57,4.79,2.3,19.7,4.8
+P871,36,Male,Asian,Diabetes,BRCA2 Mutation,T017,DrugA,Phase I,5/9/2023,1/9/2024,150mg,"Dizziness, Fatigue, None",TR0171,150mg,Deteriorated,Fatigue,75,0,TP53,Negative,4.93,2.53,8,12.2,13.7
+P872,25,Female,Asian,Heart Disease,None,T011,DrugB,Phase III,7/8/2019,11/8/2020,200mg,Nausea,TR0166,200mg,Improved,Dizziness,44,1,TP53,Negative,1.77,1.58,9.4,22.5,18.1
+P873,80,Female,Caucasian,Diabetes,TP53 Mutation,T008,DrugC,Phase I,6/5/2023,12/5/2023,50mg,Headache,TR0045,50mg,No Change,Nausea,160,0,TP53,Negative,3.5,4.23,1.6,12,8.3
+P874,47,Other,Hispanic,None,TP53 Mutation,T009,DrugD,Phase I,6/9/2021,9/9/2022,50mg,Nausea,TR0095,50mg,Improved,Headache,98,1,BRCA1,Positive,3.54,2.42,2.3,16.7,16.8
+P875,61,Female,Hispanic,None,BRCA1 Mutation,T019,DrugD,Phase II,6/15/2023,8/15/2024,200mg,"Fatigue, Nausea",TR0123,200mg,Improved,Fatigue,34,1,TP53,Positive,2.53,1.53,2.8,10.3,8.1
+P876,73,Male,Caucasian,Hypertension,None,T016,DrugA,Phase II,3/10/2019,10/10/2019,100mg,"Fatigue, Headache, None",TR0104,100mg,No Change,Dizziness,175,0,HER2,Negative,3.57,3.4,7.3,12.5,17
+P877,22,Other,Other,Asthma,BRCA2 Mutation,T014,DrugD,Phase IV,2/26/2020,5/26/2021,100mg,Headache,TR0167,100mg,No Change,Nausea,147,0,TP53,Negative,1.82,2.88,8.2,9.2,4.9
+P878,71,Female,Asian,Diabetes,None,T019,DrugC,Phase II,10/3/2019,2/3/2021,200mg,"None, Fatigue",TR0008,200mg,Deteriorated,Dizziness,115,0,BRCA2,Positive,4.53,2.37,7.2,6.5,14.7
+P879,33,Male,Caucasian,Diabetes,BRCA1 Mutation,T012,DrugA,Phase III,7/9/2022,5/9/2023,200mg,"Headache, Nausea",TR0183,200mg,Improved,Nausea,65,1,HER2,Negative,2.26,1.22,6.5,10.3,9.6
+P880,68,Female,African American,Heart Disease,None,T014,DrugD,Phase IV,10/15/2021,1/15/2023,200mg,"Nausea, Headache",TR0052,200mg,No Change,None,139,0,BRCA1,Negative,1.32,1.59,3.7,7.6,18.5
+P881,60,Male,Caucasian,Asthma,TP53 Mutation,T008,DrugD,Phase II,10/24/2019,10/24/2020,150mg,"Headache, Fatigue, Dizziness",TR0113,150mg,Improved,Nausea,174,1,TP53,Positive,1.02,2.94,2.1,11.5,18.7
+P882,66,Male,African American,Diabetes,TP53 Mutation,T019,DrugD,Phase I,6/12/2020,1/12/2021,100mg,"Fatigue, Headache, Dizziness",TR0173,100mg,Improved,Headache,106,1,BRCA2,Positive,1.65,4.86,2.9,19.3,12.3
+P883,58,Other,African American,Heart Disease,None,T018,DrugC,Phase IV,5/14/2021,9/14/2022,200mg,None,TR0085,200mg,No Change,None,86,0,TP53,Negative,4.54,3.22,5.8,9.5,5.8
+P884,27,Female,Other,Hypertension,EGFR Mutation,T019,DrugB,Phase II,5/19/2021,6/19/2022,150mg,Dizziness,TR0070,150mg,No Change,None,34,0,EGFR,Positive,4.67,2.31,4.3,19.7,8.8
+P885,36,Male,Caucasian,Heart Disease,HER2 Mutation,T005,DrugD,Phase II,11/27/2023,1/27/2025,150mg,Fatigue,TR0041,150mg,Improved,Nausea,176,1,HER2,Positive,4.81,3.95,6.4,21.9,3.8
+P886,25,Other,Asian,Hypertension,None,T002,DrugD,Phase III,9/12/2021,6/12/2022,150mg,"Headache, None, Fatigue",TR0121,150mg,Deteriorated,Fatigue,62,0,BRCA1,Positive,2.03,2.86,3,19.4,18.6
+P887,19,Male,African American,None,None,T010,DrugD,Phase I,12/20/2020,9/20/2021,50mg,Fatigue,TR0189,50mg,No Change,Nausea,64,0,BRCA1,Positive,2.7,2.37,9.7,14,11.3
+P888,77,Female,Hispanic,None,None,T020,DrugD,Phase II,10/11/2021,2/11/2023,200mg,Dizziness,TR0111,200mg,Improved,Dizziness,85,1,BRCA1,Negative,2.41,4.64,6.1,19.7,16.8
+P889,64,Other,African American,Diabetes,TP53 Mutation,T013,DrugD,Phase II,2/8/2019,4/8/2020,150mg,Fatigue,TR0076,150mg,Improved,Fatigue,134,1,BRCA2,Positive,2.37,2.73,8.6,12.5,16.5
+P890,22,Male,Asian,None,BRCA2 Mutation,T009,DrugD,Phase II,1/10/2019,10/10/2019,200mg,"Dizziness, Headache, None",TR0190,200mg,Deteriorated,Headache,168,0,BRCA1,Positive,4.76,3.49,7.7,20.5,17.4
+P891,58,Other,Asian,Heart Disease,None,T013,DrugA,Phase II,11/22/2019,12/22/2020,200mg,"Nausea, Headache",TR0068,200mg,Improved,Nausea,107,1,BRCA2,Negative,2.58,1.21,4.6,18.1,10.7
+P892,25,Male,Asian,Heart Disease,None,T012,DrugA,Phase II,9/20/2020,7/20/2021,200mg,"None, Fatigue",TR0115,200mg,No Change,Fatigue,80,0,BRCA2,Positive,4,2.43,6.7,9.4,15.7
+P893,84,Male,Other,Diabetes,BRCA1 Mutation,T005,DrugC,Phase IV,2/7/2023,11/7/2023,50mg,Nausea,TR0057,50mg,Improved,None,134,1,HER2,Negative,3.18,1.82,3.6,19.5,11.2
+P894,26,Other,Caucasian,Asthma,None,T012,DrugA,Phase IV,3/25/2022,4/25/2023,150mg,"Fatigue, Nausea",TR0045,150mg,No Change,None,83,0,BRCA1,Positive,1.86,4.87,7.4,23.2,10.3
+P895,40,Male,Other,Heart Disease,None,T016,DrugB,Phase II,4/9/2019,9/9/2020,100mg,Fatigue,TR0139,100mg,No Change,Headache,47,0,EGFR,Positive,2.9,4.59,5.7,18.7,7.3
+P896,29,Female,Asian,Diabetes,None,T005,DrugC,Phase I,1/15/2021,6/15/2022,200mg,"Dizziness, Headache",TR0187,200mg,Improved,Headache,156,1,TP53,Negative,2.79,1.49,2.9,6,3.7
+P897,70,Male,Other,Heart Disease,None,T006,DrugC,Phase I,6/21/2022,8/21/2023,100mg,"Headache, Fatigue, None",TR0121,100mg,Deteriorated,Fatigue,116,0,EGFR,Positive,4.91,1.97,7,21.1,12.4
+P898,41,Male,African American,Heart Disease,EGFR Mutation,T011,DrugD,Phase IV,5/23/2023,3/23/2024,100mg,Headache,TR0064,100mg,Deteriorated,Fatigue,145,0,EGFR,Positive,1.61,3.91,6.4,19.2,16.1
+P899,41,Male,Asian,Hypertension,BRCA1 Mutation,T004,DrugD,Phase I,12/12/2020,5/12/2022,200mg,"Dizziness, Nausea, None",TR0019,200mg,No Change,Nausea,154,0,TP53,Positive,4.9,3.29,4.1,17.7,4.2
+P900,46,Other,Asian,None,EGFR Mutation,T020,DrugC,Phase III,10/11/2020,3/11/2022,50mg,"Nausea, Fatigue",TR0045,50mg,Improved,Headache,129,1,TP53,Positive,4.59,1.48,4,20.7,13.2
+P901,46,Other,Hispanic,Diabetes,TP53 Mutation,T010,DrugB,Phase II,7/6/2019,7/6/2020,150mg,"None, Headache, Nausea",TR0050,150mg,Deteriorated,Nausea,168,0,BRCA2,Positive,2.57,2.89,8.7,12.1,17.8
+P902,55,Female,African American,Asthma,None,T001,DrugC,Phase IV,10/19/2023,9/19/2024,50mg,"Headache, Nausea",TR0043,50mg,Improved,None,126,1,EGFR,Negative,1.35,4.11,8.6,9.3,10.3
+P903,27,Other,African American,Diabetes,None,T015,DrugD,Phase III,12/6/2023,12/6/2024,200mg,"Fatigue, Dizziness, None",TR0190,200mg,No Change,Headache,89,0,TP53,Positive,1.66,3.83,5.8,17.4,6.3
+P904,75,Female,Hispanic,None,None,T006,DrugC,Phase II,7/3/2019,7/3/2020,150mg,"Nausea, Fatigue, None",TR0035,150mg,Improved,None,176,1,BRCA2,Positive,1.85,1.17,3.9,16.1,17.6
+P905,54,Male,Caucasian,None,None,T014,DrugB,Phase I,10/11/2020,9/11/2021,200mg,Headache,TR0063,200mg,No Change,Fatigue,134,0,BRCA2,Negative,3.67,2.74,9.6,18.9,18.8
+P906,41,Male,Hispanic,Asthma,TP53 Mutation,T020,DrugA,Phase III,4/7/2019,9/7/2020,50mg,Dizziness,TR0195,50mg,Improved,Nausea,99,1,EGFR,Positive,3.11,2.04,1.5,19.1,5.1
+P907,38,Male,Caucasian,Diabetes,None,T004,DrugB,Phase I,12/10/2021,2/10/2023,50mg,"None, Fatigue, Headache",TR0140,50mg,No Change,Dizziness,157,0,HER2,Negative,2.21,3.13,6.1,16.8,5.8
+P908,19,Male,Other,Hypertension,None,T009,DrugA,Phase IV,5/25/2021,1/25/2022,50mg,Headache,TR0046,50mg,Deteriorated,Dizziness,157,0,HER2,Negative,2.52,3.47,9.7,19.1,18.7
+P909,49,Female,Other,None,None,T013,DrugD,Phase III,12/10/2022,6/10/2024,50mg,"Headache, Fatigue, Nausea",TR0076,50mg,Deteriorated,Fatigue,58,0,EGFR,Positive,4.05,3.37,2.7,18,13.6
+P910,73,Male,Asian,Hypertension,BRCA1 Mutation,T010,DrugA,Phase I,3/20/2021,1/20/2022,100mg,None,TR0188,100mg,No Change,Dizziness,175,0,BRCA1,Positive,3.41,2.96,5.8,12,11.8
+P911,78,Other,Hispanic,Diabetes,None,T014,DrugC,Phase I,9/23/2020,6/23/2021,50mg,"Dizziness, Nausea, Headache",TR0057,50mg,No Change,Headache,134,0,BRCA1,Positive,1.79,4.22,2.7,7.5,10.4
+P912,18,Male,Caucasian,None,None,T006,DrugC,Phase II,7/7/2023,2/7/2024,50mg,"Nausea, None",TR0046,50mg,No Change,Fatigue,165,0,BRCA2,Positive,3.63,2.75,3.5,16,8.9
+P913,63,Other,Asian,Asthma,None,T020,DrugB,Phase I,8/13/2019,10/13/2020,200mg,Headache,TR0194,200mg,No Change,Fatigue,88,0,BRCA2,Positive,4.73,4.69,5.5,11.9,15.5
+P914,82,Other,Hispanic,Diabetes,HER2 Mutation,T014,DrugA,Phase III,11/18/2019,5/18/2021,200mg,Headache,TR0117,200mg,Improved,Fatigue,141,1,EGFR,Negative,1.15,2.9,4,22.6,3.2
+P915,31,Male,Caucasian,Diabetes,EGFR Mutation,T006,DrugB,Phase II,3/4/2023,7/4/2024,100mg,"Fatigue, Headache",TR0189,100mg,Deteriorated,Nausea,165,0,HER2,Negative,3.21,3.96,5.4,7.5,19.5
+P916,20,Female,Hispanic,Asthma,BRCA1 Mutation,T014,DrugC,Phase II,11/18/2019,1/18/2021,50mg,"None, Fatigue, Nausea",TR0160,50mg,Improved,Headache,143,1,HER2,Positive,3.07,3.46,3.1,14.7,10.3
+P917,76,Other,Caucasian,None,None,T014,DrugB,Phase III,11/16/2021,7/16/2022,50mg,"Fatigue, Headache, Dizziness",TR0095,50mg,Deteriorated,Headache,166,0,HER2,Positive,1.3,1.42,8.5,10.3,6.3
+P918,63,Other,Caucasian,Diabetes,BRCA2 Mutation,T010,DrugB,Phase III,4/20/2021,2/20/2022,200mg,"Nausea, Headache, None",TR0077,200mg,Improved,Dizziness,35,1,HER2,Negative,3.02,4.07,1.6,16.4,5
+P919,78,Male,Other,Asthma,TP53 Mutation,T003,DrugD,Phase IV,1/18/2022,7/18/2022,200mg,"Headache, None",TR0144,200mg,No Change,Dizziness,176,0,TP53,Negative,1.15,1.21,8.5,8.1,3.8
+P920,53,Male,Other,Diabetes,None,T017,DrugC,Phase I,8/8/2022,6/8/2023,200mg,"None, Fatigue, Headache",TR0188,200mg,Deteriorated,Dizziness,166,0,BRCA1,Negative,2.75,4.38,3.4,13.6,3.7
+P921,55,Other,Other,Hypertension,TP53 Mutation,T001,DrugB,Phase IV,6/6/2019,1/6/2020,50mg,Headache,TR0036,50mg,No Change,Nausea,131,0,HER2,Negative,2.8,3.31,6.1,12,8.4
+P922,25,Male,Other,Diabetes,TP53 Mutation,T012,DrugA,Phase II,9/18/2019,12/18/2020,100mg,"Nausea, None, Fatigue",TR0079,100mg,Deteriorated,Dizziness,171,0,BRCA2,Negative,1.43,2.47,1.9,19.8,19.4
+P923,51,Other,Caucasian,Heart Disease,BRCA2 Mutation,T001,DrugB,Phase IV,1/2/2021,7/2/2021,100mg,None,TR0185,100mg,No Change,Headache,56,0,EGFR,Negative,4.88,4.46,6.4,18.6,7.8
+P924,44,Male,African American,Asthma,EGFR Mutation,T009,DrugB,Phase IV,11/28/2023,9/28/2024,200mg,"Dizziness, Nausea",TR0129,200mg,No Change,Nausea,60,0,EGFR,Negative,3.52,2.82,5.3,19.6,7.8
+P925,38,Female,Caucasian,Hypertension,BRCA2 Mutation,T014,DrugC,Phase I,4/9/2019,2/9/2020,150mg,"Fatigue, Nausea",TR0101,150mg,No Change,None,117,0,HER2,Negative,2.27,4.7,1.5,14.7,18.5
+P926,65,Male,African American,Hypertension,BRCA2 Mutation,T004,DrugC,Phase III,10/14/2023,11/14/2024,100mg,"Headache, Fatigue",TR0048,100mg,Improved,Nausea,32,1,TP53,Positive,3.44,3.19,3.2,12.2,17.5
+P927,45,Other,African American,Asthma,None,T009,DrugD,Phase III,7/10/2022,9/10/2023,150mg,"None, Dizziness, Headache",TR0058,150mg,Deteriorated,Headache,113,0,BRCA2,Positive,3.24,3.06,1.9,6.3,19.4
+P928,47,Other,Asian,None,BRCA1 Mutation,T005,DrugC,Phase III,4/4/2021,12/4/2021,50mg,Fatigue,TR0101,50mg,Improved,Fatigue,53,1,BRCA1,Negative,2.51,3.41,1.7,18.3,18.9
+P929,48,Other,Asian,Asthma,HER2 Mutation,T009,DrugB,Phase III,6/23/2023,10/23/2024,150mg,"None, Fatigue, Nausea",TR0150,150mg,Deteriorated,None,73,0,TP53,Positive,3.3,1.5,6.2,19.8,9.9
+P930,58,Male,Hispanic,Hypertension,None,T011,DrugD,Phase III,2/15/2023,9/15/2023,50mg,"Nausea, Dizziness",TR0093,50mg,No Change,Dizziness,53,0,TP53,Negative,4.52,3.59,9.1,17.2,5.2
+P931,76,Female,African American,Asthma,TP53 Mutation,T007,DrugC,Phase II,8/28/2021,10/28/2022,150mg,Headache,TR0031,150mg,No Change,Dizziness,106,0,EGFR,Negative,2.24,1.81,9.2,19.7,14.5
+P932,43,Female,African American,Heart Disease,TP53 Mutation,T008,DrugD,Phase I,4/4/2020,6/4/2021,100mg,"Nausea, Dizziness",TR0177,100mg,Improved,Fatigue,163,1,EGFR,Positive,2.2,1.74,7.8,14.5,6.8
+P933,72,Male,Other,Asthma,None,T006,DrugA,Phase III,8/18/2020,9/18/2021,100mg,None,TR0143,100mg,No Change,Fatigue,110,0,BRCA1,Negative,3.47,1.16,3.9,14.4,5.5
+P934,41,Male,Hispanic,None,BRCA2 Mutation,T011,DrugB,Phase IV,1/4/2023,3/4/2024,50mg,"Headache, Dizziness",TR0049,50mg,No Change,None,127,0,HER2,Positive,4.94,1.84,2.2,9.7,16.1
+P935,79,Female,Hispanic,Diabetes,None,T013,DrugA,Phase III,4/27/2020,4/27/2021,100mg,"Dizziness, None, Fatigue",TR0162,100mg,No Change,None,117,0,BRCA1,Positive,2.7,3.26,1.2,6.6,10.6
+P936,22,Male,Caucasian,Heart Disease,None,T011,DrugD,Phase II,1/18/2023,10/18/2023,150mg,Nausea,TR0181,150mg,Improved,Dizziness,134,1,EGFR,Negative,4.27,4.54,1.8,15.7,18.5
+P937,54,Male,African American,Asthma,EGFR Mutation,T017,DrugC,Phase IV,6/15/2023,2/15/2024,150mg,"None, Dizziness",TR0194,150mg,Deteriorated,Fatigue,162,0,BRCA1,Positive,2.55,4.32,2.2,22.8,15.8
+P938,40,Male,Caucasian,Asthma,None,T015,DrugA,Phase II,9/18/2021,6/18/2022,200mg,Headache,TR0004,200mg,No Change,Dizziness,165,0,TP53,Negative,4.77,3.71,4.3,22.9,7.7
+P939,60,Male,African American,Diabetes,BRCA2 Mutation,T017,DrugD,Phase I,3/24/2019,12/24/2019,50mg,Dizziness,TR0129,50mg,No Change,Headache,167,0,BRCA1,Positive,2.33,3.8,7.9,22.7,6.5
+P940,49,Other,Hispanic,Heart Disease,TP53 Mutation,T019,DrugA,Phase I,11/28/2023,4/28/2025,100mg,Headache,TR0120,100mg,Deteriorated,Nausea,124,0,TP53,Positive,4.19,3.95,1.6,13,7.8
+P941,72,Female,Other,Diabetes,TP53 Mutation,T003,DrugC,Phase I,12/1/2022,6/1/2024,150mg,Fatigue,TR0173,150mg,No Change,Nausea,61,0,BRCA1,Positive,2.22,4.93,6.8,18.9,19.6
+P942,28,Male,Asian,Heart Disease,EGFR Mutation,T016,DrugC,Phase II,6/4/2021,3/4/2022,200mg,Dizziness,TR0016,200mg,Deteriorated,Dizziness,113,0,EGFR,Positive,2.51,4.21,4.9,21.7,6.1
+P943,82,Other,Caucasian,Hypertension,BRCA1 Mutation,T005,DrugC,Phase II,4/13/2022,11/13/2022,150mg,"Dizziness, Headache, Nausea",TR0098,150mg,No Change,Fatigue,142,0,BRCA1,Positive,4.79,1.88,3.9,19.6,9.7
+P944,62,Other,Other,Asthma,None,T007,DrugC,Phase II,1/23/2023,7/23/2023,150mg,"None, Headache, Nausea",TR0094,150mg,Deteriorated,None,145,0,BRCA2,Positive,3.43,2.78,7.7,10.1,4
+P945,60,Female,Hispanic,Diabetes,None,T019,DrugB,Phase III,2/4/2021,2/4/2022,150mg,Headache,TR0174,150mg,Deteriorated,Nausea,64,0,EGFR,Positive,2.2,2.9,2.5,12.4,9.8
+P946,78,Female,Asian,Asthma,BRCA2 Mutation,T018,DrugD,Phase IV,1/11/2022,10/11/2022,150mg,Dizziness,TR0022,150mg,No Change,None,95,0,BRCA1,Negative,1.23,3.33,9,8.7,13.2
+P947,27,Male,Caucasian,Heart Disease,None,T015,DrugC,Phase II,9/28/2021,1/28/2023,150mg,"None, Nausea",TR0096,150mg,Improved,Nausea,78,1,EGFR,Positive,3.66,2.68,7.3,13.4,11.6
+P948,35,Female,Asian,Hypertension,HER2 Mutation,T014,DrugB,Phase IV,9/28/2020,4/28/2021,150mg,"None, Dizziness, Fatigue",TR0030,150mg,Deteriorated,Dizziness,88,0,EGFR,Negative,1.03,3.77,7,6.7,9.3
+P949,45,Male,Other,Asthma,None,T002,DrugD,Phase IV,5/23/2022,11/23/2023,50mg,"Fatigue, Dizziness, None",TR0138,50mg,No Change,Dizziness,160,0,HER2,Negative,4.92,2.68,5.5,22.4,15.2
+P950,58,Female,Caucasian,Diabetes,None,T011,DrugD,Phase II,2/15/2022,12/15/2022,100mg,Headache,TR0142,100mg,Deteriorated,Nausea,57,0,HER2,Negative,3.33,4.19,8.8,14.2,11.1
+P951,22,Male,African American,Diabetes,None,T017,DrugA,Phase IV,9/16/2020,10/16/2021,150mg,"Fatigue, Dizziness, Nausea",TR0104,150mg,No Change,Headache,145,0,BRCA1,Negative,2.54,4.87,7.3,7.5,17.7
+P952,30,Male,Caucasian,Heart Disease,BRCA1 Mutation,T012,DrugB,Phase IV,3/18/2019,11/18/2019,200mg,None,TR0068,200mg,Improved,Nausea,97,1,BRCA1,Positive,2.92,1.28,5.9,13.5,17.9
+P953,47,Male,Other,Hypertension,None,T012,DrugD,Phase IV,1/9/2020,7/9/2021,150mg,Nausea,TR0015,150mg,Deteriorated,Headache,99,0,BRCA1,Positive,1.82,4.31,6,7,19.5
+P954,38,Female,African American,Diabetes,None,T003,DrugA,Phase IV,5/4/2023,9/4/2024,100mg,None,TR0140,100mg,No Change,Nausea,180,0,EGFR,Negative,3.05,2.16,5.2,21.4,8.2
+P955,37,Other,Hispanic,None,None,T019,DrugD,Phase II,3/12/2020,10/12/2020,200mg,"Fatigue, Dizziness",TR0075,200mg,Improved,None,84,1,BRCA2,Negative,1.77,1.52,3.7,20,11
+P956,30,Male,Other,Heart Disease,BRCA2 Mutation,T010,DrugD,Phase IV,12/13/2019,9/13/2020,50mg,"Nausea, Fatigue",TR0140,50mg,No Change,Headache,73,0,BRCA1,Positive,1.91,1.66,4,22.9,8.8
+P957,22,Male,Other,None,None,T008,DrugD,Phase IV,2/19/2020,1/19/2021,100mg,"Dizziness, Nausea",TR0003,100mg,No Change,Headache,151,0,EGFR,Negative,4.95,2.94,2.6,22,10.8
+P958,21,Male,Caucasian,Asthma,TP53 Mutation,T019,DrugA,Phase I,4/20/2022,5/20/2023,50mg,Nausea,TR0168,50mg,No Change,Fatigue,71,0,BRCA1,Positive,3.84,4.93,1.5,7.7,15.2
+P959,44,Other,Hispanic,Heart Disease,EGFR Mutation,T016,DrugA,Phase IV,3/6/2022,10/6/2022,50mg,"None, Dizziness",TR0191,50mg,No Change,Nausea,156,0,BRCA1,Positive,2.13,1.74,1.4,6.4,16.2
+P960,26,Female,Caucasian,Asthma,BRCA2 Mutation,T014,DrugA,Phase II,5/10/2020,11/10/2021,100mg,None,TR0037,100mg,Improved,Headache,33,1,BRCA2,Negative,1.54,2.87,6.5,13.7,3.5
+P961,41,Male,Other,None,None,T005,DrugA,Phase III,12/27/2021,1/27/2023,200mg,Headache,TR0158,200mg,Improved,Fatigue,76,1,HER2,Negative,4.13,1.04,7.9,22.1,10.4
+P962,58,Male,Asian,Diabetes,BRCA1 Mutation,T015,DrugC,Phase I,5/12/2020,10/12/2021,150mg,"Dizziness, None, Nausea",TR0098,150mg,Improved,Fatigue,57,1,BRCA1,Positive,3.14,2.91,4.5,22,18.2
+P963,58,Other,Other,Hypertension,HER2 Mutation,T018,DrugD,Phase III,9/14/2023,7/14/2024,200mg,"Headache, Dizziness, Nausea",TR0055,200mg,No Change,Headache,45,0,BRCA1,Negative,2.34,3.46,9.3,23.3,11.7
+P964,57,Female,African American,Hypertension,None,T008,DrugD,Phase I,2/19/2023,8/19/2023,200mg,"Dizziness, Fatigue",TR0022,200mg,No Change,None,41,0,BRCA1,Negative,2.81,2.11,9.6,8.6,12.9
+P965,85,Male,Hispanic,Heart Disease,None,T005,DrugB,Phase III,5/18/2020,3/18/2021,200mg,"Headache, Nausea",TR0130,200mg,Improved,Nausea,87,1,EGFR,Negative,2.13,2.12,4.6,24,3.9
+P966,58,Female,Hispanic,Diabetes,BRCA1 Mutation,T006,DrugA,Phase II,12/24/2020,1/24/2022,100mg,None,TR0085,100mg,Improved,Fatigue,85,1,BRCA1,Positive,3.31,1.33,2.4,13.9,11.7
+P967,20,Male,Other,Heart Disease,TP53 Mutation,T013,DrugD,Phase II,2/20/2023,8/20/2023,50mg,"Dizziness, Nausea, Headache",TR0065,50mg,Improved,Headache,30,1,BRCA1,Positive,2.04,2.27,1.8,11.5,19.4
+P968,67,Other,Asian,Diabetes,HER2 Mutation,T007,DrugD,Phase IV,1/13/2023,7/13/2023,150mg,"Dizziness, Nausea",TR0141,150mg,No Change,Headache,96,0,HER2,Positive,4.78,2.34,6.1,22.4,3.1
+P969,23,Male,Caucasian,Heart Disease,None,T019,DrugC,Phase II,7/4/2020,2/4/2021,100mg,"Nausea, Dizziness",TR0134,100mg,Improved,None,53,1,EGFR,Negative,4.24,4.79,1.8,8.9,19.3
+P970,51,Female,Other,Diabetes,None,T010,DrugB,Phase I,11/9/2020,5/9/2022,50mg,None,TR0053,50mg,No Change,Fatigue,101,0,HER2,Negative,3.15,1.06,3.3,14.1,14.8
+P971,21,Female,African American,Asthma,None,T020,DrugC,Phase III,12/9/2023,12/9/2024,200mg,"Fatigue, Nausea",TR0025,200mg,Improved,Dizziness,65,1,TP53,Positive,3.93,4.98,3.6,15.7,12.1
+P972,35,Other,Other,Hypertension,None,T005,DrugB,Phase II,8/20/2023,2/20/2025,150mg,Fatigue,TR0101,150mg,Improved,Nausea,165,1,TP53,Positive,2.62,1.68,9.8,21.4,11.5
+P973,81,Female,African American,Diabetes,TP53 Mutation,T007,DrugD,Phase III,4/12/2020,5/12/2021,50mg,None,TR0023,50mg,Improved,Dizziness,54,1,EGFR,Positive,3.41,1.91,5.9,18.5,11.8
+P974,60,Male,Other,Hypertension,None,T003,DrugB,Phase III,10/1/2021,8/1/2022,200mg,Nausea,TR0016,200mg,No Change,Dizziness,74,0,BRCA2,Positive,4.96,3.45,4.3,19.9,5.9
+P975,51,Female,Hispanic,Hypertension,BRCA2 Mutation,T018,DrugB,Phase II,2/1/2022,9/1/2022,100mg,Fatigue,TR0146,100mg,Deteriorated,Headache,47,0,TP53,Positive,2.54,2.39,4.9,20.1,11.2
+P976,34,Male,African American,Heart Disease,None,T001,DrugD,Phase IV,6/8/2022,12/8/2023,150mg,"Headache, Nausea",TR0079,150mg,Deteriorated,Fatigue,66,0,HER2,Negative,4.18,3.31,4.1,20.6,7.1
+P977,46,Other,African American,Asthma,None,T001,DrugA,Phase I,4/1/2021,3/1/2022,200mg,"Fatigue, None, Dizziness",TR0039,200mg,No Change,Fatigue,119,0,EGFR,Negative,1.9,3.02,3.3,6.2,14
+P978,28,Female,Hispanic,Heart Disease,TP53 Mutation,T004,DrugB,Phase IV,7/15/2020,1/15/2021,200mg,"Headache, None",TR0179,200mg,No Change,Fatigue,63,0,TP53,Positive,3.04,2.78,9.7,16.3,17.7
+P979,74,Female,Other,Asthma,None,T009,DrugC,Phase IV,2/22/2022,10/22/2022,50mg,"Fatigue, None, Nausea",TR0010,50mg,No Change,Nausea,160,0,TP53,Negative,1.56,3.28,8.8,16.5,15.2
+P980,56,Male,Asian,Diabetes,TP53 Mutation,T007,DrugC,Phase I,12/14/2021,5/14/2023,200mg,"Fatigue, Nausea, Headache",TR0023,200mg,No Change,Headache,94,0,EGFR,Negative,2.49,1.37,5.1,13.1,17.7
+P981,38,Female,African American,Heart Disease,None,T001,DrugD,Phase III,11/27/2021,6/27/2022,50mg,Dizziness,TR0127,50mg,Improved,Dizziness,170,1,BRCA1,Positive,1.98,4.87,9.6,10.5,8.9
+P982,77,Male,Caucasian,Asthma,BRCA2 Mutation,T011,DrugC,Phase II,9/17/2019,7/17/2020,200mg,"Nausea, Headache, Fatigue",TR0067,200mg,Improved,None,55,1,BRCA1,Positive,4.58,4.87,5,11.8,11.9
+P983,41,Male,Asian,None,TP53 Mutation,T003,DrugB,Phase II,2/23/2019,2/23/2020,50mg,"Dizziness, Headache",TR0002,50mg,Improved,Headache,66,1,BRCA1,Negative,3.75,2.09,7.6,6.9,3.8
+P984,24,Male,Asian,Diabetes,BRCA2 Mutation,T004,DrugD,Phase I,2/26/2019,12/26/2019,50mg,Fatigue,TR0077,50mg,No Change,Nausea,91,0,BRCA1,Negative,2.55,2.41,3.8,14.8,8.5
+P985,30,Other,Hispanic,Heart Disease,BRCA1 Mutation,T013,DrugB,Phase III,1/24/2023,3/24/2024,150mg,Dizziness,TR0166,150mg,No Change,Headache,164,0,TP53,Negative,1.77,2.24,9.8,13.4,10.6
+P986,19,Other,Caucasian,Hypertension,HER2 Mutation,T011,DrugB,Phase III,3/23/2023,10/23/2023,50mg,"Fatigue, Headache",TR0134,50mg,Deteriorated,Nausea,150,0,BRCA2,Negative,3.31,4.93,3.2,18.3,15.2
+P987,25,Other,Asian,Asthma,HER2 Mutation,T004,DrugD,Phase I,12/17/2023,7/17/2024,200mg,Fatigue,TR0052,200mg,Deteriorated,Dizziness,180,0,HER2,Negative,3.43,1.35,7.1,7.2,13.1
+P988,79,Female,Caucasian,Heart Disease,TP53 Mutation,T008,DrugA,Phase IV,9/28/2022,4/28/2023,50mg,None,TR0141,50mg,Improved,Dizziness,123,1,TP53,Negative,3.96,1.84,8.6,6.5,17.3
+P989,82,Male,Caucasian,Diabetes,None,T010,DrugB,Phase II,7/6/2020,3/6/2021,50mg,"Dizziness, Nausea",TR0099,50mg,Deteriorated,Headache,171,0,TP53,Negative,2.84,1.87,2.2,23.2,4.2
+P990,51,Female,Hispanic,Hypertension,HER2 Mutation,T012,DrugA,Phase IV,12/4/2023,9/4/2024,150mg,"Fatigue, Nausea, Dizziness",TR0015,150mg,Deteriorated,Nausea,134,0,TP53,Positive,1.8,2.39,6.6,15.8,5.1
+P991,67,Male,Caucasian,Asthma,None,T007,DrugB,Phase III,11/17/2019,5/17/2021,150mg,None,TR0055,150mg,Deteriorated,Nausea,167,0,BRCA2,Positive,2.16,1.96,2.9,13.4,15
+P992,54,Other,African American,Heart Disease,BRCA1 Mutation,T001,DrugC,Phase I,10/26/2022,4/26/2024,50mg,None,TR0059,50mg,Improved,Fatigue,55,1,TP53,Positive,1.87,2.47,4.5,23.6,19.2
+P993,66,Female,African American,Heart Disease,None,T010,DrugD,Phase II,11/28/2020,2/28/2022,150mg,None,TR0141,150mg,Improved,Nausea,30,1,TP53,Positive,4.2,1.97,1.6,11.7,7.5
+P994,33,Female,Hispanic,Asthma,BRCA2 Mutation,T016,DrugD,Phase I,8/8/2021,10/8/2022,150mg,"Nausea, Fatigue",TR0140,150mg,Improved,Headache,156,1,TP53,Positive,3.02,4.11,8.7,21.2,9.1
+P995,35,Male,Other,None,None,T016,DrugA,Phase III,5/5/2021,5/5/2022,50mg,"Dizziness, Headache, Nausea",TR0059,50mg,Deteriorated,Headache,34,0,BRCA2,Negative,3.75,2.25,1.5,18.6,3.2
+P996,55,Female,African American,None,HER2 Mutation,T015,DrugB,Phase I,2/15/2021,9/15/2021,50mg,"Fatigue, Nausea",TR0129,50mg,No Change,Nausea,122,0,HER2,Negative,2.64,2.32,7.2,19.8,8.2
+P997,79,Other,Asian,Asthma,None,T002,DrugB,Phase I,6/10/2022,3/10/2023,50mg,Headache,TR0076,50mg,Improved,None,158,1,TP53,Negative,4.25,2.18,5,19.1,14.8
+P998,41,Female,Caucasian,Diabetes,None,T011,DrugC,Phase IV,7/5/2023,8/5/2024,100mg,"Dizziness, None, Nausea",TR0115,100mg,No Change,Headache,94,0,BRCA2,Positive,4.95,1.9,7,17,18.6
+P999,75,Other,Hispanic,Diabetes,BRCA1 Mutation,T007,DrugC,Phase II,7/16/2023,7/16/2024,100mg,"Dizziness, Fatigue",TR0056,100mg,Deteriorated,Headache,159,0,HER2,Positive,1.63,4.01,6.1,10.9,11.1
+P1000,70,Other,Caucasian,None,None,T017,DrugD,Phase II,1/23/2020,12/23/2020,150mg,None,TR0002,150mg,No Change,Nausea,164,0,EGFR,Positive,2.34,3.32,9,16.2,13.7
